@@ -48,7 +48,7 @@ st.markdown("""
 
 # ---------- Données ----------
 @st.cache_data
-def load():
+def load(_schema="v2-nom"):  # bump _schema to invalidate the cache when the CSV columns change
     biens = pd.read_csv(os.path.join(DATA, "biens.csv"))
     leads = pd.read_csv(os.path.join(DATA, "leads.csv"))
     for c in ["prix", "commission", "surface_m2", "nb_vues", "nb_contacts", "delai_vente_jours"]:
