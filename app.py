@@ -48,7 +48,7 @@ st.markdown("""
 
 # ---------- Données ----------
 @st.cache_data
-def load(_schema="v3-criteres"):  # bump _schema to invalidate the cache when the CSV columns change
+def load(_schema="v4-prix-reels"):  # bump _schema to invalidate the cache when the CSV columns change
     biens = pd.read_csv(os.path.join(DATA, "biens.csv"))
     leads = pd.read_csv(os.path.join(DATA, "leads.csv"))
     for c in ["prix", "commission", "surface_m2", "nb_vues", "nb_contacts", "delai_vente_jours"]:
@@ -331,6 +331,7 @@ with tab2:
 
     st.divider()
     st.subheader("💶 Estimation de prix — à combien mettre le bien en vente ?")
+    st.markdown("<div style='background:#fdf6e9;border:1px solid #e7d9bd;border-left:4px solid #b0895a;border-radius:10px;padding:10px 14px;font-size:.86rem;color:#6b6357;margin-bottom:6px'>⚠️ <b>Démonstration</b> — les prix au m² sont fictifs mais <b>calés sur les niveaux réels du secteur</b> (Metz, Thionville, Nancy…). Sur les vraies transactions d'une agence, le modèle se <b>recalibre automatiquement</b> sur son marché.</div>", unsafe_allow_html=True)
     st.caption(f"Fiabilité : erreur moyenne **± {prix_mae:,.0f} €** sur données de test (R² {prix_r2:.2f}). *(Régression sur surface, type, nb de pièces, état et DPE — par ville. Une estimation par comparaison, automatisée.)*".replace(",", " "))
     TYPES_BATI = [t for t in ["Studio", "Appartement", "Maison"] if t in biens["type"].unique()]
     e1, e2, e3 = st.columns(3)
