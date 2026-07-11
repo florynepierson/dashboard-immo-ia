@@ -1,0 +1,7 @@
+# Environnement Python (ne PAS envoyer sur GitHub — recréé automatiquement)
+venv/
+__pycache__/
+*.pyc
+
+# Fichiers système Mac
+.DS_Store
