@@ -1,281 +1,281 @@
-id_bien,date_mandat,type,ville,surface_m2,prix,agent,source,statut,date_vente,delai_vente_jours,nb_vues,nb_contacts,commission
-1,2025-04-08,Studio,Montigny,30,89000,Yanis B.,SeLoger,Vendu,2025-06-16,69,484,21,3464
-2,2024-04-02,Studio,Montigny,29,90000,Camille D.,Vitrine,Vendu,2024-06-22,81,210,5,3651
-3,2024-02-06,Studio,Nancy,27,66000,Sofia R.,Référence,Vendu,2024-03-12,35,121,4,2583
-4,2025-02-20,Terrain,Montigny,560,478000,Marc L.,SeLoger,Vendu,2025-06-16,116,399,20,22433
-5,2024-03-09,Studio,Metz,18,48000,Camille D.,Vitrine,Vendu,2024-04-19,41,276,12,1698
-6,2024-11-14,Appartement,Thionville,88,183000,Yanis B.,SeLoger,Vendu,2024-12-26,42,718,19,7127
-7,2024-05-14,Maison,Woippy,143,230000,Élodie P.,Référence,Vendu,2024-06-23,40,505,30,7761
-8,2024-04-12,Terrain,Metz,309,325000,Élodie P.,LeBonCoin,Vendu,2024-09-21,162,304,7,11329
-9,2025-01-12,Maison,Thionville,151,358000,Yanis B.,Référence,Vendu,2025-04-26,104,353,19,12526
-10,2024-06-11,Appartement,Montigny,70,178000,Élodie P.,SeLoger,Vendu,2024-08-09,59,869,25,6254
-11,2025-05-17,Maison,Thionville,98,202000,Yanis B.,LeBonCoin,Retiré,,,435,13,0
-12,2024-01-17,Appartement,Metz,55,131000,Élodie P.,LeBonCoin,Retiré,,,253,8,0
-13,2024-05-23,Appartement,Montigny,70,170000,Camille D.,SeLoger,Vendu,2024-07-03,41,357,8,5564
-14,2024-03-18,Maison,Woippy,180,399000,Camille D.,Vitrine,En cours,,,192,10,0
-15,2025-05-26,Appartement,Montigny,64,136000,Élodie P.,SeLoger,Vendu,2025-06-10,15,491,14,4978
-16,2025-04-13,Maison,Woippy,156,312000,Élodie P.,LeBonCoin,En cours,,,345,20,0
-17,2025-05-12,Studio,Thionville,23,55000,Marc L.,LeBonCoin,Vendu,2025-06-27,46,323,18,1915
-18,2024-09-13,Maison,Nancy,115,277000,Camille D.,Site agence,Retiré,,,289,11,0
-19,2024-10-10,Appartement,Nancy,57,138000,Camille D.,Site agence,En cours,,,198,10,0
-20,2024-02-02,Studio,Thionville,18,42000,Sofia R.,LeBonCoin,Vendu,2024-03-21,48,327,8,1280
-21,2024-08-31,Studio,Nancy,28,74000,Yanis B.,Site agence,Vendu,2024-10-06,36,444,21,2923
-22,2024-01-12,Maison,Woippy,118,260000,Yanis B.,LeBonCoin,Vendu,2024-05-08,117,475,28,12213
-23,2024-03-30,Terrain,Woippy,761,521000,Marc L.,Site agence,Compromis,,,434,18,25469
-24,2024-11-30,Appartement,Nancy,92,198000,Sofia R.,SeLoger,Retiré,,,355,11,0
-25,2024-01-17,Maison,Thionville,133,298000,Élodie P.,SeLoger,Vendu,2024-04-07,81,527,28,9149
-26,2024-12-09,Maison,Nancy,156,419000,Élodie P.,LeBonCoin,Vendu,2025-03-22,103,454,21,16252
-27,2024-10-24,Maison,Montigny,161,392000,Élodie P.,LeBonCoin,Retiré,,,489,13,0
-28,2024-10-06,Maison,Montigny,104,221000,Camille D.,LeBonCoin,Vendu,2024-11-17,42,279,15,11003
-29,2025-05-17,Maison,Metz,148,468000,Marc L.,Référence,En cours,,,233,9,0
-30,2025-06-21,Appartement,Thionville,79,156000,Sofia R.,Référence,Compromis,,,411,11,5684
-31,2024-09-07,Maison,Montigny,164,488000,Élodie P.,Site agence,Vendu,2024-12-31,115,276,15,20818
-32,2024-06-12,Appartement,Montigny,74,196000,Yanis B.,Référence,Vendu,2024-08-06,55,109,3,9057
-33,2024-11-19,Appartement,Montigny,52,162000,Marc L.,Référence,Vendu,2025-03-15,116,389,19,5174
-34,2024-05-09,Appartement,Nancy,91,203000,Élodie P.,Site agence,Vendu,2024-05-30,21,632,15,9168
-35,2024-07-12,Maison,Metz,160,439000,Camille D.,LeBonCoin,Retiré,,,374,10,0
-36,2024-03-04,Terrain,Nancy,634,535000,Yanis B.,LeBonCoin,Vendu,2024-07-07,125,261,9,16487
-37,2024-07-04,Maison,Woippy,141,292000,Marc L.,SeLoger,Retiré,,,458,10,0
-38,2024-07-14,Maison,Montigny,123,373000,Sofia R.,Site agence,Retiré,,,364,13,0
-39,2025-03-18,Appartement,Nancy,51,120000,Sofia R.,LeBonCoin,Vendu,2025-05-04,47,450,20,4157
-40,2024-12-11,Maison,Nancy,158,381000,Élodie P.,Vitrine,En cours,,,183,9,0
-41,2024-04-20,Appartement,Nancy,72,160000,Élodie P.,LeBonCoin,Vendu,2024-05-25,35,406,22,6425
-42,2024-04-12,Studio,Woippy,19,41000,Élodie P.,SeLoger,Vendu,2024-06-17,66,513,19,1636
-43,2024-02-29,Terrain,Woippy,708,512000,Sofia R.,LeBonCoin,Vendu,2024-07-31,153,274,11,22698
-44,2024-01-28,Studio,Metz,27,71000,Sofia R.,Site agence,Vendu,2024-03-03,35,435,15,3156
-45,2024-03-16,Appartement,Nancy,56,142000,Camille D.,Vitrine,Vendu,2024-05-10,55,293,17,5974
-46,2024-02-21,Appartement,Montigny,53,140000,Marc L.,SeLoger,Vendu,2024-04-30,69,162,6,5830
-47,2025-01-07,Studio,Montigny,20,52000,Élodie P.,LeBonCoin,Vendu,2025-02-25,49,260,14,2194
-48,2024-07-13,Studio,Thionville,21,56000,Camille D.,Référence,Vendu,2024-10-05,84,368,11,2378
-49,2024-08-15,Appartement,Montigny,45,120000,Camille D.,Site agence,Vendu,2024-10-28,74,208,5,5387
-50,2024-05-02,Studio,Woippy,27,52000,Élodie P.,SeLoger,En cours,,,480,22,0
-51,2024-07-07,Maison,Woippy,149,277000,Camille D.,LeBonCoin,Vendu,2024-09-24,79,154,8,12872
-52,2024-03-18,Appartement,Thionville,78,166000,Sofia R.,Site agence,Vendu,2024-04-23,36,280,7,7390
-53,2024-04-30,Maison,Thionville,177,399000,Yanis B.,Référence,Retiré,,,278,10,0
-54,2024-03-27,Studio,Thionville,18,42000,Yanis B.,Référence,Vendu,2024-05-09,43,310,11,1756
-55,2024-06-29,Studio,Metz,32,71000,Camille D.,LeBonCoin,Vendu,2024-07-07,8,145,8,3272
-56,2024-11-08,Appartement,Montigny,57,125000,Élodie P.,Site agence,Vendu,2024-12-09,31,463,21,4301
-57,2024-12-12,Appartement,Woippy,91,156000,Sofia R.,LeBonCoin,Vendu,2025-01-04,23,338,15,7041
-58,2024-01-04,Studio,Woippy,32,52000,Yanis B.,LeBonCoin,En cours,,,387,22,0
-59,2025-01-19,Appartement,Nancy,67,154000,Camille D.,Référence,Vendu,2025-03-02,42,96,3,7452
-60,2025-04-14,Maison,Metz,94,218000,Yanis B.,SeLoger,Vendu,2025-06-12,59,443,21,7516
-61,2024-10-14,Appartement,Woippy,59,137000,Camille D.,LeBonCoin,Compromis,,,417,15,6224
-62,2025-05-09,Appartement,Nancy,48,134000,Marc L.,Référence,Retiré,,,331,18,0
-63,2025-01-15,Studio,Woippy,29,50000,Élodie P.,SeLoger,Vendu,2025-01-28,13,354,19,2136
-64,2024-09-29,Maison,Montigny,112,260000,Marc L.,Vitrine,Vendu,2024-12-04,66,363,12,10545
-65,2025-04-24,Terrain,Metz,610,476000,Camille D.,SeLoger,En cours,,,512,26,0
-66,2025-02-27,Maison,Montigny,130,328000,Marc L.,LeBonCoin,Vendu,2025-05-20,82,527,11,10762
-67,2025-04-17,Maison,Metz,138,406000,Yanis B.,SeLoger,Retiré,,,230,4,0
-68,2024-06-04,Maison,Thionville,128,324000,Sofia R.,LeBonCoin,Vendu,2024-10-02,120,397,13,11726
-69,2025-04-26,Appartement,Thionville,45,108000,Marc L.,SeLoger,En cours,,,337,9,0
-70,2024-04-02,Appartement,Metz,47,141000,Marc L.,LeBonCoin,Vendu,2024-06-14,73,462,11,4647
-71,2025-05-09,Terrain,Thionville,927,806000,Sofia R.,Vitrine,En cours,,,370,16,0
-72,2024-07-12,Appartement,Thionville,46,94000,Sofia R.,LeBonCoin,Vendu,2024-08-17,36,302,14,3833
-73,2024-08-27,Maison,Thionville,163,333000,Yanis B.,Vitrine,Vendu,2024-10-28,62,539,30,10167
-74,2024-03-26,Appartement,Nancy,66,155000,Élodie P.,Vitrine,En cours,,,219,5,0
-75,2024-03-06,Terrain,Montigny,915,727000,Yanis B.,Vitrine,Vendu,2024-06-11,97,532,18,27089
-76,2024-07-09,Maison,Montigny,94,216000,Marc L.,Vitrine,Vendu,2024-09-03,56,510,16,9666
-77,2024-01-17,Appartement,Nancy,42,101000,Camille D.,LeBonCoin,Vendu,2024-03-16,59,398,12,3700
-78,2024-05-28,Terrain,Woippy,653,440000,Marc L.,Site agence,Vendu,2024-09-16,111,232,11,21952
-79,2025-03-20,Maison,Metz,132,363000,Marc L.,LeBonCoin,Vendu,2025-06-25,97,621,19,14035
-80,2024-11-25,Studio,Thionville,32,83000,Élodie P.,SeLoger,Vendu,2025-01-25,61,756,29,4000
-81,2024-11-09,Terrain,Woippy,677,538000,Camille D.,LeBonCoin,Vendu,2025-04-21,163,353,17,25860
-82,2025-06-16,Appartement,Nancy,76,176000,Élodie P.,Site agence,En cours,,,405,15,0
-83,2025-02-10,Appartement,Nancy,54,111000,Yanis B.,Référence,En cours,,,261,14,0
-84,2024-07-26,Studio,Thionville,29,75000,Yanis B.,LeBonCoin,En cours,,,235,12,0
-85,2024-07-15,Maison,Metz,130,404000,Yanis B.,Site agence,Vendu,2024-11-30,138,462,26,12758
-86,2024-11-10,Maison,Metz,113,277000,Yanis B.,Site agence,En cours,,,354,16,0
-87,2024-11-04,Maison,Nancy,171,363000,Sofia R.,Vitrine,Vendu,2024-12-29,55,160,6,15243
-88,2024-09-13,Studio,Woippy,19,33000,Élodie P.,SeLoger,Vendu,2024-09-22,9,411,21,1582
-89,2025-04-17,Appartement,Montigny,71,155000,Élodie P.,Référence,Vendu,2025-05-02,15,423,16,5553
-90,2024-06-27,Studio,Montigny,20,47000,Yanis B.,LeBonCoin,Vendu,2024-07-05,8,355,18,1869
-91,2025-05-25,Appartement,Thionville,85,192000,Élodie P.,Référence,Retiré,,,232,10,0
-92,2025-03-28,Studio,Thionville,18,42000,Sofia R.,LeBonCoin,Vendu,2025-05-10,43,346,8,1295
-93,2025-06-22,Studio,Thionville,25,57000,Marc L.,LeBonCoin,En cours,,,321,14,0
-94,2024-03-03,Appartement,Thionville,84,228000,Camille D.,SeLoger,Vendu,2024-06-21,110,108,6,8916
-95,2024-01-04,Appartement,Nancy,49,126000,Élodie P.,LeBonCoin,Vendu,2024-03-03,59,663,31,6239
-96,2024-08-23,Appartement,Thionville,94,213000,Marc L.,Vitrine,Vendu,2024-10-26,64,236,13,6559
-97,2024-02-29,Maison,Thionville,165,375000,Yanis B.,LeBonCoin,Vendu,2024-05-21,82,395,20,13855
-98,2024-06-16,Appartement,Woippy,78,144000,Camille D.,LeBonCoin,Vendu,2024-07-28,42,530,28,5422
-99,2024-02-18,Appartement,Thionville,79,160000,Yanis B.,SeLoger,Vendu,2024-03-31,42,93,4,5955
-100,2025-01-03,Studio,Nancy,29,86000,Camille D.,Référence,Vendu,2025-04-10,97,58,2,4091
-101,2024-11-05,Maison,Woippy,114,228000,Élodie P.,SeLoger,Vendu,2025-02-14,101,464,18,9197
-102,2024-09-23,Maison,Thionville,108,281000,Sofia R.,LeBonCoin,Vendu,2025-01-28,127,247,10,9006
-103,2024-12-19,Appartement,Montigny,94,259000,Yanis B.,LeBonCoin,Vendu,2025-02-12,55,457,14,12530
-104,2024-12-27,Terrain,Metz,1102,1106000,Marc L.,SeLoger,Vendu,2025-05-25,149,252,5,40439
-105,2024-10-13,Appartement,Nancy,52,114000,Élodie P.,Site agence,Vendu,2024-11-14,32,323,10,3763
-106,2024-09-20,Appartement,Montigny,41,102000,Sofia R.,SeLoger,Vendu,2024-11-09,50,365,14,4016
-107,2024-09-16,Appartement,Metz,60,151000,Camille D.,Référence,Vendu,2024-10-20,34,472,16,7241
-108,2024-08-09,Maison,Metz,142,375000,Yanis B.,SeLoger,En cours,,,595,20,0
-109,2025-06-03,Appartement,Thionville,70,168000,Marc L.,SeLoger,Retiré,,,409,16,0
-110,2024-01-04,Maison,Nancy,160,422000,Sofia R.,LeBonCoin,Vendu,2024-03-30,86,499,16,20140
-111,2024-07-31,Maison,Woippy,110,205000,Marc L.,Site agence,Vendu,2024-10-08,69,359,13,8888
-112,2024-08-30,Appartement,Nancy,51,110000,Marc L.,SeLoger,Vendu,2024-09-25,26,492,23,4293
-113,2024-02-11,Maison,Nancy,151,357000,Sofia R.,LeBonCoin,Vendu,2024-04-15,64,305,9,13335
-114,2024-07-06,Studio,Thionville,21,41000,Yanis B.,Vitrine,Vendu,2024-07-14,8,274,13,1361
-115,2025-01-20,Maison,Montigny,113,293000,Marc L.,Site agence,Vendu,2025-04-01,71,401,12,10266
-116,2025-01-30,Appartement,Nancy,47,108000,Marc L.,Site agence,Vendu,2025-03-11,40,390,12,4411
-117,2024-06-24,Appartement,Thionville,91,188000,Sofia R.,Site agence,Vendu,2024-07-31,37,255,10,6454
-118,2024-05-30,Appartement,Woippy,75,145000,Sofia R.,SeLoger,Vendu,2024-07-20,51,524,22,5510
-119,2024-08-21,Maison,Metz,123,278000,Yanis B.,SeLoger,Vendu,2024-10-03,43,538,12,11027
-120,2025-02-22,Appartement,Woippy,91,185000,Yanis B.,SeLoger,Vendu,2025-04-21,58,162,4,6625
-121,2025-03-29,Studio,Montigny,29,62000,Élodie P.,SeLoger,Vendu,2025-04-06,8,468,16,2244
-122,2025-04-22,Studio,Metz,19,52000,Camille D.,Référence,Vendu,2025-05-24,32,379,13,2420
-123,2025-05-08,Studio,Woippy,24,38000,Marc L.,SeLoger,Vendu,2025-05-16,8,285,11,1894
-124,2024-12-28,Appartement,Thionville,81,158000,Yanis B.,LeBonCoin,Vendu,2025-01-13,16,314,15,6889
-125,2024-12-21,Appartement,Metz,62,138000,Yanis B.,LeBonCoin,Compromis,,,379,21,4197
-126,2024-11-24,Studio,Metz,19,51000,Marc L.,Vitrine,Vendu,2025-01-02,39,76,4,1601
-127,2024-11-25,Studio,Nancy,26,68000,Marc L.,LeBonCoin,Retiré,,,260,11,0
-128,2025-05-31,Terrain,Montigny,1062,958000,Élodie P.,Site agence,En cours,,,199,5,0
-129,2024-02-13,Terrain,Montigny,757,638000,Élodie P.,SeLoger,Vendu,2024-06-05,113,567,23,22406
-130,2024-11-16,Maison,Nancy,96,285000,Camille D.,Site agence,Compromis,,,374,10,9361
-131,2024-04-16,Appartement,Montigny,44,95000,Marc L.,LeBonCoin,Vendu,2024-05-01,15,191,5,3660
-132,2024-10-13,Appartement,Nancy,68,154000,Sofia R.,Référence,Compromis,,,467,19,5087
-133,2024-07-01,Appartement,Metz,62,155000,Camille D.,LeBonCoin,Vendu,2024-08-10,40,293,13,6166
-134,2024-07-30,Maison,Montigny,115,321000,Élodie P.,LeBonCoin,Vendu,2024-11-17,110,446,14,11418
-135,2024-08-01,Appartement,Nancy,50,124000,Camille D.,SeLoger,Vendu,2024-10-11,71,738,32,4206
-136,2024-07-29,Studio,Thionville,30,57000,Camille D.,SeLoger,Vendu,2024-08-06,8,239,7,1850
-137,2024-12-20,Maison,Montigny,164,395000,Marc L.,Référence,Vendu,2025-03-16,86,257,12,19226
-138,2024-07-22,Maison,Woippy,98,189000,Yanis B.,SeLoger,Vendu,2024-10-21,91,26,0,8210
-139,2024-01-16,Appartement,Woippy,95,183000,Yanis B.,LeBonCoin,Vendu,2024-02-25,40,436,19,5853
-140,2024-03-31,Appartement,Thionville,86,213000,Yanis B.,Vitrine,Vendu,2024-06-06,67,434,20,6699
-141,2025-04-20,Appartement,Montigny,81,250000,Camille D.,Vitrine,Compromis,,,460,24,11005
-142,2024-03-09,Maison,Woippy,117,276000,Yanis B.,SeLoger,Vendu,2024-07-31,144,346,12,8741
-143,2024-09-16,Studio,Woippy,19,30000,Élodie P.,Référence,Vendu,2024-09-24,8,599,12,1221
-144,2024-04-23,Appartement,Metz,76,212000,Marc L.,SeLoger,Vendu,2024-07-06,74,601,19,7406
-145,2025-04-22,Terrain,Metz,871,706000,Élodie P.,SeLoger,En cours,,,682,27,0
-146,2025-06-21,Appartement,Nancy,95,268000,Sofia R.,SeLoger,En cours,,,441,21,0
-147,2024-01-30,Appartement,Woippy,74,167000,Sofia R.,SeLoger,Vendu,2024-05-07,98,352,10,8078
-148,2025-05-15,Maison,Nancy,107,319000,Yanis B.,Vitrine,En cours,,,480,14,0
-149,2025-01-11,Appartement,Metz,64,170000,Marc L.,LeBonCoin,Vendu,2025-03-12,60,573,12,6961
-150,2024-08-16,Maison,Metz,136,435000,Élodie P.,LeBonCoin,Vendu,2024-12-29,135,95,3,13962
-151,2024-12-31,Appartement,Nancy,84,195000,Camille D.,Site agence,Vendu,2025-02-07,38,216,8,8789
-152,2024-04-05,Appartement,Nancy,91,260000,Sofia R.,LeBonCoin,Retiré,,,272,6,0
-153,2024-02-03,Appartement,Thionville,90,190000,Camille D.,Vitrine,Vendu,2024-03-15,41,179,4,6992
-154,2024-08-04,Maison,Montigny,151,371000,Yanis B.,Site agence,Vendu,2024-10-11,68,542,14,16215
-155,2025-01-21,Maison,Woippy,146,335000,Marc L.,Site agence,Compromis,,,499,17,14760
-156,2024-11-13,Appartement,Montigny,53,129000,Marc L.,SeLoger,Vendu,2024-12-26,43,515,15,6183
-157,2024-07-24,Maison,Woippy,139,306000,Yanis B.,SeLoger,Vendu,2024-11-16,115,410,17,11299
-158,2024-12-24,Maison,Woippy,139,285000,Marc L.,Référence,En cours,,,203,7,0
-159,2024-08-27,Appartement,Thionville,76,203000,Yanis B.,Référence,En cours,,,316,9,0
-160,2025-02-27,Maison,Montigny,119,342000,Élodie P.,SeLoger,Compromis,,,293,6,14145
-161,2025-05-16,Maison,Thionville,135,288000,Yanis B.,SeLoger,Compromis,,,711,38,10622
-162,2024-07-13,Appartement,Montigny,63,156000,Yanis B.,Vitrine,Vendu,2024-08-24,42,297,16,5505
-163,2025-01-01,Appartement,Metz,56,140000,Yanis B.,LeBonCoin,Vendu,2025-02-14,44,315,6,6841
-164,2025-02-03,Studio,Nancy,26,55000,Sofia R.,Référence,Vendu,2025-02-15,12,441,21,2352
-165,2024-02-25,Terrain,Woippy,539,373000,Yanis B.,Site agence,Vendu,2024-07-09,135,264,12,16610
-166,2024-03-18,Appartement,Montigny,82,248000,Camille D.,SeLoger,Vendu,2024-06-27,101,331,19,11765
-167,2024-03-10,Appartement,Nancy,49,145000,Élodie P.,Vitrine,Vendu,2024-06-25,107,175,8,6364
-168,2025-05-25,Studio,Nancy,19,42000,Sofia R.,Site agence,Vendu,2025-06-09,15,646,36,2015
-169,2024-12-09,Maison,Nancy,109,267000,Sofia R.,Référence,Vendu,2025-02-23,76,126,7,12807
-170,2024-06-22,Studio,Metz,20,50000,Élodie P.,LeBonCoin,Vendu,2024-07-13,21,464,12,2104
-171,2024-03-26,Appartement,Metz,53,129000,Sofia R.,LeBonCoin,Vendu,2024-05-08,43,346,19,3993
-172,2025-06-22,Maison,Thionville,173,465000,Sofia R.,LeBonCoin,En cours,,,349,13,0
-173,2024-07-08,Maison,Nancy,166,430000,Yanis B.,LeBonCoin,Vendu,2024-10-16,100,439,9,19258
-174,2024-02-05,Maison,Nancy,154,379000,Marc L.,SeLoger,Vendu,2024-04-30,85,323,15,11924
-175,2024-05-18,Studio,Woippy,30,53000,Camille D.,Vitrine,Retiré,,,20,0,0
-176,2025-05-25,Appartement,Metz,67,152000,Sofia R.,SeLoger,Vendu,2025-06-13,19,285,9,4974
-177,2024-02-13,Appartement,Nancy,83,227000,Camille D.,Vitrine,Vendu,2024-05-10,87,190,4,11072
-178,2024-07-08,Maison,Thionville,131,312000,Camille D.,SeLoger,Vendu,2024-10-14,98,84,3,10993
-179,2024-03-24,Appartement,Nancy,59,130000,Sofia R.,Vitrine,En cours,,,277,10,0
-180,2025-05-15,Appartement,Woippy,70,136000,Yanis B.,Site agence,En cours,,,210,4,0
-181,2024-01-21,Appartement,Metz,71,161000,Élodie P.,SeLoger,Vendu,2024-02-12,22,356,20,7560
-182,2025-01-13,Appartement,Woippy,60,103000,Marc L.,LeBonCoin,Vendu,2025-02-03,21,207,8,5045
-183,2024-08-26,Studio,Montigny,32,84000,Yanis B.,Vitrine,Vendu,2024-10-13,48,299,14,3500
-184,2024-12-13,Maison,Thionville,90,206000,Marc L.,SeLoger,Vendu,2025-02-27,76,406,18,8910
-185,2024-10-02,Maison,Woippy,149,250000,Camille D.,LeBonCoin,Vendu,2024-11-23,52,120,7,9713
-186,2024-10-13,Appartement,Metz,65,156000,Yanis B.,Site agence,Vendu,2024-11-18,36,424,9,7361
-187,2024-10-24,Studio,Thionville,26,63000,Sofia R.,Site agence,Vendu,2024-12-22,59,208,9,2200
-188,2024-10-31,Appartement,Nancy,59,172000,Camille D.,SeLoger,Vendu,2025-02-11,103,249,12,8294
-189,2024-06-12,Appartement,Metz,95,235000,Camille D.,Site agence,Vendu,2024-07-13,31,336,16,10570
-190,2025-03-22,Studio,Woippy,30,54000,Marc L.,LeBonCoin,Vendu,2025-04-07,16,408,19,2574
-191,2024-08-22,Maison,Nancy,178,451000,Sofia R.,LeBonCoin,Vendu,2024-11-29,99,307,14,22028
-192,2024-12-02,Terrain,Metz,934,825000,Camille D.,LeBonCoin,En cours,,,383,10,0
-193,2024-02-21,Studio,Woippy,26,60000,Élodie P.,LeBonCoin,En cours,,,190,6,0
-194,2025-02-28,Appartement,Nancy,90,194000,Sofia R.,LeBonCoin,Vendu,2025-03-12,12,226,9,9460
-195,2025-03-05,Maison,Metz,97,229000,Camille D.,LeBonCoin,Vendu,2025-05-14,70,288,14,10382
-196,2024-02-29,Appartement,Woippy,70,160000,Marc L.,SeLoger,Vendu,2024-06-12,104,546,26,5209
-197,2025-05-25,Studio,Montigny,21,58000,Marc L.,Site agence,En cours,,,531,13,0
-198,2025-02-16,Appartement,Metz,65,150000,Camille D.,Vitrine,Vendu,2025-03-03,15,416,18,7450
-199,2024-12-09,Appartement,Thionville,95,211000,Sofia R.,LeBonCoin,Vendu,2025-01-27,49,401,20,8222
-200,2025-03-23,Maison,Nancy,169,411000,Marc L.,LeBonCoin,En cours,,,341,13,0
-201,2025-05-31,Studio,Woippy,19,33000,Élodie P.,Site agence,Vendu,2025-06-08,8,20,0,1186
-202,2024-03-28,Maison,Montigny,162,407000,Sofia R.,Référence,Vendu,2024-06-24,88,237,5,19241
-203,2024-07-20,Appartement,Woippy,43,90000,Sofia R.,SeLoger,Vendu,2024-10-03,75,700,23,3560
-204,2025-02-21,Appartement,Montigny,48,140000,Marc L.,LeBonCoin,En cours,,,553,18,0
-205,2025-05-14,Terrain,Thionville,400,336000,Sofia R.,LeBonCoin,Retiré,,,20,0,0
-206,2025-03-18,Appartement,Metz,74,216000,Sofia R.,Référence,Vendu,2025-06-11,85,238,8,6584
-207,2025-02-11,Appartement,Woippy,80,141000,Camille D.,SeLoger,Vendu,2025-03-10,27,635,13,4288
-208,2024-01-29,Studio,Thionville,21,52000,Élodie P.,LeBonCoin,Vendu,2024-03-27,58,390,15,2019
-209,2024-10-15,Maison,Montigny,160,436000,Yanis B.,LeBonCoin,En cours,,,130,6,0
-210,2024-06-24,Appartement,Woippy,62,141000,Camille D.,Référence,Vendu,2024-10-10,108,339,9,4362
-211,2024-01-26,Appartement,Metz,62,171000,Camille D.,LeBonCoin,Vendu,2024-03-23,57,358,20,7023
-212,2024-06-05,Appartement,Thionville,58,109000,Marc L.,SeLoger,Vendu,2024-06-19,14,828,26,4064
-213,2024-06-25,Appartement,Thionville,94,231000,Élodie P.,SeLoger,Vendu,2024-09-08,75,55,3,8982
-214,2024-09-07,Studio,Woippy,23,44000,Marc L.,LeBonCoin,Vendu,2024-10-13,36,572,30,1580
-215,2024-02-02,Maison,Metz,114,354000,Élodie P.,Référence,Vendu,2024-05-30,118,233,11,13433
-216,2024-08-20,Terrain,Montigny,376,294000,Sofia R.,LeBonCoin,Vendu,2024-11-28,100,244,10,10521
-217,2024-03-18,Terrain,Montigny,1117,983000,Élodie P.,Site agence,Vendu,2024-07-24,128,458,26,44477
-218,2024-02-27,Maison,Montigny,121,317000,Camille D.,Vitrine,En cours,,,172,10,0
-219,2024-08-13,Maison,Nancy,129,285000,Yanis B.,Référence,Vendu,2024-10-09,57,20,0,13090
-220,2024-06-18,Appartement,Metz,91,220000,Yanis B.,SeLoger,Vendu,2024-07-28,40,522,30,7741
-221,2024-11-23,Maison,Metz,95,265000,Camille D.,LeBonCoin,Vendu,2025-02-24,93,367,17,10574
-222,2024-09-02,Appartement,Montigny,52,113000,Marc L.,SeLoger,Vendu,2024-09-27,25,428,23,5604
-223,2024-11-23,Appartement,Woippy,71,121000,Élodie P.,SeLoger,Vendu,2024-12-22,29,543,24,4572
-224,2024-07-03,Maison,Nancy,172,454000,Marc L.,LeBonCoin,En cours,,,278,11,0
-225,2025-04-24,Studio,Nancy,27,64000,Yanis B.,Référence,Vendu,2025-05-25,31,289,8,3067
-226,2025-01-25,Appartement,Nancy,48,143000,Camille D.,Référence,Vendu,2025-05-13,108,235,6,5539
-227,2025-06-18,Appartement,Nancy,74,161000,Élodie P.,LeBonCoin,En cours,,,181,7,0
-228,2024-01-29,Studio,Nancy,32,83000,Sofia R.,LeBonCoin,Vendu,2024-03-15,46,20,0,3665
-229,2024-04-20,Appartement,Metz,58,188000,Sofia R.,SeLoger,En cours,,,389,17,0
-230,2024-04-25,Terrain,Montigny,670,636000,Marc L.,Site agence,Vendu,2024-09-05,133,64,3,22058
-231,2024-10-03,Appartement,Montigny,71,160000,Yanis B.,Référence,Vendu,2024-11-01,29,502,15,6741
-232,2024-10-01,Maison,Woippy,123,232000,Camille D.,Site agence,Vendu,2025-01-02,93,420,11,8534
-233,2024-04-27,Maison,Metz,172,464000,Marc L.,LeBonCoin,Vendu,2024-07-26,90,466,26,15571
-234,2025-04-30,Appartement,Woippy,65,140000,Yanis B.,Référence,Compromis,,,131,7,6883
-235,2024-06-14,Appartement,Metz,51,123000,Sofia R.,Site agence,En cours,,,192,6,0
-236,2024-09-18,Maison,Montigny,104,287000,Yanis B.,SeLoger,Vendu,2025-01-04,108,421,11,11661
-237,2024-04-05,Maison,Montigny,105,293000,Sofia R.,Site agence,Compromis,,,452,19,14502
-238,2025-03-30,Maison,Thionville,91,208000,Élodie P.,SeLoger,Vendu,2025-06-22,84,241,9,6787
-239,2025-01-09,Terrain,Metz,375,352000,Marc L.,LeBonCoin,Vendu,2025-05-09,120,366,20,13361
-240,2024-12-31,Terrain,Metz,846,678000,Marc L.,Site agence,Vendu,2025-04-04,94,366,13,30694
-241,2024-10-29,Appartement,Thionville,53,140000,Yanis B.,LeBonCoin,Vendu,2025-02-10,104,371,20,4380
-242,2024-08-06,Appartement,Thionville,43,93000,Yanis B.,SeLoger,Vendu,2024-09-17,42,432,9,3664
-243,2024-02-16,Appartement,Montigny,59,137000,Marc L.,Site agence,Vendu,2024-03-28,41,604,35,4987
-244,2024-02-11,Appartement,Montigny,74,221000,Sofia R.,SeLoger,Vendu,2024-05-17,96,265,7,9986
-245,2025-03-06,Maison,Nancy,102,224000,Élodie P.,Référence,Vendu,2025-05-04,59,118,4,7508
-246,2024-09-10,Appartement,Nancy,78,232000,Marc L.,Référence,Vendu,2024-12-15,96,385,14,11504
-247,2025-01-09,Maison,Metz,135,417000,Sofia R.,Référence,Vendu,2025-05-02,113,199,7,14605
-248,2024-04-13,Terrain,Nancy,951,716000,Yanis B.,SeLoger,Vendu,2024-07-03,81,167,3,32350
-249,2024-04-06,Appartement,Metz,52,158000,Camille D.,LeBonCoin,Vendu,2024-07-08,93,224,9,6308
-250,2024-05-02,Appartement,Woippy,87,141000,Yanis B.,LeBonCoin,Vendu,2024-05-11,9,220,4,5227
-251,2025-01-03,Terrain,Montigny,426,335000,Yanis B.,Référence,Vendu,2025-04-13,100,470,11,12800
-252,2024-11-02,Maison,Thionville,100,226000,Élodie P.,SeLoger,Vendu,2025-02-02,92,521,12,10718
-253,2025-03-31,Studio,Metz,29,73000,Sofia R.,LeBonCoin,Vendu,2025-04-25,25,143,4,2674
-254,2025-03-04,Maison,Metz,117,300000,Marc L.,Site agence,Vendu,2025-05-08,65,202,5,12925
-255,2025-04-18,Appartement,Metz,69,162000,Marc L.,SeLoger,Retiré,,,180,3,0
-256,2024-06-11,Studio,Woippy,25,56000,Camille D.,LeBonCoin,Vendu,2024-08-23,73,146,5,2700
-257,2024-01-06,Studio,Woippy,32,58000,Marc L.,Référence,Vendu,2024-01-25,19,194,11,2641
-258,2025-06-01,Terrain,Thionville,346,282000,Sofia R.,LeBonCoin,Compromis,,,479,26,9725
-259,2024-01-31,Appartement,Metz,47,110000,Yanis B.,Site agence,Vendu,2024-02-19,19,392,10,3333
-260,2024-07-09,Appartement,Metz,60,138000,Camille D.,Référence,Vendu,2024-08-02,24,476,11,6813
-261,2024-11-01,Appartement,Montigny,46,143000,Sofia R.,SeLoger,Vendu,2025-02-16,107,447,14,6690
-262,2024-07-27,Studio,Metz,31,70000,Camille D.,SeLoger,Vendu,2024-08-04,8,366,21,3247
-263,2025-02-25,Appartement,Nancy,61,153000,Sofia R.,Référence,En cours,,,280,8,0
-264,2024-01-18,Maison,Woippy,152,289000,Marc L.,SeLoger,Vendu,2024-04-09,82,560,17,8840
-265,2024-01-21,Appartement,Metz,74,165000,Élodie P.,SeLoger,Vendu,2024-01-29,8,467,18,7429
-266,2025-02-03,Maison,Nancy,164,417000,Camille D.,Référence,Vendu,2025-05-06,92,348,17,17500
-267,2025-05-01,Appartement,Nancy,50,108000,Yanis B.,Site agence,En cours,,,92,2,0
-268,2025-01-22,Terrain,Thionville,1049,987000,Yanis B.,Site agence,En cours,,,302,11,0
-269,2024-04-16,Studio,Montigny,32,82000,Marc L.,SeLoger,Vendu,2024-05-19,33,374,12,3235
-270,2024-05-16,Appartement,Montigny,87,246000,Camille D.,SeLoger,Vendu,2024-08-02,78,594,28,8828
-271,2024-05-12,Terrain,Metz,974,837000,Élodie P.,SeLoger,Vendu,2024-08-09,89,504,15,41295
-272,2025-04-28,Maison,Nancy,124,324000,Yanis B.,Site agence,Retiré,,,316,9,0
-273,2024-08-19,Terrain,Metz,1168,1182000,Marc L.,LeBonCoin,Vendu,2024-12-30,133,197,11,36853
-274,2024-03-03,Maison,Montigny,164,421000,Marc L.,Site agence,Vendu,2024-05-18,76,210,7,13201
-275,2025-02-18,Terrain,Woippy,996,780000,Yanis B.,Site agence,Retiré,,,549,31,0
-276,2024-08-14,Studio,Woippy,27,44000,Camille D.,Référence,Vendu,2024-08-22,8,144,6,1618
-277,2024-12-23,Studio,Metz,26,73000,Élodie P.,Référence,Vendu,2025-02-10,49,568,33,2211
-278,2024-06-23,Appartement,Montigny,40,97000,Marc L.,LeBonCoin,Vendu,2024-08-07,45,227,4,3316
-279,2024-01-12,Appartement,Montigny,43,104000,Élodie P.,SeLoger,Vendu,2024-02-17,36,585,29,3310
-280,2025-03-09,Studio,Thionville,23,54000,Élodie P.,LeBonCoin,Vendu,2025-05-06,58,243,8,1986
+id_bien,date_mandat,type,ville,surface_m2,nb_pieces,etat,dpe,prix,agent,source,statut,date_vente,delai_vente_jours,nb_vues,nb_contacts,commission
+1,2025-03-30,Studio,Metz,17,1,Bon,E,48000,Élodie P.,Référence,Vendu,2025-04-30,31,76,7,1912
+2,2025-02-18,Appartement,Woippy,57,2,À rafraîchir,D,98000,Camille D.,Référence,Vendu,2025-03-22,32,57,5,3278
+3,2024-04-07,Studio,Woippy,33,1,Bon,C,70000,Sofia R.,LeBonCoin,Vendu,2024-05-06,29,80,7,2185
+4,2024-12-08,Maison,Montigny,183,7,Travaux,E,430000,Yanis B.,Site agence,Vendu,2025-02-12,66,72,11,13921
+5,2025-01-29,Appartement,Montigny,34,1,Bon,D,93000,Élodie P.,Site agence,Vendu,2025-03-21,51,52,4,4119
+6,2024-01-25,Terrain,Thionville,533,0,—,—,129000,Marc L.,SeLoger,Vendu,2024-04-06,72,85,10,3857
+7,2024-10-27,Studio,Metz,31,1,À rafraîchir,F,78000,Élodie P.,Site agence,Vendu,2024-12-12,46,43,2,2563
+8,2025-04-11,Studio,Thionville,29,1,À rafraîchir,F,57000,Élodie P.,SeLoger,Vendu,2025-05-15,34,92,16,2116
+9,2024-08-05,Appartement,Nancy,74,3,À rafraîchir,E,148000,Yanis B.,SeLoger,Vendu,2024-08-19,14,100,17,5236
+10,2025-04-22,Maison,Montigny,114,4,Rénové,B,388000,Yanis B.,SeLoger,Vendu,2025-06-12,51,80,15,14623
+11,2025-06-20,Appartement,Montigny,38,2,À rafraîchir,D,93000,Camille D.,Référence,En cours,,,65,8,3376
+12,2024-01-13,Terrain,Metz,777,0,—,—,234000,Élodie P.,Site agence,Vendu,2024-03-22,69,93,10,7074
+13,2025-04-27,Maison,Montigny,115,4,Rénové,C,379000,Yanis B.,Site agence,En cours,,,62,10,15213
+14,2024-06-24,Studio,Metz,21,1,Rénové,F,62000,Élodie P.,SeLoger,Vendu,2024-08-04,41,76,12,2497
+15,2025-03-14,Appartement,Woippy,79,3,Travaux,E,114000,Marc L.,Vitrine,En cours,,,85,5,4009
+16,2024-01-23,Appartement,Thionville,110,5,Travaux,B,190000,Marc L.,SeLoger,En cours,,,40,2,6334
+17,2024-03-03,Maison,Thionville,78,3,Bon,B,187000,Marc L.,SeLoger,Retiré,,,62,5,6753
+18,2025-04-09,Appartement,Metz,53,2,Neuf,D,154000,Sofia R.,Vitrine,En cours,,,53,6,5482
+19,2024-05-12,Studio,Montigny,20,1,Bon,E,61000,Sofia R.,SeLoger,Compromis,,,70,13,1979
+20,2024-01-29,Maison,Woippy,94,4,Rénové,F,200000,Sofia R.,Référence,Vendu,2024-03-26,57,83,5,5602
+21,2025-04-02,Studio,Metz,26,1,Neuf,F,90000,Marc L.,Référence,Compromis,,,72,11,3008
+22,2024-11-21,Appartement,Nancy,77,3,Travaux,C,146000,Sofia R.,SeLoger,Vendu,2024-12-23,32,85,11,6132
+23,2024-01-19,Terrain,Thionville,1069,0,—,—,234000,Marc L.,Site agence,Vendu,2024-03-16,57,71,11,10232
+24,2024-11-16,Studio,Woippy,22,1,Rénové,B,49000,Élodie P.,LeBonCoin,Vendu,2024-12-09,23,77,15,1803
+25,2024-03-11,Studio,Montigny,34,1,À rafraîchir,F,77000,Sofia R.,SeLoger,En cours,,,56,5,2619
+26,2025-03-26,Appartement,Metz,58,2,Neuf,D,197000,Sofia R.,Référence,Vendu,2025-05-23,58,68,9,6435
+27,2024-11-02,Maison,Thionville,186,7,À rafraîchir,G,321000,Sofia R.,SeLoger,Vendu,2024-12-21,49,70,11,12202
+28,2024-08-02,Appartement,Woippy,95,4,Bon,B,177000,Marc L.,Référence,Vendu,2024-08-25,23,98,17,6774
+29,2025-04-17,Appartement,Nancy,105,4,Bon,D,280000,Yanis B.,Vitrine,Vendu,2025-05-28,41,72,9,9097
+30,2024-02-26,Maison,Thionville,198,8,Rénové,E,467000,Yanis B.,Référence,Vendu,2024-04-23,57,73,11,17105
+31,2024-11-09,Maison,Thionville,168,6,Bon,D,384000,Yanis B.,LeBonCoin,Vendu,2024-12-23,44,87,9,14636
+32,2024-07-03,Terrain,Nancy,294,0,—,—,92000,Marc L.,Référence,Vendu,2024-09-24,83,47,7,3435
+33,2024-10-09,Appartement,Montigny,113,5,Bon,C,307000,Élodie P.,LeBonCoin,Vendu,2024-11-16,38,81,11,9036
+34,2025-02-16,Appartement,Nancy,39,2,À rafraîchir,F,86000,Élodie P.,Référence,Vendu,2025-04-03,46,50,3,3281
+35,2025-03-31,Maison,Nancy,85,3,Bon,D,229000,Sofia R.,Site agence,Vendu,2025-05-17,47,69,12,7854
+36,2024-08-07,Appartement,Thionville,102,4,À rafraîchir,E,212000,Marc L.,Référence,Vendu,2024-10-02,56,96,17,6761
+37,2024-08-12,Appartement,Metz,82,3,Bon,C,244000,Marc L.,Référence,Vendu,2024-10-09,58,89,11,10359
+38,2025-04-23,Maison,Nancy,221,8,À rafraîchir,D,585000,Marc L.,LeBonCoin,Vendu,2025-07-06,74,70,8,21822
+39,2025-05-27,Appartement,Metz,35,1,Rénové,D,96000,Camille D.,Référence,Vendu,2025-06-21,25,90,6,3633
+40,2024-08-05,Maison,Woippy,144,6,Bon,C,255000,Élodie P.,LeBonCoin,Retiré,,,88,14,7677
+41,2024-01-30,Appartement,Woippy,88,4,Bon,E,190000,Marc L.,Vitrine,En cours,,,62,10,8259
+42,2024-01-05,Studio,Montigny,24,1,Travaux,C,53000,Sofia R.,Référence,Vendu,2024-02-04,30,75,5,1938
+43,2025-01-26,Maison,Metz,121,5,Bon,E,316000,Camille D.,Site agence,Vendu,2025-03-03,36,84,8,11982
+44,2024-08-31,Appartement,Woippy,79,3,À rafraîchir,E,138000,Yanis B.,Référence,Vendu,2024-10-16,46,62,5,5923
+45,2024-10-30,Studio,Thionville,30,1,À rafraîchir,D,64000,Yanis B.,SeLoger,En cours,,,83,12,2181
+46,2024-02-22,Studio,Montigny,24,1,Bon,E,69000,Élodie P.,Vitrine,Vendu,2024-04-08,46,50,3,2415
+47,2024-03-13,Appartement,Thionville,108,4,Rénové,B,275000,Élodie P.,SeLoger,En cours,,,74,13,10626
+48,2024-11-25,Appartement,Montigny,95,4,Rénové,E,277000,Sofia R.,SeLoger,Vendu,2025-01-23,59,70,10,10787
+49,2024-08-28,Maison,Thionville,168,6,Travaux,F,265000,Élodie P.,Référence,Vendu,2024-10-11,44,86,12,8997
+50,2025-03-30,Appartement,Montigny,111,5,Travaux,E,220000,Yanis B.,Site agence,Vendu,2025-05-06,37,109,12,9435
+51,2024-11-12,Appartement,Thionville,54,2,Bon,C,118000,Camille D.,Référence,Compromis,,,90,6,4338
+52,2024-03-18,Appartement,Montigny,39,2,À rafraîchir,B,98000,Sofia R.,Site agence,Vendu,2024-04-16,29,59,4,4143
+53,2024-02-10,Studio,Woippy,33,1,Rénové,E,72000,Sofia R.,LeBonCoin,Vendu,2024-03-17,36,65,4,2219
+54,2024-09-27,Maison,Metz,158,6,Bon,E,428000,Camille D.,Vitrine,En cours,,,93,5,16683
+55,2024-08-18,Maison,Nancy,144,6,Neuf,E,399000,Marc L.,Référence,Vendu,2024-09-28,41,56,9,16843
+56,2024-09-22,Studio,Nancy,30,1,À rafraîchir,B,77000,Sofia R.,LeBonCoin,Vendu,2024-11-02,41,66,8,2545
+57,2025-02-21,Maison,Nancy,140,5,Neuf,E,469000,Sofia R.,SeLoger,Vendu,2025-05-05,73,60,10,15675
+58,2024-08-02,Maison,Montigny,84,3,À rafraîchir,C,227000,Sofia R.,Référence,Vendu,2024-09-23,52,71,8,6293
+59,2024-03-07,Appartement,Thionville,85,4,Neuf,C,235000,Élodie P.,Site agence,Vendu,2024-05-03,57,70,13,8951
+60,2025-04-16,Appartement,Metz,108,4,Travaux,F,189000,Marc L.,Site agence,En cours,,,60,8,6801
+61,2025-03-22,Maison,Metz,158,6,À rafraîchir,A,442000,Marc L.,Site agence,Vendu,2025-05-02,41,44,3,14590
+62,2024-07-28,Maison,Metz,160,6,Rénové,D,463000,Marc L.,LeBonCoin,Retiré,,,90,13,18303
+63,2024-12-14,Maison,Metz,214,8,Rénové,F,662000,Marc L.,Référence,En cours,,,80,15,26480
+64,2025-01-01,Studio,Montigny,27,1,Rénové,B,79000,Camille D.,Référence,Vendu,2025-01-16,15,83,5,2717
+65,2024-07-13,Maison,Nancy,78,3,Rénové,D,227000,Yanis B.,LeBonCoin,Compromis,,,71,13,5991
+66,2024-03-09,Maison,Metz,169,6,À rafraîchir,E,466000,Marc L.,SeLoger,Compromis,,,72,14,15563
+67,2024-11-07,Maison,Metz,222,8,À rafraîchir,C,536000,Élodie P.,Référence,Retiré,,,58,7,14933
+68,2024-03-12,Appartement,Woippy,97,4,Bon,C,211000,Sofia R.,SeLoger,Vendu,2024-05-16,65,50,5,7359
+69,2025-05-17,Appartement,Woippy,61,3,Bon,C,131000,Marc L.,Référence,Vendu,2025-07-15,59,55,8,4467
+70,2024-02-23,Appartement,Woippy,34,1,Rénové,E,70000,Sofia R.,Vitrine,Vendu,2024-04-08,45,64,10,2558
+71,2024-12-26,Appartement,Woippy,43,2,Neuf,G,80000,Élodie P.,Site agence,Vendu,2025-02-01,37,64,3,2768
+72,2025-02-04,Appartement,Woippy,35,1,À rafraîchir,D,65000,Élodie P.,Référence,Vendu,2025-03-26,50,72,7,2399
+73,2024-03-29,Studio,Woippy,26,1,À rafraîchir,D,50000,Élodie P.,SeLoger,Vendu,2024-05-10,42,47,8,1619
+74,2024-02-27,Appartement,Woippy,79,3,À rafraîchir,D,135000,Camille D.,SeLoger,Vendu,2024-03-22,24,58,6,3495
+75,2025-03-27,Appartement,Metz,105,4,Rénové,C,353000,Sofia R.,LeBonCoin,Vendu,2025-05-28,62,69,8,14742
+76,2024-11-30,Appartement,Thionville,37,2,Neuf,D,97000,Camille D.,LeBonCoin,Vendu,2025-01-04,35,68,5,2860
+77,2025-03-11,Appartement,Montigny,45,2,Travaux,B,106000,Camille D.,SeLoger,Compromis,,,109,15,3584
+78,2025-06-18,Maison,Nancy,156,6,Travaux,A,344000,Marc L.,Vitrine,Compromis,,,88,16,12380
+79,2024-02-05,Maison,Thionville,88,3,À rafraîchir,B,197000,Élodie P.,LeBonCoin,Vendu,2024-03-20,44,67,7,6991
+80,2024-04-14,Studio,Metz,34,1,Rénové,G,99000,Yanis B.,Vitrine,Vendu,2024-06-10,57,80,13,3991
+81,2025-03-04,Maison,Nancy,90,3,Bon,D,253000,Sofia R.,SeLoger,En cours,,,92,14,6460
+82,2024-07-31,Appartement,Woippy,52,2,Neuf,B,126000,Marc L.,LeBonCoin,Vendu,2024-09-08,39,60,8,4389
+83,2024-04-30,Studio,Woippy,19,1,Bon,G,30000,Camille D.,LeBonCoin,Vendu,2024-05-23,23,73,5,1051
+84,2024-10-17,Appartement,Metz,60,2,Bon,C,163000,Camille D.,LeBonCoin,Vendu,2024-12-01,45,50,9,6923
+85,2025-05-23,Appartement,Montigny,63,3,Bon,E,159000,Camille D.,SeLoger,Vendu,2025-07-01,39,93,13,5303
+86,2024-04-03,Appartement,Woippy,95,4,Travaux,C,141000,Marc L.,Vitrine,Vendu,2024-04-23,20,79,9,4969
+87,2024-08-16,Maison,Metz,146,6,Neuf,D,551000,Camille D.,SeLoger,Compromis,,,63,3,25513
+88,2024-02-05,Maison,Montigny,146,6,À rafraîchir,E,353000,Marc L.,Référence,Vendu,2024-03-30,54,71,12,13189
+89,2025-05-31,Appartement,Montigny,96,4,Bon,D,269000,Sofia R.,Site agence,Vendu,2025-07-22,52,48,5,8417
+90,2024-12-04,Maison,Nancy,101,4,À rafraîchir,F,223000,Marc L.,LeBonCoin,En cours,,,104,20,7903
+91,2025-04-20,Appartement,Nancy,56,2,À rafraîchir,E,114000,Marc L.,Référence,Compromis,,,88,10,4368
+92,2024-10-24,Maison,Nancy,90,3,À rafraîchir,B,216000,Sofia R.,Vitrine,Vendu,2024-12-02,39,59,10,6971
+93,2024-04-07,Appartement,Nancy,57,2,Bon,D,122000,Camille D.,SeLoger,Vendu,2024-04-20,13,110,10,4547
+94,2024-05-09,Appartement,Thionville,103,4,À rafraîchir,G,184000,Sofia R.,Vitrine,Vendu,2024-07-02,54,37,7,4784
+95,2024-09-06,Appartement,Woippy,72,3,Neuf,A,148000,Yanis B.,Vitrine,Vendu,2024-09-22,16,89,12,6057
+96,2025-03-03,Maison,Woippy,106,4,À rafraîchir,G,190000,Élodie P.,Site agence,Vendu,2025-05-11,69,78,8,6950
+97,2024-10-27,Appartement,Thionville,66,3,Rénové,B,147000,Camille D.,Vitrine,En cours,,,67,12,5224
+98,2024-04-06,Appartement,Metz,87,4,À rafraîchir,C,213000,Élodie P.,Référence,Vendu,2024-05-11,35,61,10,7080
+99,2024-08-21,Appartement,Nancy,77,3,Bon,C,192000,Yanis B.,LeBonCoin,Vendu,2024-09-28,38,72,12,6134
+100,2024-01-24,Terrain,Montigny,1089,0,—,—,354000,Marc L.,Site agence,Vendu,2024-04-27,94,75,4,12929
+101,2024-04-17,Terrain,Metz,414,0,—,—,128000,Camille D.,Vitrine,Vendu,2024-06-23,67,52,7,4362
+102,2025-05-11,Maison,Metz,134,5,Rénové,E,413000,Camille D.,LeBonCoin,En cours,,,89,10,12932
+103,2025-03-04,Appartement,Montigny,48,2,Travaux,F,94000,Camille D.,Vitrine,Compromis,,,67,5,3508
+104,2025-03-31,Terrain,Montigny,633,0,—,—,194000,Camille D.,Référence,Vendu,2025-06-19,80,79,11,7769
+105,2025-04-01,Studio,Nancy,33,1,Rénové,B,108000,Camille D.,Site agence,Vendu,2025-05-13,42,55,9,3989
+106,2024-08-27,Maison,Metz,187,7,À rafraîchir,D,440000,Sofia R.,LeBonCoin,Retiré,,,85,13,15469
+107,2024-09-30,Appartement,Woippy,55,2,Bon,D,102000,Marc L.,SeLoger,Vendu,2024-10-28,28,94,15,3617
+108,2025-05-31,Appartement,Thionville,57,2,À rafraîchir,F,119000,Camille D.,Vitrine,Retiré,,,45,6,5259
+109,2025-04-16,Appartement,Nancy,80,3,Rénové,E,205000,Marc L.,Référence,Vendu,2025-05-16,30,74,7,7399
+110,2025-03-22,Terrain,Nancy,1139,0,—,—,335000,Yanis B.,SeLoger,En cours,,,50,7,11674
+111,2025-04-10,Maison,Montigny,126,5,Neuf,D,445000,Marc L.,Référence,Vendu,2025-06-09,60,44,7,15518
+112,2024-05-14,Appartement,Montigny,64,3,Rénové,A,183000,Camille D.,SeLoger,Vendu,2024-06-06,23,78,12,6944
+113,2024-04-20,Appartement,Metz,33,1,À rafraîchir,F,62000,Yanis B.,Vitrine,Vendu,2024-05-04,14,79,15,2325
+114,2024-04-26,Maison,Woippy,97,4,Neuf,B,241000,Yanis B.,SeLoger,Vendu,2024-06-18,53,91,6,8010
+115,2025-04-19,Appartement,Metz,31,1,Bon,D,78000,Sofia R.,Site agence,Vendu,2025-05-08,19,91,10,2827
+116,2024-05-14,Studio,Thionville,20,1,À rafraîchir,C,46000,Yanis B.,Référence,Vendu,2024-06-22,39,60,9,1612
+117,2024-06-09,Studio,Montigny,29,1,Bon,C,88000,Élodie P.,LeBonCoin,En cours,,,95,13,2893
+118,2025-01-03,Maison,Nancy,178,7,Neuf,D,541000,Yanis B.,Référence,Vendu,2025-02-16,44,85,9,26097
+119,2025-02-13,Appartement,Woippy,68,3,Bon,D,143000,Élodie P.,Site agence,Vendu,2025-04-09,55,47,6,4650
+120,2024-09-17,Maison,Metz,153,6,Travaux,D,394000,Camille D.,LeBonCoin,Vendu,2024-11-28,72,43,3,16178
+121,2025-02-18,Maison,Montigny,139,5,À rafraîchir,A,378000,Camille D.,Référence,Vendu,2025-04-06,47,64,4,13926
+122,2025-02-13,Maison,Nancy,136,5,Rénové,F,358000,Élodie P.,Référence,En cours,,,72,12,10450
+123,2024-05-23,Appartement,Thionville,58,2,Bon,G,114000,Sofia R.,Vitrine,Compromis,,,75,10,3257
+124,2025-03-24,Appartement,Nancy,61,3,Bon,D,171000,Camille D.,Référence,Vendu,2025-05-18,55,62,10,6366
+125,2024-09-30,Appartement,Thionville,35,1,Bon,D,86000,Sofia R.,LeBonCoin,Retiré,,,52,5,3186
+126,2024-05-04,Maison,Montigny,141,5,À rafraîchir,D,353000,Élodie P.,Référence,En cours,,,83,6,13388
+127,2024-11-10,Appartement,Thionville,28,1,Neuf,F,67000,Sofia R.,Vitrine,Vendu,2024-12-17,37,80,9,2858
+128,2024-04-08,Appartement,Thionville,39,2,Travaux,D,71000,Camille D.,SeLoger,En cours,,,84,12,2452
+129,2024-06-12,Appartement,Woippy,104,4,Bon,C,180000,Marc L.,SeLoger,Vendu,2024-07-05,23,100,15,6733
+130,2025-02-22,Maison,Montigny,168,6,À rafraîchir,E,439000,Camille D.,LeBonCoin,Retiré,,,55,7,12457
+131,2024-08-12,Appartement,Woippy,78,3,Rénové,F,141000,Sofia R.,Vitrine,Vendu,2024-09-19,38,83,4,5566
+132,2025-06-06,Terrain,Montigny,930,0,—,—,288000,Camille D.,Site agence,Vendu,2025-08-26,81,77,4,7295
+133,2024-11-04,Maison,Woippy,137,5,Rénové,E,277000,Sofia R.,Référence,Vendu,2024-12-17,43,47,5,10188
+134,2024-07-19,Appartement,Woippy,39,2,Rénové,C,83000,Élodie P.,Vitrine,En cours,,,60,9,2623
+135,2024-05-12,Maison,Thionville,207,8,Bon,F,434000,Yanis B.,Site agence,Vendu,2024-06-28,47,38,2,12928
+136,2024-09-14,Appartement,Woippy,55,2,À rafraîchir,C,86000,Élodie P.,Vitrine,Vendu,2024-09-28,14,82,14,3494
+137,2025-04-21,Terrain,Nancy,585,0,—,—,168000,Sofia R.,Référence,Vendu,2025-06-30,70,71,10,6542
+138,2024-08-12,Maison,Montigny,141,5,Bon,C,414000,Yanis B.,LeBonCoin,Compromis,,,97,10,16593
+139,2024-09-04,Studio,Montigny,16,1,Bon,F,42000,Yanis B.,Référence,Vendu,2024-10-08,34,60,3,1587
+140,2025-02-25,Appartement,Woippy,92,4,Travaux,A,164000,Sofia R.,Site agence,En cours,,,69,6,6267
+141,2024-01-26,Maison,Nancy,227,8,Bon,D,597000,Camille D.,Vitrine,Vendu,2024-03-14,48,87,4,19436
+142,2025-06-10,Maison,Montigny,147,6,Bon,B,448000,Yanis B.,SeLoger,Vendu,2025-08-02,53,61,6,17430
+143,2024-09-29,Terrain,Woippy,1087,0,—,—,207000,Marc L.,SeLoger,Vendu,2024-11-23,55,86,15,7829
+144,2024-06-13,Maison,Woippy,100,4,Neuf,D,261000,Sofia R.,Référence,Vendu,2024-08-10,58,83,12,9965
+145,2024-09-09,Maison,Montigny,185,7,Bon,F,490000,Sofia R.,SeLoger,Vendu,2024-11-10,62,70,7,19633
+146,2025-02-06,Appartement,Montigny,111,5,Rénové,F,273000,Yanis B.,Vitrine,En cours,,,46,7,8908
+147,2024-10-07,Appartement,Montigny,74,3,Bon,C,213000,Élodie P.,LeBonCoin,Vendu,2024-11-27,51,75,6,7589
+148,2024-01-21,Maison,Thionville,114,4,Rénové,C,301000,Marc L.,LeBonCoin,En cours,,,72,7,10035
+149,2025-02-11,Appartement,Thionville,47,2,Travaux,F,75000,Yanis B.,Vitrine,Vendu,2025-03-19,36,62,10,2834
+150,2025-02-17,Appartement,Montigny,42,2,À rafraîchir,C,98000,Camille D.,LeBonCoin,En cours,,,48,9,3727
+151,2025-02-19,Studio,Nancy,28,1,À rafraîchir,D,63000,Élodie P.,LeBonCoin,En cours,,,64,5,2429
+152,2024-08-01,Studio,Thionville,24,1,Bon,F,52000,Yanis B.,SeLoger,Compromis,,,74,8,2039
+153,2024-09-28,Appartement,Metz,69,3,Rénové,C,202000,Camille D.,Site agence,Vendu,2024-11-02,35,90,7,9363
+154,2024-03-20,Maison,Montigny,204,8,Bon,B,612000,Élodie P.,LeBonCoin,En cours,,,89,7,21831
+155,2024-02-04,Appartement,Nancy,61,3,Bon,F,135000,Marc L.,Vitrine,Vendu,2024-03-11,36,72,10,4538
+156,2024-06-24,Maison,Nancy,99,4,Bon,E,249000,Marc L.,Vitrine,Vendu,2024-08-03,40,60,11,9790
+157,2024-02-19,Appartement,Nancy,95,4,Rénové,F,217000,Marc L.,LeBonCoin,Vendu,2024-03-17,27,62,7,7769
+158,2025-01-15,Maison,Montigny,110,4,Neuf,A,386000,Élodie P.,Site agence,Vendu,2025-03-13,57,77,4,12734
+159,2024-06-23,Maison,Montigny,91,4,Bon,D,282000,Yanis B.,Référence,Compromis,,,54,5,10476
+160,2024-12-04,Studio,Metz,19,1,Bon,C,56000,Marc L.,SeLoger,Vendu,2024-12-31,27,75,10,2314
+161,2024-02-04,Appartement,Metz,108,4,Bon,E,299000,Camille D.,LeBonCoin,En cours,,,87,5,10027
+162,2025-01-25,Terrain,Thionville,327,0,—,—,73000,Sofia R.,Vitrine,Vendu,2025-03-27,61,66,10,2469
+163,2024-04-28,Appartement,Metz,36,2,À rafraîchir,E,90000,Marc L.,Référence,Compromis,,,53,5,3900
+164,2025-02-15,Appartement,Thionville,71,3,Rénové,C,187000,Yanis B.,LeBonCoin,Vendu,2025-04-07,51,45,4,7287
+165,2024-01-06,Maison,Metz,76,3,À rafraîchir,G,175000,Yanis B.,SeLoger,Vendu,2024-02-29,54,36,4,5647
+166,2025-04-28,Appartement,Montigny,53,2,Travaux,B,120000,Camille D.,Site agence,Vendu,2025-06-07,40,78,7,4732
+167,2024-01-21,Studio,Woippy,25,1,Neuf,D,64000,Camille D.,LeBonCoin,Retiré,,,70,13,2041
+168,2024-11-09,Studio,Metz,26,1,Bon,F,71000,Sofia R.,SeLoger,Vendu,2024-12-19,40,76,13,3274
+169,2024-02-09,Appartement,Thionville,56,2,À rafraîchir,C,123000,Marc L.,LeBonCoin,Vendu,2024-04-08,59,105,18,4301
+170,2024-05-08,Terrain,Woippy,948,0,—,—,193000,Élodie P.,Vitrine,Vendu,2024-07-23,76,66,8,7151
+171,2024-01-31,Appartement,Montigny,78,3,Bon,F,191000,Marc L.,SeLoger,Vendu,2024-03-19,48,65,7,8774
+172,2024-06-15,Maison,Nancy,122,5,Rénové,C,381000,Sofia R.,Site agence,En cours,,,36,5,14355
+173,2024-03-24,Appartement,Woippy,36,2,Neuf,A,89000,Élodie P.,SeLoger,Vendu,2024-05-17,54,84,13,3593
+174,2024-01-09,Terrain,Nancy,783,0,—,—,248000,Marc L.,SeLoger,Vendu,2024-04-03,85,65,5,10666
+175,2025-02-09,Appartement,Thionville,47,2,À rafraîchir,F,72000,Sofia R.,Site agence,Vendu,2025-02-22,13,86,8,3117
+176,2024-10-17,Appartement,Woippy,71,3,Bon,B,157000,Camille D.,LeBonCoin,Vendu,2024-12-08,52,54,10,5118
+177,2025-04-29,Appartement,Thionville,101,4,À rafraîchir,B,197000,Élodie P.,Site agence,Retiré,,,75,12,7073
+178,2025-01-11,Terrain,Woippy,1126,0,—,—,226000,Marc L.,Vitrine,Vendu,2025-03-16,64,84,9,8321
+179,2024-10-18,Studio,Montigny,19,1,Bon,D,53000,Marc L.,Site agence,Compromis,,,71,9,2086
+180,2025-03-01,Maison,Thionville,173,7,Bon,D,383000,Sofia R.,Site agence,Vendu,2025-04-02,32,79,10,10537
+181,2024-05-01,Studio,Nancy,17,1,À rafraîchir,F,41000,Camille D.,Site agence,Vendu,2024-06-18,48,56,6,1135
+182,2024-01-30,Studio,Nancy,25,1,Rénové,C,85000,Marc L.,Référence,Vendu,2024-03-28,58,62,5,2627
+183,2025-02-20,Maison,Metz,131,5,À rafraîchir,B,327000,Élodie P.,Vitrine,Retiré,,,64,7,13401
+184,2024-10-25,Appartement,Woippy,85,4,Rénové,F,190000,Yanis B.,Référence,Vendu,2025-01-03,70,54,10,7653
+185,2025-05-19,Studio,Woippy,17,1,Bon,E,37000,Marc L.,Vitrine,Vendu,2025-07-02,44,40,2,1183
+186,2024-10-23,Maison,Nancy,106,4,Rénové,B,361000,Élodie P.,Vitrine,Vendu,2025-01-02,71,66,12,12731
+187,2024-12-06,Appartement,Metz,111,5,Bon,E,305000,Camille D.,Référence,Vendu,2025-01-23,48,96,13,11550
+188,2024-10-01,Appartement,Nancy,99,4,Bon,C,249000,Élodie P.,Référence,Retiré,,,84,6,9976
+189,2024-12-13,Maison,Montigny,150,6,Travaux,C,381000,Élodie P.,Site agence,Vendu,2025-02-21,70,70,8,14835
+190,2024-10-06,Appartement,Thionville,38,2,Bon,D,81000,Yanis B.,SeLoger,Vendu,2024-11-15,40,77,15,3037
+191,2024-10-21,Terrain,Thionville,602,0,—,—,132000,Marc L.,LeBonCoin,Vendu,2024-12-17,57,105,7,5171
+192,2024-04-17,Appartement,Nancy,59,2,Neuf,D,182000,Yanis B.,Vitrine,Vendu,2024-06-06,50,84,9,6912
+193,2024-06-10,Appartement,Thionville,103,4,Travaux,B,195000,Sofia R.,SeLoger,Vendu,2024-07-30,50,76,8,6965
+194,2024-03-21,Studio,Thionville,30,1,Bon,C,75000,Marc L.,Site agence,Vendu,2024-04-22,32,68,11,2149
+195,2024-04-18,Appartement,Metz,39,2,À rafraîchir,F,90000,Élodie P.,SeLoger,Vendu,2024-06-01,44,90,7,3738
+196,2024-07-05,Appartement,Metz,90,4,Rénové,C,283000,Camille D.,SeLoger,Vendu,2024-08-29,55,72,10,10903
+197,2025-03-19,Maison,Nancy,103,4,Rénové,E,292000,Marc L.,Site agence,Vendu,2025-05-10,52,79,7,10901
+198,2025-03-31,Studio,Woippy,31,1,Travaux,D,55000,Sofia R.,SeLoger,Vendu,2025-05-05,35,56,10,2098
+199,2025-03-28,Appartement,Montigny,95,4,Bon,D,270000,Yanis B.,SeLoger,Vendu,2025-05-17,50,52,9,10883
+200,2024-08-30,Appartement,Nancy,54,2,Bon,D,129000,Camille D.,Référence,Vendu,2024-09-30,31,88,15,5628
+201,2024-03-26,Studio,Thionville,31,1,Bon,C,82000,Camille D.,Vitrine,Vendu,2024-05-24,59,54,4,3064
+202,2025-06-15,Terrain,Nancy,473,0,—,—,154000,Yanis B.,SeLoger,Vendu,2025-09-16,93,63,11,5338
+203,2025-01-17,Maison,Metz,200,8,Bon,F,584000,Marc L.,Référence,Vendu,2025-03-28,70,69,13,19138
+204,2024-05-04,Appartement,Woippy,30,1,Bon,G,51000,Yanis B.,SeLoger,Vendu,2024-06-11,38,68,11,1681
+205,2025-02-26,Appartement,Montigny,50,2,Rénové,D,141000,Sofia R.,Référence,Vendu,2025-04-03,36,63,8,6027
+206,2024-10-13,Appartement,Montigny,98,4,À rafraîchir,D,202000,Sofia R.,Site agence,Vendu,2024-11-01,19,97,15,8278
+207,2024-09-25,Appartement,Metz,96,4,Neuf,C,265000,Élodie P.,Vitrine,Vendu,2024-10-04,9,64,11,9417
+208,2024-10-10,Maison,Montigny,178,7,Bon,F,480000,Camille D.,Site agence,Vendu,2024-12-06,57,80,15,18165
+209,2024-03-30,Appartement,Metz,99,4,À rafraîchir,F,228000,Camille D.,Référence,Vendu,2024-05-17,48,51,7,8498
+210,2024-02-28,Maison,Montigny,88,3,Bon,C,231000,Sofia R.,Référence,Vendu,2024-03-30,31,70,9,7711
+211,2025-02-02,Maison,Montigny,82,3,Travaux,F,168000,Marc L.,Vitrine,Vendu,2025-03-20,46,67,10,6058
+212,2024-11-17,Maison,Metz,79,3,Rénové,C,285000,Marc L.,Vitrine,Vendu,2025-01-26,70,83,6,10355
+213,2024-01-19,Appartement,Nancy,64,3,Bon,C,177000,Yanis B.,LeBonCoin,Vendu,2024-03-06,47,77,7,7080
+214,2025-02-02,Studio,Woippy,34,1,Bon,C,69000,Marc L.,Vitrine,Vendu,2025-02-19,17,101,11,2765
+215,2024-12-16,Maison,Thionville,173,7,Rénové,D,458000,Yanis B.,Référence,Compromis,,,62,7,15094
+216,2024-05-07,Maison,Thionville,164,6,Neuf,E,426000,Sofia R.,Site agence,Vendu,2024-06-27,51,63,10,18283
+217,2024-08-21,Appartement,Nancy,68,3,À rafraîchir,D,159000,Élodie P.,LeBonCoin,Vendu,2024-10-05,45,78,5,5718
+218,2025-05-15,Appartement,Woippy,85,4,Neuf,E,158000,Camille D.,SeLoger,Vendu,2025-06-01,17,59,4,5616
+219,2024-03-30,Terrain,Nancy,368,0,—,—,99000,Sofia R.,LeBonCoin,Vendu,2024-06-03,65,89,11,3053
+220,2024-03-11,Appartement,Montigny,63,3,Rénové,G,173000,Sofia R.,Référence,Vendu,2024-05-05,55,101,6,7080
+221,2024-07-27,Appartement,Woippy,77,3,Travaux,B,136000,Sofia R.,LeBonCoin,Compromis,,,68,10,5628
+222,2025-01-14,Maison,Montigny,161,6,Rénové,D,521000,Marc L.,Vitrine,En cours,,,83,6,22259
+223,2025-06-21,Maison,Woippy,184,7,Neuf,B,449000,Sofia R.,SeLoger,En cours,,,60,8,17750
+224,2024-11-16,Terrain,Montigny,739,0,—,—,230000,Yanis B.,Référence,Vendu,2025-02-18,94,70,10,6814
+225,2024-01-09,Appartement,Thionville,108,4,Travaux,C,183000,Sofia R.,Site agence,Vendu,2024-02-07,29,80,9,7425
+226,2024-03-26,Terrain,Metz,1134,0,—,—,376000,Camille D.,Référence,Compromis,,,71,13,13412
+227,2024-05-15,Appartement,Thionville,74,3,Travaux,E,119000,Marc L.,Référence,Vendu,2024-06-09,25,89,7,3992
+228,2024-04-11,Maison,Woippy,162,6,Bon,E,326000,Camille D.,Site agence,En cours,,,88,11,10498
+229,2025-04-16,Maison,Thionville,185,7,Bon,C,500000,Élodie P.,SeLoger,Vendu,2025-07-09,84,91,7,20324
+230,2025-03-02,Appartement,Woippy,46,2,À rafraîchir,C,88000,Élodie P.,Vitrine,Vendu,2025-04-22,51,48,7,2993
+231,2024-11-16,Appartement,Thionville,82,3,Rénové,E,204000,Yanis B.,Site agence,Vendu,2025-01-10,55,54,3,8580
+232,2025-02-14,Appartement,Nancy,55,2,Bon,C,148000,Sofia R.,Référence,En cours,,,86,5,5923
+233,2024-09-13,Terrain,Nancy,813,0,—,—,227000,Camille D.,Site agence,Vendu,2024-11-21,69,77,6,10170
+234,2024-02-07,Maison,Thionville,197,8,Rénové,C,556000,Sofia R.,Site agence,Vendu,2024-04-13,66,96,4,22858
+235,2025-02-16,Terrain,Woippy,890,0,—,—,191000,Marc L.,Vitrine,Vendu,2025-05-07,80,68,12,8824
+236,2025-02-25,Studio,Montigny,17,1,Bon,D,54000,Élodie P.,SeLoger,Vendu,2025-04-19,53,89,8,2297
+237,2024-07-22,Maison,Metz,212,8,Bon,D,559000,Camille D.,Vitrine,Vendu,2024-09-08,48,89,4,23476
+238,2025-05-03,Studio,Montigny,29,1,Bon,D,89000,Marc L.,Site agence,Compromis,,,63,5,4133
+239,2024-06-21,Appartement,Nancy,100,4,Rénové,D,286000,Élodie P.,LeBonCoin,Vendu,2024-08-15,55,36,7,12299
+240,2024-05-20,Appartement,Nancy,56,2,Rénové,G,115000,Camille D.,Site agence,En cours,,,65,10,4209
+241,2024-04-12,Studio,Montigny,22,1,Travaux,C,51000,Sofia R.,Site agence,En cours,,,59,8,2144
+242,2024-05-27,Studio,Metz,19,1,Rénové,B,67000,Marc L.,SeLoger,Vendu,2024-07-12,46,91,7,2229
+243,2025-05-23,Appartement,Nancy,82,3,Bon,F,174000,Sofia R.,LeBonCoin,Vendu,2025-06-21,29,92,15,8158
+244,2024-06-14,Maison,Metz,130,5,Rénové,G,332000,Camille D.,Vitrine,Vendu,2024-07-29,45,78,12,13307
+245,2024-11-19,Maison,Nancy,70,3,Bon,B,199000,Sofia R.,Référence,Vendu,2024-12-29,40,77,4,6988
+246,2024-03-20,Studio,Thionville,34,1,À rafraîchir,D,69000,Marc L.,Vitrine,Vendu,2024-04-20,31,63,3,2240
+247,2025-06-13,Maison,Thionville,184,7,Bon,A,490000,Yanis B.,Vitrine,Retiré,,,84,4,18218
+248,2024-04-05,Appartement,Thionville,99,4,Neuf,B,289000,Marc L.,LeBonCoin,Retiré,,,76,5,11559
+249,2025-01-12,Appartement,Thionville,49,2,Bon,D,114000,Sofia R.,Site agence,Compromis,,,77,5,4472
+250,2024-12-16,Appartement,Nancy,99,4,Travaux,D,196000,Camille D.,Site agence,Vendu,2025-01-22,37,63,4,8244
+251,2024-03-22,Maison,Woippy,165,6,À rafraîchir,C,310000,Camille D.,Site agence,Vendu,2024-05-11,50,66,6,12506
+252,2025-03-11,Studio,Nancy,29,1,Bon,C,79000,Marc L.,LeBonCoin,Vendu,2025-04-10,30,60,4,2840
+253,2025-05-28,Maison,Montigny,91,4,Rénové,C,282000,Camille D.,LeBonCoin,Vendu,2025-07-12,45,61,11,9399
+254,2025-03-08,Appartement,Woippy,54,2,À rafraîchir,D,83000,Marc L.,Vitrine,Vendu,2025-03-30,22,82,10,3197
+255,2024-11-01,Appartement,Metz,99,4,Neuf,B,302000,Sofia R.,LeBonCoin,Vendu,2024-11-25,24,70,7,9456
+256,2024-03-18,Maison,Woippy,223,8,Travaux,D,356000,Sofia R.,SeLoger,Vendu,2024-05-11,54,66,11,14829
+257,2024-12-24,Studio,Metz,22,1,Neuf,C,82000,Camille D.,LeBonCoin,Vendu,2025-02-07,45,68,9,3265
+258,2025-01-23,Appartement,Metz,68,3,Bon,D,201000,Camille D.,LeBonCoin,Vendu,2025-03-23,59,69,8,5954
+259,2024-05-19,Appartement,Metz,69,3,Travaux,E,152000,Camille D.,Vitrine,Vendu,2024-06-28,40,62,8,4970
+260,2024-11-28,Maison,Woippy,157,6,Rénové,B,343000,Marc L.,LeBonCoin,En cours,,,93,5,13047
+261,2025-03-07,Appartement,Woippy,98,4,Bon,F,172000,Camille D.,Vitrine,Retiré,,,88,11,5397
+262,2024-05-12,Studio,Montigny,21,1,Bon,C,60000,Yanis B.,Vitrine,Vendu,2024-06-12,31,57,7,2607
+263,2024-09-29,Appartement,Nancy,44,2,Bon,E,115000,Sofia R.,LeBonCoin,En cours,,,62,6,4081
+264,2024-09-25,Appartement,Woippy,30,1,Bon,D,67000,Camille D.,Référence,Retiré,,,76,11,2829
+265,2024-06-20,Terrain,Nancy,369,0,—,—,108000,Camille D.,Vitrine,Vendu,2024-08-28,69,70,4,3782
+266,2024-03-31,Appartement,Montigny,104,4,Bon,D,274000,Camille D.,Vitrine,Vendu,2024-05-14,44,102,19,11208
+267,2024-04-21,Appartement,Montigny,86,4,Bon,D,219000,Marc L.,Vitrine,Vendu,2024-05-27,36,71,5,9056
+268,2025-05-13,Appartement,Thionville,49,2,Neuf,B,128000,Sofia R.,Vitrine,Vendu,2025-06-18,36,84,14,4881
+269,2024-10-06,Appartement,Metz,99,4,Rénové,D,252000,Sofia R.,LeBonCoin,Compromis,,,73,5,9040
+270,2024-11-30,Appartement,Montigny,82,3,À rafraîchir,B,228000,Marc L.,LeBonCoin,Vendu,2025-02-03,65,42,6,8670
+271,2025-04-17,Appartement,Nancy,87,4,Travaux,F,147000,Camille D.,SeLoger,Vendu,2025-05-15,28,34,2,6180
+272,2024-01-07,Appartement,Woippy,67,3,Bon,C,125000,Camille D.,Site agence,Vendu,2024-02-06,30,56,10,4483
+273,2025-03-18,Appartement,Thionville,51,2,Bon,D,113000,Camille D.,Vitrine,Vendu,2025-04-23,36,81,13,3745
+274,2024-09-01,Maison,Metz,197,8,À rafraîchir,A,575000,Marc L.,Référence,En cours,,,69,11,17712
+275,2024-08-25,Maison,Montigny,225,8,Bon,D,644000,Camille D.,Vitrine,Vendu,2024-10-19,55,65,11,22555
+276,2025-01-15,Appartement,Nancy,52,2,À rafraîchir,D,123000,Élodie P.,LeBonCoin,Vendu,2025-03-13,57,76,9,3791
+277,2024-03-13,Appartement,Woippy,74,3,À rafraîchir,E,125000,Marc L.,LeBonCoin,Vendu,2024-04-23,41,85,9,5239
+278,2024-11-02,Maison,Thionville,185,7,Bon,F,399000,Marc L.,Vitrine,Vendu,2024-12-31,59,98,15,12201
+279,2024-11-25,Studio,Montigny,33,1,Rénové,D,102000,Yanis B.,SeLoger,Vendu,2024-12-29,34,100,6,3793
+280,2024-03-26,Studio,Woippy,24,1,À rafraîchir,D,44000,Marc L.,Site agence,Vendu,2024-04-23,28,50,3,1970

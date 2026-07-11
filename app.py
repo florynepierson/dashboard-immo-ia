@@ -48,7 +48,7 @@ st.markdown("""
 
 # ---------- Données ----------
 @st.cache_data
-def load(_schema="v2-nom"):  # bump _schema to invalidate the cache when the CSV columns change
+def load(_schema="v3-criteres"):  # bump _schema to invalidate the cache when the CSV columns change
     biens = pd.read_csv(os.path.join(DATA, "biens.csv"))
     leads = pd.read_csv(os.path.join(DATA, "leads.csv"))
     for c in ["prix", "commission", "surface_m2", "nb_vues", "nb_contacts", "delai_vente_jours"]:
@@ -78,7 +78,7 @@ def train_lead_model(leads):
 
 @st.cache_resource
 def train_delai_model(biens):
-    s = biens[biens["statut"] == "Vendu"].dropna(subset=["delai_vente_jours"]).copy()
+    s = biens[(biens["statut"] == "Vendu") & (biens["type"] != "Terrain")].dropna(subset=["delai_vente_jours"]).copy()
     s["prix_m2"] = s["prix"] / s["surface_m2"]
     ref = s.groupby("ville")["prix_m2"].median()                 # prix médian au m² par ville
     s["sur_eval"] = s["prix_m2"] / s["ville"].map(ref)           # >1 = surévalué / <1 = sous-évalué
@@ -97,8 +97,8 @@ def train_prix_model(biens):
     # AVM (estimation par comparaison, automatisée) : prix ~ surface + ville, sur le BÂTI
     # (on écarte les terrains : leur m² n'a rien à voir avec celui d'un logement).
     s = biens[biens["type"] != "Terrain"].dropna(subset=["prix", "surface_m2"]).copy()
-    feats = ["surface_m2", "ville"]
-    X = pd.get_dummies(s[feats], columns=["ville"], drop_first=True)
+    feats = ["surface_m2", "nb_pieces", "type", "etat", "dpe", "ville"]
+    X = pd.get_dummies(s[feats], columns=["type", "etat", "dpe", "ville"], drop_first=True)
     y = s["prix"]
     Xtr, Xte, ytr, yte = train_test_split(X, y, test_size=0.25, random_state=42)
     m = LinearRegression().fit(Xtr, ytr)
@@ -120,9 +120,9 @@ def predict_delai(prix, surface, ville):
     row = pd.get_dummies(row, columns=["ville"]).reindex(columns=delai_cols, fill_value=0)
     return max(1, int(delai_model.predict(row)[0]))
 
-def predict_prix(surface, ville):
-    row = pd.DataFrame([{"surface_m2": surface, "ville": ville}])
-    row = pd.get_dummies(row, columns=["ville"]).reindex(columns=prix_cols, fill_value=0)
+def predict_prix(surface, pieces, typ, etat, dpe, ville):
+    row = pd.DataFrame([{"surface_m2": surface, "nb_pieces": pieces, "type": typ, "etat": etat, "dpe": dpe, "ville": ville}])
+    row = pd.get_dummies(row, columns=["type", "etat", "dpe", "ville"]).reindex(columns=prix_cols, fill_value=0)
     return max(0.0, float(prix_model.predict(row)[0]))
 
 def forecast_ca(y):
@@ -331,14 +331,20 @@ with tab2:
 
     st.divider()
     st.subheader("💶 Estimation de prix — à combien mettre le bien en vente ?")
-    st.caption(f"Fiabilité : erreur moyenne **± {prix_mae:,.0f} €** sur données de test (R² {prix_r2:.2f}). *(Régression sur la surface et la ville — une estimation par comparaison, automatisée.)*".replace(",", " "))
-    e1, e2 = st.columns(2)
-    es = e1.number_input("Surface (m²)", 15, 400, 70, 5, key="prix_surf")
-    ev = e2.selectbox("Ville", sorted(biens["ville"].unique()), key="prix_ville")
-    pest = predict_prix(es, ev)
+    st.caption(f"Fiabilité : erreur moyenne **± {prix_mae:,.0f} €** sur données de test (R² {prix_r2:.2f}). *(Régression sur surface, type, nb de pièces, état et DPE — par ville. Une estimation par comparaison, automatisée.)*".replace(",", " "))
+    TYPES_BATI = [t for t in ["Studio", "Appartement", "Maison"] if t in biens["type"].unique()]
+    e1, e2, e3 = st.columns(3)
+    etype = e1.selectbox("Type de bien", TYPES_BATI, index=min(1, len(TYPES_BATI) - 1), key="prix_type")
+    es = e2.number_input("Surface (m²)", 15, 400, 70, 5, key="prix_surf")
+    epieces = e3.number_input("Nb de pièces", 1, 10, 3, 1, key="prix_pieces")
+    e4, e5, e6 = st.columns(3)
+    eetat = e4.selectbox("État", ["Neuf", "Rénové", "Bon", "À rafraîchir", "Travaux"], index=2, key="prix_etat")
+    edpe = e5.selectbox("DPE (étiquette énergie)", ["A", "B", "C", "D", "E", "F", "G"], index=3, key="prix_dpe")
+    ev = e6.selectbox("Ville", sorted(biens["ville"].unique()), key="prix_ville")
+    pest = predict_prix(es, epieces, etype, eetat, edpe, ev)
     st.metric("Prix estimé", f"{pest:,.0f} €".replace(",", " "), help=f"± {prix_mae:,.0f} €".replace(",", " "))
     st.caption(f"Fourchette réaliste : **{pest - prix_mae:,.0f} € – {pest + prix_mae:,.0f} €** · soit environ **{pest / max(1, es):,.0f} €/m²**.".replace(",", " "))
-    st.info("Estimation pour un bien **bâti** (appartement / maison), basée sur la **surface** et la **ville** — les deux facteurs qui pèsent le plus. À affiner avec l'état, l'étage, l'exposition, les travaux, la vue. C'est une **aide à l'estimation**, pas une expertise.")
+    st.info("Estimation pour un bien **bâti**, basée sur **surface · type · nb de pièces · état · DPE · ville**. Avec les données réelles d'une agence, on ajouterait aussi l'étage, l'exposition, l'extérieur, la vue. C'est une **aide à l'estimation**, pas une expertise.")
 
     st.divider()
     st.subheader("⏱️ Délai de vente estimé — pour fixer le prix")
