@@ -20,6 +20,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "donnees")
 st.set_page_config(page_title="Agence Immo — Dashboard IA", page_icon="🏡", layout="wide")
 
+# Palette catégorielle chaude (accordée au site : or, olive, terracotta, tan…)
+PALETTE = ["#98723f", "#b0895a", "#6f8f5f", "#b5674d", "#c9b48f", "#8a8072", "#5b7f80"]
+
 st.markdown("""
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap');
@@ -217,15 +220,15 @@ with tab1:
         st.caption("Comparé au repère marché — au-dessus = biens qui traînent (souvent surévalués).")
         dvv = vendus.groupby("ville")["delai_vente_jours"].mean().reset_index().sort_values("delai_vente_jours")
         figd = px.bar(dvv, x="delai_vente_jours", y="ville", orientation="h",
-                      color_discrete_sequence=["#b0895a"], labels={"delai_vente_jours": "jours", "ville": ""})
+                      color="ville", color_discrete_sequence=PALETTE, labels={"delai_vente_jours": "jours", "ville": ""})
         figd.add_vline(x=MKT_DELAI, line_dash="dash", line_color="#b6ac9c", annotation_text="marché ~85 j", annotation_position="top")
-        figd.update_layout(height=280, margin=dict(t=10, b=0, l=0, r=0))
+        figd.update_layout(height=280, margin=dict(t=10, b=0, l=0, r=0), showlegend=False)
         st.plotly_chart(figd, use_container_width=True)
     a2, b2 = st.columns(2)
     with a2:
         st.subheader("Commissions par agent")
         ag = vendus.groupby("agent")["commission"].sum().reset_index().sort_values("commission")
-        st.plotly_chart(px.bar(ag, x="commission", y="agent", orientation="h", color_discrete_sequence=["#98723f"]).update_layout(height=260, margin=dict(t=10, b=0, l=0, r=0)), use_container_width=True)
+        st.plotly_chart(px.bar(ag, x="commission", y="agent", orientation="h", color="agent", color_discrete_sequence=PALETTE).update_layout(height=260, margin=dict(t=10, b=0, l=0, r=0), showlegend=False), use_container_width=True)
     with b2:
         st.subheader("Portefeuille par statut")
         stt = fb.groupby("statut").size().reset_index(name="n")

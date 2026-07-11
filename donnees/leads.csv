@@ -1,701 +1,701 @@
-id_lead,date,source,ville,budget,type_recherche,agent,temps_reponse_h,nb_relances,statut,converti
-1,2024-09-29,Site agence,Thionville,300000,Appartement,Sofia R.,10.2,4,Gagné,1
-2,2025-01-21,SeLoger,Nancy,150000,Appartement,Yanis B.,2.4,0,Nouveau,0
-3,2025-01-27,Vitrine,Montigny,120000,Terrain,Camille D.,67.0,0,Perdu,0
-4,2024-08-11,SeLoger,Woippy,300000,Maison,Élodie P.,4.9,2,Perdu,0
-5,2024-03-18,LeBonCoin,Montigny,180000,Terrain,Yanis B.,4.5,4,Gagné,1
-6,2024-03-03,Référence,Woippy,420000,Studio,Élodie P.,0.5,2,Gagné,1
-7,2024-01-05,Vitrine,Metz,180000,Appartement,Élodie P.,43.1,4,Gagné,1
-8,2025-06-22,Référence,Thionville,260000,Maison,Yanis B.,18.0,3,Gagné,1
-9,2024-01-02,SeLoger,Metz,420000,Studio,Marc L.,0.5,0,Perdu,0
-10,2024-10-30,SeLoger,Metz,180000,Appartement,Sofia R.,0.4,4,Gagné,1
-11,2024-11-17,LeBonCoin,Nancy,150000,Maison,Yanis B.,51.7,4,Perdu,0
-12,2024-05-08,SeLoger,Nancy,180000,Appartement,Sofia R.,90.0,1,Perdu,0
-13,2024-08-09,SeLoger,Thionville,120000,Maison,Marc L.,29.3,2,Gagné,1
-14,2024-09-01,Site agence,Nancy,260000,Appartement,Camille D.,0.4,0,Perdu,0
-15,2024-09-06,LeBonCoin,Thionville,350000,Appartement,Yanis B.,4.5,1,Perdu,0
-16,2024-05-07,LeBonCoin,Thionville,150000,Appartement,Marc L.,22.8,0,Perdu,0
-17,2025-02-03,Vitrine,Nancy,420000,Appartement,Camille D.,5.2,1,Gagné,1
-18,2024-12-20,Référence,Montigny,350000,Studio,Yanis B.,1.3,0,Gagné,1
-19,2024-01-25,Site agence,Montigny,260000,Appartement,Yanis B.,56.6,3,Gagné,1
-20,2025-05-15,Référence,Nancy,220000,Studio,Marc L.,21.8,0,Gagné,1
-21,2025-04-29,LeBonCoin,Nancy,350000,Appartement,Élodie P.,9.2,2,Gagné,1
-22,2024-03-06,Vitrine,Montigny,180000,Maison,Yanis B.,0.9,0,Perdu,0
-23,2024-03-28,Référence,Woippy,120000,Maison,Marc L.,1.0,3,Gagné,1
-24,2024-03-05,SeLoger,Montigny,350000,Appartement,Élodie P.,0.8,0,Qualifié,0
-25,2024-06-12,Référence,Montigny,120000,Maison,Yanis B.,0.4,3,Gagné,1
-26,2024-03-09,SeLoger,Metz,300000,Appartement,Yanis B.,57.9,4,Gagné,1
-27,2024-08-05,SeLoger,Metz,350000,Appartement,Yanis B.,2.2,2,Gagné,1
-28,2024-07-09,Site agence,Montigny,260000,Appartement,Yanis B.,9.2,2,Gagné,1
-29,2024-12-20,SeLoger,Montigny,260000,Maison,Yanis B.,0.4,0,Nouveau,0
-30,2024-09-04,SeLoger,Nancy,180000,Studio,Yanis B.,62.2,2,Perdu,0
-31,2024-09-05,Site agence,Montigny,150000,Maison,Marc L.,51.0,2,Gagné,1
-32,2024-06-19,Site agence,Nancy,220000,Maison,Élodie P.,18.5,1,Perdu,0
-33,2024-02-06,Site agence,Montigny,220000,Studio,Camille D.,6.2,3,Gagné,1
-34,2024-10-27,SeLoger,Woippy,420000,Maison,Yanis B.,58.1,4,Gagné,1
-35,2024-10-12,Référence,Metz,150000,Appartement,Élodie P.,2.0,1,Gagné,1
-36,2025-05-06,LeBonCoin,Nancy,420000,Appartement,Élodie P.,3.5,0,Visite,0
-37,2024-10-02,LeBonCoin,Nancy,300000,Appartement,Yanis B.,47.8,4,Gagné,1
-38,2025-05-31,LeBonCoin,Thionville,350000,Maison,Élodie P.,54.2,0,Qualifié,0
-39,2024-08-23,Référence,Woippy,420000,Terrain,Élodie P.,26.4,4,Gagné,1
-40,2024-02-21,LeBonCoin,Woippy,350000,Maison,Yanis B.,21.1,0,Perdu,0
-41,2024-06-23,LeBonCoin,Nancy,150000,Terrain,Marc L.,50.7,1,Perdu,0
-42,2024-06-16,Référence,Thionville,150000,Appartement,Sofia R.,85.7,0,Nouveau,0
-43,2024-07-11,Vitrine,Montigny,300000,Maison,Sofia R.,0.6,1,Gagné,1
-44,2025-05-20,SeLoger,Nancy,220000,Appartement,Yanis B.,43.7,2,Nouveau,0
-45,2024-08-30,Site agence,Montigny,300000,Maison,Sofia R.,7.7,3,Gagné,1
-46,2024-09-27,LeBonCoin,Woippy,350000,Appartement,Yanis B.,2.0,4,Gagné,1
-47,2024-06-04,Site agence,Metz,150000,Appartement,Marc L.,0.5,2,Qualifié,0
-48,2024-04-17,Référence,Metz,300000,Terrain,Marc L.,0.6,3,Gagné,1
-49,2024-09-02,Site agence,Metz,220000,Maison,Marc L.,66.5,3,Perdu,0
-50,2025-05-09,SeLoger,Nancy,420000,Maison,Yanis B.,6.7,0,Gagné,1
-51,2024-02-26,SeLoger,Montigny,150000,Appartement,Camille D.,2.8,4,Gagné,1
-52,2024-12-07,SeLoger,Woippy,180000,Maison,Camille D.,6.0,0,Perdu,0
-53,2025-07-09,SeLoger,Thionville,420000,Studio,Marc L.,18.9,4,Gagné,1
-54,2025-07-05,SeLoger,Woippy,220000,Studio,Yanis B.,0.6,0,Perdu,0
-55,2024-07-08,Site agence,Thionville,300000,Appartement,Camille D.,60.1,3,Gagné,1
-56,2025-05-19,Vitrine,Thionville,300000,Appartement,Yanis B.,42.7,4,Qualifié,0
-57,2024-12-28,SeLoger,Woippy,180000,Appartement,Sofia R.,82.0,2,Perdu,0
-58,2025-06-17,LeBonCoin,Montigny,300000,Appartement,Sofia R.,1.0,4,Gagné,1
-59,2025-03-15,Vitrine,Woippy,300000,Appartement,Yanis B.,2.1,0,Gagné,1
-60,2024-01-26,SeLoger,Montigny,300000,Terrain,Camille D.,0.6,3,Gagné,1
-61,2025-04-24,SeLoger,Nancy,220000,Appartement,Yanis B.,72.4,4,Perdu,0
-62,2024-08-17,SeLoger,Nancy,420000,Appartement,Marc L.,68.4,4,Perdu,0
-63,2025-06-28,LeBonCoin,Nancy,220000,Terrain,Élodie P.,0.7,2,Gagné,1
-64,2024-06-03,LeBonCoin,Montigny,220000,Appartement,Sofia R.,1.8,0,Perdu,0
-65,2025-06-02,LeBonCoin,Woippy,120000,Maison,Yanis B.,46.5,3,Perdu,0
-66,2024-10-01,LeBonCoin,Montigny,350000,Studio,Yanis B.,20.8,2,Perdu,0
-67,2024-03-17,Vitrine,Metz,260000,Studio,Sofia R.,0.5,1,Gagné,1
-68,2024-12-21,Vitrine,Montigny,180000,Studio,Sofia R.,1.2,1,Gagné,1
-69,2024-05-24,LeBonCoin,Metz,350000,Terrain,Yanis B.,90.9,0,Qualifié,0
-70,2025-06-18,SeLoger,Montigny,300000,Appartement,Élodie P.,52.4,2,Perdu,0
-71,2024-05-18,Référence,Montigny,420000,Appartement,Marc L.,3.9,2,Gagné,1
-72,2024-06-01,Site agence,Nancy,120000,Appartement,Sofia R.,82.3,3,Perdu,0
-73,2024-11-30,SeLoger,Thionville,220000,Maison,Camille D.,5.1,3,Gagné,1
-74,2024-06-08,LeBonCoin,Thionville,300000,Appartement,Camille D.,7.3,1,Gagné,1
-75,2024-10-24,Référence,Thionville,180000,Appartement,Sofia R.,60.2,1,Qualifié,0
-76,2025-01-28,Vitrine,Woippy,420000,Appartement,Élodie P.,0.7,4,Gagné,1
-77,2025-01-03,SeLoger,Woippy,350000,Appartement,Sofia R.,0.5,0,Perdu,0
-78,2024-08-28,Site agence,Nancy,420000,Appartement,Sofia R.,3.5,2,Gagné,1
-79,2024-12-22,LeBonCoin,Metz,150000,Maison,Camille D.,25.9,3,Qualifié,0
-80,2024-02-21,Site agence,Woippy,180000,Appartement,Élodie P.,41.9,0,Gagné,1
-81,2024-06-12,Site agence,Woippy,180000,Appartement,Élodie P.,57.3,3,Perdu,0
-82,2024-11-12,LeBonCoin,Metz,120000,Maison,Yanis B.,39.1,0,Perdu,0
-83,2024-03-17,LeBonCoin,Thionville,180000,Terrain,Marc L.,8.5,3,Gagné,1
-84,2025-03-29,Vitrine,Montigny,260000,Appartement,Sofia R.,1.2,3,Gagné,1
-85,2024-09-02,Référence,Montigny,300000,Studio,Camille D.,47.1,2,Gagné,1
-86,2025-01-30,Vitrine,Thionville,120000,Maison,Camille D.,1.0,4,Gagné,1
-87,2024-12-17,LeBonCoin,Nancy,420000,Studio,Élodie P.,40.3,0,Qualifié,0
-88,2024-06-19,Vitrine,Montigny,350000,Appartement,Marc L.,45.0,3,Gagné,1
-89,2024-06-22,SeLoger,Montigny,180000,Maison,Camille D.,1.0,3,Gagné,1
-90,2025-05-17,SeLoger,Metz,180000,Appartement,Camille D.,19.6,3,Gagné,1
-91,2025-02-03,Site agence,Nancy,150000,Maison,Yanis B.,2.4,1,Gagné,1
-92,2025-04-13,SeLoger,Nancy,300000,Studio,Marc L.,0.6,0,Perdu,0
-93,2025-04-12,SeLoger,Metz,420000,Maison,Élodie P.,10.2,2,Qualifié,0
-94,2024-02-27,SeLoger,Thionville,180000,Appartement,Camille D.,1.3,4,Gagné,1
-95,2025-01-25,LeBonCoin,Nancy,350000,Appartement,Yanis B.,3.7,3,Gagné,1
-96,2024-11-23,Vitrine,Metz,350000,Maison,Marc L.,4.6,2,Gagné,1
-97,2024-03-22,Vitrine,Metz,150000,Maison,Sofia R.,72.1,0,Perdu,0
-98,2025-03-24,Vitrine,Thionville,420000,Appartement,Élodie P.,27.9,2,Nouveau,0
-99,2025-06-22,Site agence,Nancy,420000,Terrain,Camille D.,4.8,2,Perdu,0
-100,2024-11-24,Vitrine,Nancy,150000,Studio,Yanis B.,10.2,0,Gagné,1
-101,2024-01-15,LeBonCoin,Woippy,120000,Appartement,Sofia R.,1.0,3,Gagné,1
-102,2024-05-11,SeLoger,Nancy,260000,Maison,Marc L.,23.7,2,Gagné,1
-103,2024-09-21,LeBonCoin,Nancy,350000,Terrain,Sofia R.,9.4,2,Gagné,1
-104,2024-05-21,SeLoger,Nancy,350000,Terrain,Marc L.,65.1,2,Perdu,0
-105,2024-11-26,SeLoger,Metz,260000,Appartement,Camille D.,49.7,1,Visite,0
-106,2024-11-01,LeBonCoin,Thionville,300000,Appartement,Marc L.,1.1,0,Qualifié,0
-107,2024-06-22,Vitrine,Montigny,260000,Appartement,Yanis B.,1.0,1,Nouveau,0
-108,2024-05-26,Site agence,Woippy,260000,Appartement,Camille D.,0.5,0,Gagné,1
-109,2025-04-30,Vitrine,Nancy,220000,Appartement,Camille D.,37.9,1,Visite,0
-110,2025-05-05,Référence,Metz,300000,Appartement,Marc L.,0.6,4,Gagné,1
-111,2025-04-14,SeLoger,Montigny,300000,Appartement,Marc L.,1.9,4,Gagné,1
-112,2024-11-15,LeBonCoin,Metz,420000,Maison,Marc L.,1.6,2,Perdu,0
-113,2024-08-14,Site agence,Metz,180000,Maison,Yanis B.,2.0,4,Gagné,1
-114,2024-08-12,SeLoger,Nancy,120000,Appartement,Élodie P.,2.4,1,Nouveau,0
-115,2025-06-02,Site agence,Montigny,350000,Terrain,Élodie P.,4.0,2,Gagné,1
-116,2025-04-23,SeLoger,Nancy,180000,Terrain,Marc L.,92.1,4,Perdu,0
-117,2025-01-04,SeLoger,Metz,420000,Studio,Yanis B.,0.4,4,Gagné,1
-118,2025-04-24,Référence,Woippy,420000,Terrain,Sofia R.,30.0,2,Gagné,1
-119,2024-05-24,Site agence,Thionville,350000,Studio,Marc L.,36.9,0,Gagné,1
-120,2024-02-12,Site agence,Metz,420000,Maison,Élodie P.,0.6,4,Gagné,1
-121,2025-04-12,LeBonCoin,Montigny,220000,Appartement,Sofia R.,0.5,2,Gagné,1
-122,2025-05-22,SeLoger,Nancy,350000,Appartement,Marc L.,79.8,3,Gagné,1
-123,2024-12-02,SeLoger,Montigny,180000,Appartement,Marc L.,10.3,3,Gagné,1
-124,2024-03-14,Vitrine,Metz,220000,Appartement,Camille D.,89.2,1,Nouveau,0
-125,2024-03-09,Vitrine,Thionville,120000,Appartement,Yanis B.,63.1,2,Perdu,0
-126,2025-06-18,SeLoger,Thionville,260000,Maison,Élodie P.,6.1,1,Gagné,1
-127,2024-11-26,LeBonCoin,Metz,420000,Appartement,Sofia R.,3.1,4,Gagné,1
-128,2025-01-04,SeLoger,Metz,300000,Appartement,Camille D.,2.0,4,Gagné,1
-129,2024-06-01,LeBonCoin,Woippy,220000,Appartement,Sofia R.,8.8,0,Perdu,0
-130,2024-04-03,Référence,Metz,350000,Appartement,Camille D.,25.1,4,Gagné,1
-131,2024-05-09,LeBonCoin,Thionville,180000,Appartement,Élodie P.,1.7,1,Gagné,1
-132,2024-08-17,SeLoger,Thionville,350000,Maison,Camille D.,1.5,1,Gagné,1
-133,2024-04-22,Référence,Metz,350000,Terrain,Sofia R.,1.5,4,Gagné,1
-134,2025-04-06,LeBonCoin,Woippy,350000,Maison,Sofia R.,27.7,4,Gagné,1
-135,2024-02-12,SeLoger,Nancy,420000,Appartement,Sofia R.,77.0,1,Nouveau,0
-136,2025-02-23,LeBonCoin,Thionville,420000,Appartement,Camille D.,3.4,2,Gagné,1
-137,2024-07-21,LeBonCoin,Woippy,220000,Appartement,Yanis B.,8.9,1,Visite,0
-138,2024-02-06,SeLoger,Thionville,350000,Maison,Camille D.,2.4,0,Gagné,1
-139,2024-12-10,SeLoger,Thionville,300000,Appartement,Sofia R.,1.4,4,Gagné,1
-140,2024-03-01,SeLoger,Thionville,420000,Appartement,Yanis B.,20.0,1,Gagné,1
-141,2024-11-21,Site agence,Thionville,220000,Appartement,Yanis B.,0.5,0,Gagné,1
-142,2025-06-20,SeLoger,Metz,120000,Maison,Sofia R.,4.4,2,Perdu,0
-143,2024-11-18,Référence,Montigny,150000,Maison,Sofia R.,0.5,1,Gagné,1
-144,2024-11-24,Site agence,Woippy,350000,Maison,Camille D.,56.1,2,Qualifié,0
-145,2025-02-20,LeBonCoin,Montigny,350000,Maison,Sofia R.,27.5,3,Gagné,1
-146,2025-06-27,SeLoger,Thionville,180000,Maison,Sofia R.,28.5,1,Gagné,1
-147,2025-05-24,Référence,Montigny,300000,Maison,Élodie P.,28.5,1,Perdu,0
-148,2024-05-20,Site agence,Nancy,150000,Appartement,Camille D.,9.3,2,Gagné,1
-149,2024-05-03,Site agence,Woippy,300000,Maison,Camille D.,1.2,1,Gagné,1
-150,2024-10-26,Site agence,Montigny,220000,Terrain,Camille D.,27.4,0,Perdu,0
-151,2024-05-26,LeBonCoin,Nancy,120000,Studio,Yanis B.,3.6,0,Perdu,0
-152,2025-03-29,SeLoger,Thionville,420000,Maison,Élodie P.,2.0,3,Gagné,1
-153,2024-02-26,Site agence,Woippy,300000,Studio,Camille D.,18.0,2,Gagné,1
-154,2024-10-12,LeBonCoin,Thionville,220000,Maison,Sofia R.,27.2,4,Gagné,1
-155,2024-06-18,LeBonCoin,Montigny,120000,Maison,Yanis B.,49.1,2,Nouveau,0
-156,2024-04-14,SeLoger,Montigny,420000,Maison,Camille D.,8.4,2,Gagné,1
-157,2025-02-04,Vitrine,Thionville,300000,Maison,Sofia R.,1.3,0,Gagné,1
-158,2024-09-21,Vitrine,Metz,150000,Appartement,Yanis B.,1.8,3,Gagné,1
-159,2024-12-28,SeLoger,Thionville,300000,Appartement,Élodie P.,0.4,2,Gagné,1
-160,2025-01-19,Vitrine,Montigny,150000,Terrain,Sofia R.,73.6,2,Perdu,0
-161,2024-08-20,Référence,Thionville,150000,Appartement,Marc L.,93.2,4,Gagné,1
-162,2024-07-30,Référence,Metz,120000,Appartement,Marc L.,1.0,0,Gagné,1
-163,2024-03-20,SeLoger,Metz,120000,Appartement,Yanis B.,5.2,1,Perdu,0
-164,2024-01-16,Site agence,Woippy,300000,Maison,Élodie P.,1.1,2,Visite,0
-165,2024-02-05,LeBonCoin,Montigny,420000,Terrain,Sofia R.,0.4,3,Gagné,1
-166,2025-05-09,LeBonCoin,Woippy,220000,Studio,Camille D.,0.5,0,Gagné,1
-167,2024-01-13,SeLoger,Thionville,180000,Appartement,Élodie P.,0.6,0,Qualifié,0
-168,2025-03-06,Vitrine,Montigny,150000,Maison,Yanis B.,19.1,0,Qualifié,0
-169,2024-07-13,SeLoger,Thionville,180000,Appartement,Marc L.,25.8,1,Visite,0
-170,2024-01-21,SeLoger,Montigny,150000,Maison,Élodie P.,78.2,1,Perdu,0
-171,2024-02-05,Référence,Metz,120000,Appartement,Marc L.,22.5,3,Nouveau,0
-172,2025-05-20,Référence,Thionville,180000,Appartement,Camille D.,0.8,1,Gagné,1
-173,2025-04-27,LeBonCoin,Woippy,150000,Maison,Marc L.,3.4,4,Gagné,1
-174,2024-03-12,SeLoger,Montigny,420000,Appartement,Élodie P.,8.3,2,Gagné,1
-175,2025-04-30,Référence,Woippy,180000,Appartement,Marc L.,0.4,3,Gagné,1
-176,2025-04-10,Site agence,Thionville,350000,Appartement,Élodie P.,2.4,1,Gagné,1
-177,2024-07-30,Référence,Metz,420000,Appartement,Élodie P.,7.8,1,Gagné,1
-178,2024-10-24,SeLoger,Thionville,420000,Maison,Sofia R.,34.4,3,Gagné,1
-179,2025-06-29,SeLoger,Thionville,350000,Appartement,Camille D.,90.4,4,Nouveau,0
-180,2024-07-27,LeBonCoin,Thionville,180000,Studio,Élodie P.,82.2,4,Qualifié,0
-181,2024-12-25,LeBonCoin,Metz,420000,Maison,Sofia R.,4.5,3,Gagné,1
-182,2024-01-01,Référence,Montigny,120000,Maison,Yanis B.,7.8,2,Gagné,1
-183,2025-04-19,Vitrine,Woippy,260000,Appartement,Camille D.,3.6,3,Gagné,1
-184,2025-02-07,Site agence,Montigny,180000,Maison,Élodie P.,1.0,2,Gagné,1
-185,2024-11-17,Site agence,Woippy,180000,Appartement,Élodie P.,66.0,2,Gagné,1
-186,2025-07-01,Site agence,Thionville,420000,Studio,Élodie P.,67.1,0,Gagné,1
-187,2024-10-13,LeBonCoin,Metz,260000,Appartement,Sofia R.,6.3,3,Gagné,1
-188,2024-02-09,Site agence,Nancy,350000,Appartement,Camille D.,0.8,4,Gagné,1
-189,2025-06-19,SeLoger,Nancy,420000,Maison,Élodie P.,21.0,0,Perdu,0
-190,2025-06-07,SeLoger,Woippy,350000,Studio,Camille D.,63.4,2,Gagné,1
-191,2024-03-15,LeBonCoin,Metz,260000,Appartement,Sofia R.,92.8,4,Perdu,0
-192,2025-01-05,SeLoger,Woippy,420000,Appartement,Élodie P.,8.4,1,Perdu,0
-193,2024-03-08,SeLoger,Nancy,420000,Appartement,Camille D.,0.6,3,Perdu,0
-194,2024-12-27,SeLoger,Thionville,350000,Maison,Sofia R.,3.5,3,Perdu,0
-195,2025-06-14,SeLoger,Montigny,150000,Appartement,Marc L.,55.0,0,Qualifié,0
-196,2024-06-26,SeLoger,Montigny,120000,Appartement,Élodie P.,1.5,1,Gagné,1
-197,2025-05-10,Référence,Metz,120000,Terrain,Marc L.,7.4,3,Gagné,1
-198,2024-03-09,LeBonCoin,Nancy,420000,Studio,Élodie P.,9.2,3,Gagné,1
-199,2024-04-25,LeBonCoin,Woippy,220000,Studio,Sofia R.,4.7,0,Gagné,1
-200,2025-06-01,Vitrine,Woippy,350000,Maison,Marc L.,4.4,2,Gagné,1
-201,2024-08-31,Site agence,Woippy,150000,Appartement,Camille D.,7.2,3,Gagné,1
-202,2024-02-08,LeBonCoin,Woippy,350000,Maison,Camille D.,93.2,2,Nouveau,0
-203,2024-09-03,LeBonCoin,Metz,300000,Appartement,Sofia R.,1.5,4,Gagné,1
-204,2024-11-12,LeBonCoin,Woippy,220000,Maison,Sofia R.,74.7,0,Perdu,0
-205,2024-07-07,SeLoger,Metz,150000,Studio,Sofia R.,1.4,4,Perdu,0
-206,2025-06-02,Site agence,Thionville,420000,Maison,Sofia R.,87.0,2,Perdu,0
-207,2024-04-12,LeBonCoin,Metz,350000,Appartement,Sofia R.,0.5,2,Gagné,1
-208,2025-05-09,Référence,Nancy,300000,Appartement,Sofia R.,49.6,0,Perdu,0
-209,2025-05-13,LeBonCoin,Thionville,260000,Studio,Élodie P.,0.9,0,Perdu,0
-210,2024-11-01,LeBonCoin,Thionville,260000,Maison,Élodie P.,9.1,2,Gagné,1
-211,2024-02-12,SeLoger,Nancy,260000,Maison,Élodie P.,24.2,0,Gagné,1
-212,2024-12-01,Site agence,Metz,150000,Appartement,Élodie P.,4.9,3,Gagné,1
-213,2025-02-22,SeLoger,Montigny,350000,Maison,Yanis B.,0.9,3,Gagné,1
-214,2024-04-19,Site agence,Nancy,150000,Terrain,Marc L.,58.9,1,Qualifié,0
-215,2024-01-31,Référence,Nancy,300000,Appartement,Élodie P.,51.0,3,Qualifié,0
-216,2024-03-04,Site agence,Metz,260000,Maison,Camille D.,4.4,1,Gagné,1
-217,2024-09-08,Site agence,Metz,300000,Studio,Sofia R.,59.1,4,Gagné,1
-218,2025-06-01,Référence,Thionville,420000,Appartement,Camille D.,1.9,0,Gagné,1
-219,2024-06-19,Vitrine,Thionville,120000,Maison,Yanis B.,10.2,1,Gagné,1
-220,2025-04-25,LeBonCoin,Woippy,180000,Appartement,Élodie P.,2.4,4,Gagné,1
-221,2025-02-15,LeBonCoin,Thionville,350000,Studio,Camille D.,7.6,2,Gagné,1
-222,2024-08-07,LeBonCoin,Woippy,120000,Terrain,Camille D.,0.6,3,Gagné,1
-223,2025-01-01,LeBonCoin,Nancy,300000,Maison,Camille D.,0.6,4,Gagné,1
-224,2024-09-16,LeBonCoin,Woippy,260000,Appartement,Sofia R.,54.7,2,Gagné,1
-225,2025-04-07,SeLoger,Montigny,350000,Maison,Marc L.,4.4,3,Gagné,1
-226,2024-04-03,Vitrine,Montigny,260000,Maison,Marc L.,68.0,0,Perdu,0
-227,2025-02-21,Site agence,Montigny,120000,Maison,Marc L.,23.8,0,Gagné,1
-228,2024-06-17,Vitrine,Metz,120000,Studio,Élodie P.,29.2,2,Nouveau,0
-229,2024-10-21,Site agence,Woippy,120000,Studio,Yanis B.,1.1,3,Gagné,1
-230,2024-06-07,Référence,Metz,350000,Studio,Élodie P.,4.0,0,Gagné,1
-231,2025-04-23,SeLoger,Thionville,300000,Appartement,Camille D.,86.3,2,Gagné,1
-232,2024-07-01,LeBonCoin,Woippy,350000,Studio,Yanis B.,28.9,0,Visite,0
-233,2024-04-29,Référence,Woippy,300000,Appartement,Sofia R.,0.6,2,Gagné,1
-234,2024-07-04,LeBonCoin,Woippy,260000,Appartement,Yanis B.,5.7,2,Perdu,0
-235,2025-01-17,Site agence,Nancy,120000,Studio,Marc L.,4.1,1,Nouveau,0
-236,2024-04-29,Vitrine,Nancy,260000,Appartement,Sofia R.,19.5,2,Perdu,0
-237,2025-06-21,Vitrine,Montigny,150000,Maison,Sofia R.,74.7,3,Visite,0
-238,2025-06-12,Vitrine,Montigny,180000,Maison,Élodie P.,4.1,3,Qualifié,0
-239,2024-03-24,SeLoger,Thionville,350000,Appartement,Marc L.,0.7,2,Gagné,1
-240,2024-12-08,SeLoger,Nancy,300000,Appartement,Camille D.,3.8,2,Gagné,1
-241,2024-06-30,Référence,Nancy,180000,Terrain,Camille D.,0.5,0,Gagné,1
-242,2025-04-07,Vitrine,Metz,120000,Maison,Marc L.,2.4,0,Gagné,1
-243,2024-06-30,LeBonCoin,Nancy,300000,Appartement,Camille D.,4.9,4,Gagné,1
-244,2024-03-09,SeLoger,Nancy,260000,Appartement,Marc L.,9.0,1,Perdu,0
-245,2024-03-14,Référence,Nancy,120000,Maison,Élodie P.,88.3,4,Gagné,1
-246,2024-09-19,LeBonCoin,Woippy,220000,Studio,Yanis B.,61.7,4,Qualifié,0
-247,2024-06-19,SeLoger,Metz,120000,Appartement,Camille D.,6.2,2,Nouveau,0
-248,2024-09-30,LeBonCoin,Thionville,300000,Appartement,Sofia R.,81.4,1,Gagné,1
-249,2024-06-19,SeLoger,Woippy,350000,Appartement,Marc L.,0.9,1,Perdu,0
-250,2025-05-11,LeBonCoin,Metz,350000,Maison,Camille D.,1.0,1,Gagné,1
-251,2024-05-26,SeLoger,Thionville,260000,Maison,Marc L.,49.4,4,Visite,0
-252,2024-10-13,SeLoger,Nancy,300000,Studio,Camille D.,0.9,3,Gagné,1
-253,2024-12-21,LeBonCoin,Nancy,180000,Appartement,Élodie P.,0.6,4,Gagné,1
-254,2025-07-13,Référence,Metz,120000,Studio,Marc L.,52.0,0,Gagné,1
-255,2025-06-22,Référence,Thionville,220000,Maison,Sofia R.,0.8,0,Gagné,1
-256,2024-08-02,Vitrine,Woippy,350000,Appartement,Camille D.,0.4,4,Gagné,1
-257,2024-04-08,LeBonCoin,Metz,420000,Maison,Élodie P.,1.8,3,Gagné,1
-258,2025-04-20,Site agence,Nancy,260000,Terrain,Sofia R.,93.4,0,Qualifié,0
-259,2025-05-22,Référence,Woippy,120000,Maison,Élodie P.,40.8,0,Gagné,1
-260,2024-01-03,Site agence,Thionville,300000,Studio,Yanis B.,44.6,2,Perdu,0
-261,2024-04-18,LeBonCoin,Metz,180000,Maison,Camille D.,1.1,4,Gagné,1
-262,2025-06-18,Vitrine,Thionville,220000,Studio,Élodie P.,1.7,1,Gagné,1
-263,2024-09-08,SeLoger,Thionville,180000,Maison,Yanis B.,0.9,3,Gagné,1
-264,2024-07-27,SeLoger,Nancy,180000,Appartement,Marc L.,40.8,0,Visite,0
-265,2024-11-23,SeLoger,Metz,260000,Appartement,Marc L.,7.2,2,Gagné,1
-266,2024-11-19,LeBonCoin,Woippy,220000,Appartement,Sofia R.,0.4,4,Gagné,1
-267,2024-09-30,Référence,Montigny,120000,Appartement,Marc L.,0.4,4,Gagné,1
-268,2024-06-29,SeLoger,Montigny,180000,Appartement,Camille D.,53.6,3,Perdu,0
-269,2025-03-23,SeLoger,Metz,150000,Terrain,Élodie P.,5.7,2,Gagné,1
-270,2025-07-10,Site agence,Metz,180000,Terrain,Camille D.,28.7,3,Gagné,1
-271,2024-06-23,Site agence,Thionville,420000,Maison,Yanis B.,0.7,0,Perdu,0
-272,2025-03-31,SeLoger,Metz,150000,Terrain,Yanis B.,20.5,0,Gagné,1
-273,2024-05-28,SeLoger,Woippy,150000,Appartement,Marc L.,17.4,2,Gagné,1
-274,2024-03-18,Référence,Metz,220000,Studio,Yanis B.,26.4,2,Perdu,0
-275,2025-04-17,SeLoger,Thionville,220000,Appartement,Marc L.,2.0,3,Gagné,1
-276,2024-07-04,SeLoger,Metz,220000,Maison,Élodie P.,1.2,3,Perdu,0
-277,2025-05-22,Référence,Nancy,260000,Studio,Yanis B.,0.6,2,Gagné,1
-278,2024-07-07,Référence,Thionville,350000,Terrain,Marc L.,8.3,3,Gagné,1
-279,2025-01-24,Site agence,Metz,300000,Maison,Yanis B.,84.4,0,Gagné,1
-280,2025-01-09,Référence,Thionville,180000,Appartement,Camille D.,4.9,3,Qualifié,0
-281,2024-01-09,Vitrine,Montigny,180000,Maison,Marc L.,1.7,1,Gagné,1
-282,2024-06-03,Site agence,Montigny,260000,Appartement,Élodie P.,0.5,2,Gagné,1
-283,2024-04-23,SeLoger,Metz,420000,Appartement,Sofia R.,0.8,0,Gagné,1
-284,2024-02-14,SeLoger,Woippy,420000,Maison,Camille D.,1.1,4,Gagné,1
-285,2024-10-27,SeLoger,Woippy,150000,Appartement,Marc L.,56.0,0,Nouveau,0
-286,2024-12-29,SeLoger,Montigny,260000,Maison,Sofia R.,8.0,3,Gagné,1
-287,2025-04-06,SeLoger,Nancy,420000,Maison,Yanis B.,2.3,3,Gagné,1
-288,2024-12-29,SeLoger,Thionville,120000,Maison,Élodie P.,35.6,0,Perdu,0
-289,2025-03-31,LeBonCoin,Montigny,350000,Appartement,Yanis B.,1.5,0,Perdu,0
-290,2025-07-11,SeLoger,Metz,420000,Studio,Élodie P.,2.5,4,Gagné,1
-291,2025-03-15,SeLoger,Woippy,420000,Appartement,Élodie P.,20.2,0,Nouveau,0
-292,2025-05-01,Site agence,Metz,350000,Appartement,Élodie P.,28.5,1,Gagné,1
-293,2024-02-24,Référence,Nancy,300000,Appartement,Sofia R.,3.6,2,Gagné,1
-294,2024-11-09,Vitrine,Montigny,120000,Appartement,Marc L.,10.4,3,Perdu,0
-295,2024-11-07,LeBonCoin,Woippy,150000,Appartement,Camille D.,0.5,4,Gagné,1
-296,2025-01-03,SeLoger,Woippy,180000,Maison,Élodie P.,59.9,1,Perdu,0
-297,2025-04-28,Site agence,Woippy,220000,Appartement,Sofia R.,2.3,4,Gagné,1
-298,2024-07-25,LeBonCoin,Metz,180000,Terrain,Camille D.,0.4,1,Perdu,0
-299,2024-05-11,Site agence,Thionville,150000,Terrain,Élodie P.,2.3,0,Qualifié,0
-300,2024-05-12,LeBonCoin,Metz,300000,Appartement,Camille D.,1.0,4,Gagné,1
-301,2025-07-09,SeLoger,Woippy,300000,Appartement,Élodie P.,68.1,1,Gagné,1
-302,2025-03-26,LeBonCoin,Woippy,420000,Studio,Marc L.,0.6,4,Gagné,1
-303,2024-11-08,Site agence,Metz,220000,Maison,Marc L.,21.5,4,Gagné,1
-304,2024-03-05,Site agence,Montigny,220000,Terrain,Marc L.,44.8,2,Gagné,1
-305,2024-11-10,SeLoger,Woippy,150000,Appartement,Marc L.,72.9,2,Perdu,0
-306,2025-03-16,Référence,Woippy,120000,Studio,Camille D.,80.3,1,Qualifié,0
-307,2024-10-03,SeLoger,Metz,350000,Maison,Yanis B.,26.7,3,Gagné,1
-308,2025-07-13,Référence,Nancy,260000,Appartement,Camille D.,1.0,4,Gagné,1
-309,2025-03-23,Site agence,Montigny,420000,Appartement,Marc L.,2.1,2,Gagné,1
-310,2025-07-13,SeLoger,Thionville,120000,Maison,Camille D.,4.5,0,Gagné,1
-311,2024-06-23,LeBonCoin,Metz,350000,Terrain,Marc L.,3.9,3,Gagné,1
-312,2025-05-16,SeLoger,Nancy,150000,Maison,Yanis B.,1.8,0,Perdu,0
-313,2025-05-13,Vitrine,Montigny,120000,Studio,Camille D.,52.6,1,Perdu,0
-314,2024-04-06,Vitrine,Woippy,420000,Appartement,Marc L.,42.3,3,Gagné,1
-315,2024-12-05,LeBonCoin,Metz,180000,Maison,Camille D.,52.7,4,Nouveau,0
-316,2024-08-31,Référence,Nancy,180000,Studio,Marc L.,21.3,1,Gagné,1
-317,2024-09-19,Site agence,Woippy,420000,Maison,Sofia R.,6.9,0,Gagné,1
-318,2024-01-28,SeLoger,Montigny,350000,Maison,Sofia R.,0.5,2,Gagné,1
-319,2024-08-11,SeLoger,Metz,120000,Appartement,Yanis B.,8.3,2,Gagné,1
-320,2024-07-17,Site agence,Metz,120000,Studio,Yanis B.,1.0,3,Gagné,1
-321,2024-06-21,SeLoger,Nancy,120000,Appartement,Élodie P.,0.9,3,Gagné,1
-322,2025-03-01,LeBonCoin,Montigny,220000,Appartement,Camille D.,4.1,0,Qualifié,0
-323,2024-02-28,Site agence,Montigny,420000,Maison,Marc L.,51.7,4,Visite,0
-324,2025-03-17,SeLoger,Woippy,120000,Appartement,Camille D.,0.8,2,Gagné,1
-325,2024-01-27,Site agence,Nancy,300000,Appartement,Élodie P.,7.0,4,Gagné,1
-326,2024-01-31,SeLoger,Montigny,180000,Studio,Camille D.,57.3,4,Qualifié,0
-327,2024-06-10,SeLoger,Metz,220000,Studio,Yanis B.,2.4,0,Perdu,0
-328,2024-06-26,Site agence,Woippy,350000,Studio,Yanis B.,22.7,0,Gagné,1
-329,2025-03-12,SeLoger,Montigny,220000,Appartement,Marc L.,7.6,0,Visite,0
-330,2025-06-29,SeLoger,Montigny,150000,Appartement,Élodie P.,0.7,0,Nouveau,0
-331,2024-11-28,SeLoger,Thionville,220000,Appartement,Sofia R.,4.3,3,Gagné,1
-332,2025-04-23,Référence,Nancy,180000,Appartement,Camille D.,2.1,4,Gagné,1
-333,2024-03-14,LeBonCoin,Metz,220000,Appartement,Élodie P.,93.0,2,Perdu,0
-334,2025-05-21,Vitrine,Woippy,150000,Maison,Élodie P.,0.6,0,Perdu,0
-335,2025-05-23,Référence,Nancy,120000,Appartement,Sofia R.,2.6,2,Gagné,1
-336,2025-01-29,SeLoger,Thionville,300000,Maison,Camille D.,80.2,4,Perdu,0
-337,2024-12-24,SeLoger,Metz,260000,Appartement,Marc L.,0.9,2,Gagné,1
-338,2025-02-09,LeBonCoin,Thionville,420000,Maison,Camille D.,49.7,2,Gagné,1
-339,2025-01-16,Site agence,Woippy,120000,Appartement,Marc L.,6.3,3,Gagné,1
-340,2025-05-05,Référence,Nancy,120000,Appartement,Camille D.,3.9,2,Gagné,1
-341,2024-07-27,LeBonCoin,Montigny,300000,Terrain,Yanis B.,9.1,0,Gagné,1
-342,2024-07-28,LeBonCoin,Nancy,300000,Appartement,Sofia R.,33.8,2,Perdu,0
-343,2024-04-09,Vitrine,Thionville,220000,Appartement,Yanis B.,6.5,0,Gagné,1
-344,2024-05-02,SeLoger,Thionville,260000,Terrain,Marc L.,1.0,4,Gagné,1
-345,2024-03-31,SeLoger,Metz,420000,Appartement,Sofia R.,9.6,2,Gagné,1
-346,2025-05-04,SeLoger,Metz,350000,Appartement,Yanis B.,54.7,1,Perdu,0
-347,2024-08-17,LeBonCoin,Montigny,420000,Maison,Yanis B.,0.5,2,Perdu,0
-348,2024-02-24,LeBonCoin,Montigny,260000,Maison,Élodie P.,8.5,4,Gagné,1
-349,2024-06-28,SeLoger,Woippy,220000,Studio,Sofia R.,0.4,4,Gagné,1
-350,2025-07-03,SeLoger,Montigny,120000,Appartement,Camille D.,5.1,3,Gagné,1
-351,2024-02-08,SeLoger,Montigny,260000,Terrain,Marc L.,8.8,2,Nouveau,0
-352,2025-06-26,Référence,Nancy,300000,Appartement,Élodie P.,46.3,4,Gagné,1
-353,2024-08-21,SeLoger,Thionville,260000,Appartement,Camille D.,1.4,4,Gagné,1
-354,2024-08-03,LeBonCoin,Woippy,120000,Appartement,Marc L.,2.1,2,Perdu,0
-355,2024-01-24,SeLoger,Woippy,150000,Appartement,Sofia R.,26.6,4,Gagné,1
-356,2025-04-17,Vitrine,Montigny,120000,Maison,Élodie P.,0.6,3,Gagné,1
-357,2025-07-06,Site agence,Nancy,180000,Maison,Marc L.,1.3,3,Gagné,1
-358,2024-10-23,Vitrine,Thionville,350000,Appartement,Marc L.,84.2,4,Perdu,0
-359,2024-09-02,SeLoger,Metz,300000,Studio,Camille D.,7.3,2,Qualifié,0
-360,2025-07-06,Vitrine,Thionville,350000,Appartement,Marc L.,1.1,2,Gagné,1
-361,2025-04-27,Référence,Nancy,180000,Appartement,Marc L.,1.2,2,Gagné,1
-362,2025-06-21,SeLoger,Metz,180000,Maison,Camille D.,3.7,1,Perdu,0
-363,2024-04-28,SeLoger,Montigny,260000,Studio,Élodie P.,7.3,1,Qualifié,0
-364,2024-05-03,Site agence,Montigny,180000,Appartement,Marc L.,51.7,4,Nouveau,0
-365,2024-01-02,SeLoger,Montigny,420000,Appartement,Yanis B.,3.3,3,Gagné,1
-366,2025-07-09,LeBonCoin,Metz,260000,Appartement,Yanis B.,0.9,4,Gagné,1
-367,2025-01-18,Référence,Woippy,120000,Studio,Marc L.,6.5,3,Gagné,1
-368,2024-01-11,Site agence,Metz,300000,Appartement,Sofia R.,7.7,1,Qualifié,0
-369,2024-08-03,Vitrine,Nancy,150000,Maison,Marc L.,47.1,4,Gagné,1
-370,2024-10-07,Site agence,Nancy,300000,Appartement,Yanis B.,23.6,2,Qualifié,0
-371,2024-10-05,Référence,Woippy,150000,Appartement,Sofia R.,49.4,0,Gagné,1
-372,2024-01-04,Référence,Nancy,300000,Appartement,Élodie P.,9.9,0,Gagné,1
-373,2025-02-19,Référence,Thionville,260000,Appartement,Marc L.,1.1,1,Gagné,1
-374,2025-07-02,SeLoger,Metz,300000,Appartement,Sofia R.,17.3,0,Gagné,1
-375,2024-06-12,Site agence,Nancy,420000,Appartement,Élodie P.,40.5,1,Gagné,1
-376,2025-06-19,Site agence,Woippy,260000,Maison,Yanis B.,3.1,4,Gagné,1
-377,2024-12-25,LeBonCoin,Metz,220000,Appartement,Sofia R.,72.2,2,Qualifié,0
-378,2024-08-08,Vitrine,Nancy,420000,Studio,Marc L.,62.9,0,Perdu,0
-379,2025-02-24,LeBonCoin,Metz,150000,Appartement,Élodie P.,4.3,2,Qualifié,0
-380,2024-05-31,Référence,Nancy,420000,Appartement,Camille D.,4.8,1,Gagné,1
-381,2024-05-26,Référence,Metz,300000,Maison,Élodie P.,1.8,1,Gagné,1
-382,2024-07-24,SeLoger,Metz,180000,Studio,Marc L.,0.6,0,Gagné,1
-383,2024-01-18,SeLoger,Thionville,120000,Studio,Yanis B.,9.7,4,Gagné,1
-384,2024-01-18,Référence,Nancy,180000,Appartement,Sofia R.,0.6,2,Gagné,1
-385,2024-07-04,Référence,Nancy,180000,Maison,Camille D.,0.4,2,Gagné,1
-386,2024-12-29,Vitrine,Thionville,350000,Maison,Élodie P.,45.4,4,Gagné,1
-387,2024-11-07,Référence,Montigny,420000,Studio,Yanis B.,1.1,2,Gagné,1
-388,2024-07-17,Vitrine,Woippy,220000,Maison,Sofia R.,20.6,2,Perdu,0
-389,2024-08-05,LeBonCoin,Woippy,300000,Maison,Sofia R.,18.9,1,Perdu,0
-390,2024-07-30,SeLoger,Nancy,220000,Studio,Sofia R.,8.4,1,Perdu,0
-391,2024-06-08,LeBonCoin,Nancy,300000,Maison,Yanis B.,63.2,0,Perdu,0
-392,2025-01-13,LeBonCoin,Metz,300000,Maison,Marc L.,24.9,2,Gagné,1
-393,2025-02-02,LeBonCoin,Thionville,120000,Appartement,Yanis B.,7.3,4,Gagné,1
-394,2024-11-05,Vitrine,Metz,120000,Appartement,Sofia R.,70.7,1,Gagné,1
-395,2024-11-21,SeLoger,Metz,350000,Appartement,Élodie P.,0.7,2,Gagné,1
-396,2024-12-07,Site agence,Woippy,420000,Maison,Marc L.,2.9,0,Gagné,1
-397,2024-10-30,LeBonCoin,Woippy,300000,Appartement,Élodie P.,2.0,3,Perdu,0
-398,2024-07-06,Site agence,Montigny,220000,Studio,Yanis B.,1.1,1,Gagné,1
-399,2025-06-01,LeBonCoin,Metz,350000,Terrain,Élodie P.,6.8,4,Nouveau,0
-400,2024-05-22,Vitrine,Woippy,180000,Maison,Yanis B.,5.8,4,Qualifié,0
-401,2024-07-19,Référence,Montigny,120000,Studio,Yanis B.,0.6,3,Gagné,1
-402,2024-12-24,Référence,Thionville,180000,Appartement,Yanis B.,87.6,4,Gagné,1
-403,2024-07-30,SeLoger,Metz,180000,Studio,Marc L.,21.8,3,Gagné,1
-404,2024-07-27,SeLoger,Thionville,350000,Maison,Marc L.,1.0,1,Gagné,1
-405,2025-06-18,Site agence,Metz,180000,Studio,Yanis B.,0.6,0,Gagné,1
-406,2025-03-11,Vitrine,Thionville,420000,Studio,Yanis B.,91.1,4,Qualifié,0
-407,2025-06-07,Vitrine,Metz,350000,Appartement,Camille D.,0.8,1,Nouveau,0
-408,2024-08-21,Vitrine,Metz,350000,Terrain,Sofia R.,7.7,4,Gagné,1
-409,2024-06-29,LeBonCoin,Nancy,120000,Studio,Élodie P.,1.6,4,Visite,0
-410,2024-10-23,LeBonCoin,Thionville,150000,Studio,Camille D.,38.5,0,Perdu,0
-411,2025-01-17,SeLoger,Nancy,220000,Appartement,Camille D.,64.8,3,Nouveau,0
-412,2025-03-18,Site agence,Nancy,120000,Terrain,Marc L.,0.6,4,Gagné,1
-413,2024-07-31,SeLoger,Nancy,220000,Terrain,Camille D.,0.8,0,Gagné,1
-414,2024-08-17,Vitrine,Metz,150000,Terrain,Marc L.,1.2,1,Gagné,1
-415,2024-01-02,Site agence,Woippy,260000,Maison,Yanis B.,3.4,1,Gagné,1
-416,2024-01-08,SeLoger,Metz,350000,Appartement,Sofia R.,86.0,4,Visite,0
-417,2024-10-07,LeBonCoin,Metz,120000,Appartement,Élodie P.,47.6,2,Gagné,1
-418,2024-06-13,Site agence,Thionville,120000,Maison,Élodie P.,2.4,4,Gagné,1
-419,2024-03-30,LeBonCoin,Montigny,300000,Appartement,Camille D.,44.1,2,Qualifié,0
-420,2024-12-14,LeBonCoin,Thionville,220000,Maison,Yanis B.,1.2,4,Perdu,0
-421,2024-01-22,SeLoger,Woippy,180000,Terrain,Camille D.,2.0,1,Gagné,1
-422,2024-11-26,SeLoger,Woippy,350000,Appartement,Élodie P.,2.5,0,Gagné,1
-423,2025-03-08,Site agence,Thionville,260000,Appartement,Élodie P.,4.9,3,Gagné,1
-424,2025-07-04,Site agence,Woippy,420000,Maison,Camille D.,0.5,4,Gagné,1
-425,2024-03-17,SeLoger,Thionville,350000,Maison,Élodie P.,3.2,0,Nouveau,0
-426,2025-04-05,Vitrine,Thionville,120000,Appartement,Élodie P.,0.6,0,Gagné,1
-427,2024-09-08,SeLoger,Woippy,220000,Studio,Élodie P.,4.7,4,Gagné,1
-428,2024-03-25,Site agence,Woippy,420000,Maison,Camille D.,19.8,1,Gagné,1
-429,2025-01-25,Référence,Thionville,220000,Maison,Sofia R.,52.9,1,Perdu,0
-430,2025-02-18,Site agence,Thionville,150000,Maison,Sofia R.,0.4,0,Gagné,1
-431,2024-06-19,LeBonCoin,Montigny,120000,Studio,Élodie P.,18.7,3,Nouveau,0
-432,2024-04-02,Site agence,Woippy,120000,Terrain,Yanis B.,51.7,4,Perdu,0
-433,2025-06-16,SeLoger,Montigny,220000,Appartement,Yanis B.,3.9,0,Gagné,1
-434,2024-12-23,Vitrine,Thionville,150000,Terrain,Marc L.,72.6,0,Qualifié,0
-435,2024-11-19,Site agence,Woippy,150000,Appartement,Camille D.,0.6,4,Gagné,1
-436,2025-01-06,Site agence,Metz,180000,Maison,Marc L.,4.7,2,Gagné,1
-437,2024-09-23,Vitrine,Thionville,420000,Appartement,Marc L.,55.0,4,Perdu,0
-438,2024-02-28,Référence,Nancy,180000,Appartement,Élodie P.,65.4,2,Perdu,0
-439,2024-07-07,LeBonCoin,Nancy,350000,Studio,Sofia R.,0.6,3,Gagné,1
-440,2025-02-01,Site agence,Nancy,150000,Appartement,Yanis B.,76.4,1,Perdu,0
-441,2025-04-18,LeBonCoin,Metz,220000,Appartement,Sofia R.,3.8,1,Visite,0
-442,2025-04-06,SeLoger,Montigny,150000,Maison,Camille D.,19.9,2,Gagné,1
-443,2025-02-08,Référence,Thionville,120000,Appartement,Camille D.,69.1,2,Gagné,1
-444,2025-03-09,Vitrine,Montigny,300000,Appartement,Camille D.,4.1,3,Gagné,1
-445,2024-05-30,Site agence,Montigny,180000,Studio,Sofia R.,1.1,4,Gagné,1
-446,2024-05-05,LeBonCoin,Montigny,150000,Appartement,Sofia R.,80.7,0,Qualifié,0
-447,2024-05-03,LeBonCoin,Woippy,150000,Appartement,Camille D.,0.9,3,Gagné,1
-448,2025-04-14,SeLoger,Montigny,350000,Appartement,Yanis B.,42.6,4,Gagné,1
-449,2024-04-03,LeBonCoin,Montigny,300000,Appartement,Sofia R.,55.4,2,Perdu,0
-450,2024-12-24,Site agence,Woippy,220000,Studio,Élodie P.,1.0,2,Gagné,1
-451,2024-05-30,Référence,Woippy,300000,Terrain,Marc L.,0.5,2,Gagné,1
-452,2025-06-28,Vitrine,Woippy,180000,Maison,Camille D.,0.5,2,Qualifié,0
-453,2024-09-07,Référence,Woippy,420000,Appartement,Yanis B.,21.5,2,Nouveau,0
-454,2024-10-14,SeLoger,Metz,150000,Maison,Sofia R.,9.5,3,Gagné,1
-455,2024-09-11,SeLoger,Woippy,180000,Studio,Yanis B.,0.4,3,Perdu,0
-456,2024-07-24,LeBonCoin,Woippy,180000,Appartement,Élodie P.,10.0,1,Nouveau,0
-457,2025-04-11,Site agence,Woippy,300000,Appartement,Yanis B.,4.0,1,Gagné,1
-458,2024-05-01,LeBonCoin,Montigny,300000,Appartement,Yanis B.,0.9,1,Gagné,1
-459,2025-06-07,Vitrine,Montigny,300000,Maison,Yanis B.,50.8,0,Perdu,0
-460,2024-04-27,Référence,Metz,150000,Maison,Yanis B.,48.7,1,Qualifié,0
-461,2024-05-15,LeBonCoin,Metz,300000,Appartement,Yanis B.,64.1,0,Perdu,0
-462,2024-05-09,Vitrine,Montigny,350000,Appartement,Marc L.,60.5,3,Gagné,1
-463,2024-09-09,SeLoger,Metz,260000,Studio,Marc L.,8.3,0,Gagné,1
-464,2024-12-20,SeLoger,Nancy,350000,Appartement,Marc L.,3.7,4,Gagné,1
-465,2024-11-02,LeBonCoin,Montigny,220000,Maison,Sofia R.,24.3,4,Gagné,1
-466,2025-06-09,SeLoger,Thionville,300000,Appartement,Marc L.,61.7,1,Gagné,1
-467,2025-07-14,LeBonCoin,Thionville,420000,Studio,Camille D.,3.6,3,Gagné,1
-468,2024-08-17,SeLoger,Metz,220000,Studio,Marc L.,58.6,2,Nouveau,0
-469,2024-01-13,LeBonCoin,Montigny,220000,Terrain,Élodie P.,1.9,4,Gagné,1
-470,2024-05-29,SeLoger,Metz,180000,Appartement,Sofia R.,81.6,3,Nouveau,0
-471,2025-01-23,Site agence,Nancy,220000,Studio,Sofia R.,81.5,1,Perdu,0
-472,2024-09-12,SeLoger,Thionville,260000,Studio,Camille D.,3.6,4,Gagné,1
-473,2025-06-01,Référence,Metz,150000,Appartement,Marc L.,6.8,0,Nouveau,0
-474,2024-02-13,Référence,Nancy,420000,Maison,Camille D.,1.9,3,Gagné,1
-475,2024-03-15,SeLoger,Woippy,260000,Appartement,Camille D.,36.7,1,Perdu,0
-476,2024-01-30,SeLoger,Thionville,220000,Appartement,Élodie P.,2.3,1,Perdu,0
-477,2024-09-13,Référence,Thionville,300000,Maison,Marc L.,87.0,4,Gagné,1
-478,2024-06-24,LeBonCoin,Thionville,180000,Appartement,Camille D.,30.7,1,Qualifié,0
-479,2024-07-25,LeBonCoin,Montigny,150000,Appartement,Marc L.,3.1,3,Gagné,1
-480,2024-07-14,SeLoger,Nancy,350000,Studio,Élodie P.,71.2,4,Qualifié,0
-481,2024-02-02,LeBonCoin,Montigny,220000,Maison,Marc L.,8.4,1,Gagné,1
-482,2025-06-09,SeLoger,Woippy,150000,Maison,Élodie P.,4.3,2,Gagné,1
-483,2024-03-30,Site agence,Woippy,260000,Maison,Sofia R.,0.4,2,Gagné,1
-484,2024-07-29,SeLoger,Woippy,120000,Terrain,Élodie P.,0.8,4,Gagné,1
-485,2025-03-28,Référence,Montigny,220000,Studio,Camille D.,44.0,0,Nouveau,0
-486,2025-04-21,SeLoger,Thionville,260000,Appartement,Sofia R.,8.4,0,Gagné,1
-487,2025-02-04,LeBonCoin,Thionville,180000,Studio,Marc L.,58.5,4,Perdu,0
-488,2024-10-13,Référence,Metz,120000,Appartement,Élodie P.,4.0,1,Gagné,1
-489,2024-04-23,Site agence,Nancy,120000,Studio,Yanis B.,1.1,1,Gagné,1
-490,2024-11-02,SeLoger,Montigny,120000,Appartement,Marc L.,23.9,2,Perdu,0
-491,2024-11-07,SeLoger,Thionville,350000,Studio,Camille D.,2.0,4,Gagné,1
-492,2025-04-07,LeBonCoin,Montigny,260000,Studio,Camille D.,0.4,4,Qualifié,0
-493,2024-10-24,Vitrine,Thionville,260000,Studio,Camille D.,1.9,1,Gagné,1
-494,2025-02-25,LeBonCoin,Woippy,220000,Appartement,Camille D.,5.0,2,Perdu,0
-495,2025-01-16,Site agence,Montigny,220000,Studio,Sofia R.,2.1,2,Visite,0
-496,2024-10-29,SeLoger,Woippy,260000,Maison,Sofia R.,62.0,3,Visite,0
-497,2024-07-02,SeLoger,Montigny,350000,Maison,Marc L.,0.5,4,Gagné,1
-498,2024-08-27,Référence,Woippy,150000,Appartement,Yanis B.,1.2,0,Gagné,1
-499,2024-01-15,LeBonCoin,Woippy,180000,Terrain,Élodie P.,6.4,0,Perdu,0
-500,2024-07-06,SeLoger,Woippy,120000,Studio,Marc L.,1.0,2,Visite,0
-501,2025-02-12,LeBonCoin,Thionville,300000,Studio,Sofia R.,2.5,1,Perdu,0
-502,2024-07-08,LeBonCoin,Metz,350000,Maison,Élodie P.,68.7,0,Gagné,1
-503,2024-11-11,SeLoger,Metz,420000,Studio,Sofia R.,1.9,0,Gagné,1
-504,2024-08-24,LeBonCoin,Nancy,300000,Maison,Sofia R.,61.8,2,Perdu,0
-505,2024-11-30,Site agence,Woippy,300000,Maison,Camille D.,2.5,0,Gagné,1
-506,2024-11-03,SeLoger,Nancy,420000,Studio,Yanis B.,0.8,4,Gagné,1
-507,2024-02-09,Référence,Nancy,150000,Studio,Yanis B.,2.9,0,Perdu,0
-508,2024-06-19,LeBonCoin,Metz,300000,Studio,Élodie P.,1.5,2,Gagné,1
-509,2024-06-02,LeBonCoin,Nancy,180000,Terrain,Sofia R.,53.5,0,Perdu,0
-510,2024-07-28,SeLoger,Thionville,220000,Maison,Marc L.,0.4,1,Gagné,1
-511,2024-07-19,SeLoger,Metz,420000,Maison,Marc L.,20.3,2,Gagné,1
-512,2024-06-22,LeBonCoin,Nancy,260000,Appartement,Camille D.,8.0,4,Perdu,0
-513,2025-03-06,LeBonCoin,Thionville,260000,Appartement,Camille D.,0.6,2,Gagné,1
-514,2024-08-11,Site agence,Thionville,420000,Terrain,Yanis B.,0.4,0,Perdu,0
-515,2025-07-11,LeBonCoin,Thionville,150000,Appartement,Sofia R.,4.4,0,Gagné,1
-516,2024-11-09,Référence,Montigny,180000,Studio,Marc L.,0.4,3,Gagné,1
-517,2025-02-17,SeLoger,Montigny,350000,Maison,Marc L.,0.6,3,Gagné,1
-518,2024-01-08,LeBonCoin,Woippy,120000,Appartement,Élodie P.,1.1,4,Gagné,1
-519,2024-02-04,LeBonCoin,Montigny,260000,Appartement,Marc L.,4.3,1,Perdu,0
-520,2025-04-15,Site agence,Thionville,420000,Appartement,Élodie P.,1.7,3,Gagné,1
-521,2024-10-15,SeLoger,Thionville,120000,Terrain,Sofia R.,1.1,0,Gagné,1
-522,2024-01-14,Référence,Woippy,150000,Appartement,Sofia R.,6.4,0,Qualifié,0
-523,2024-12-09,LeBonCoin,Woippy,420000,Appartement,Camille D.,1.0,1,Gagné,1
-524,2025-01-28,SeLoger,Woippy,120000,Maison,Marc L.,0.9,2,Gagné,1
-525,2024-03-21,LeBonCoin,Montigny,350000,Maison,Sofia R.,3.0,2,Gagné,1
-526,2024-11-15,Référence,Nancy,220000,Maison,Sofia R.,2.3,0,Perdu,0
-527,2024-12-30,LeBonCoin,Thionville,120000,Appartement,Élodie P.,55.9,4,Gagné,1
-528,2024-10-18,SeLoger,Metz,350000,Studio,Camille D.,0.8,4,Gagné,1
-529,2024-12-15,SeLoger,Thionville,180000,Appartement,Yanis B.,84.8,1,Nouveau,0
-530,2025-06-06,Vitrine,Woippy,220000,Appartement,Élodie P.,40.3,3,Perdu,0
-531,2025-06-25,LeBonCoin,Nancy,120000,Maison,Camille D.,54.0,4,Gagné,1
-532,2024-12-12,LeBonCoin,Nancy,260000,Maison,Yanis B.,1.2,2,Gagné,1
-533,2025-07-11,LeBonCoin,Woippy,420000,Terrain,Marc L.,1.2,0,Perdu,0
-534,2025-03-08,SeLoger,Metz,120000,Appartement,Yanis B.,0.4,4,Gagné,1
-535,2024-05-02,SeLoger,Metz,220000,Appartement,Camille D.,54.7,1,Gagné,1
-536,2024-07-30,Référence,Metz,260000,Maison,Élodie P.,22.6,2,Gagné,1
-537,2024-10-20,Site agence,Nancy,300000,Terrain,Marc L.,0.7,4,Gagné,1
-538,2024-07-12,Site agence,Nancy,220000,Appartement,Élodie P.,86.6,3,Gagné,1
-539,2024-08-07,Référence,Metz,420000,Studio,Sofia R.,23.8,1,Gagné,1
-540,2024-05-06,SeLoger,Woippy,120000,Maison,Marc L.,54.9,3,Visite,0
-541,2024-08-10,Site agence,Woippy,150000,Appartement,Sofia R.,6.8,2,Perdu,0
-542,2025-05-28,Vitrine,Metz,350000,Appartement,Sofia R.,24.0,4,Gagné,1
-543,2024-05-04,Site agence,Metz,150000,Appartement,Sofia R.,33.9,3,Gagné,1
-544,2024-02-11,Vitrine,Montigny,150000,Terrain,Sofia R.,64.4,0,Qualifié,0
-545,2024-01-05,SeLoger,Thionville,260000,Appartement,Yanis B.,1.1,0,Nouveau,0
-546,2024-08-29,Référence,Woippy,350000,Appartement,Yanis B.,82.5,2,Gagné,1
-547,2025-01-23,LeBonCoin,Montigny,300000,Maison,Marc L.,22.9,0,Nouveau,0
-548,2025-06-09,Site agence,Nancy,350000,Studio,Camille D.,27.3,3,Gagné,1
-549,2025-06-30,SeLoger,Thionville,120000,Appartement,Camille D.,1.2,4,Gagné,1
-550,2025-03-21,LeBonCoin,Montigny,220000,Appartement,Camille D.,3.9,1,Gagné,1
-551,2024-07-28,SeLoger,Thionville,150000,Terrain,Élodie P.,0.4,3,Nouveau,0
-552,2025-01-16,LeBonCoin,Woippy,180000,Studio,Élodie P.,43.9,4,Visite,0
-553,2025-05-11,LeBonCoin,Thionville,120000,Maison,Sofia R.,1.1,0,Perdu,0
-554,2024-06-17,LeBonCoin,Metz,150000,Maison,Yanis B.,37.3,1,Perdu,0
-555,2024-07-24,SeLoger,Nancy,220000,Appartement,Élodie P.,0.6,3,Gagné,1
-556,2024-03-16,LeBonCoin,Metz,150000,Studio,Yanis B.,2.5,4,Perdu,0
-557,2024-11-22,Site agence,Woippy,420000,Appartement,Marc L.,24.3,3,Gagné,1
-558,2024-08-13,SeLoger,Nancy,420000,Appartement,Yanis B.,9.1,2,Gagné,1
-559,2024-03-06,LeBonCoin,Thionville,180000,Maison,Camille D.,49.3,0,Perdu,0
-560,2024-03-02,LeBonCoin,Montigny,180000,Appartement,Élodie P.,9.5,1,Perdu,0
-561,2024-08-05,Site agence,Nancy,150000,Appartement,Élodie P.,41.8,2,Gagné,1
-562,2024-09-14,Site agence,Nancy,120000,Appartement,Camille D.,9.5,0,Gagné,1
-563,2025-01-07,SeLoger,Woippy,220000,Maison,Marc L.,21.3,2,Gagné,1
-564,2024-08-04,SeLoger,Nancy,150000,Appartement,Marc L.,0.5,0,Gagné,1
-565,2024-01-06,Site agence,Woippy,300000,Appartement,Yanis B.,20.4,0,Gagné,1
-566,2024-07-18,SeLoger,Nancy,350000,Appartement,Yanis B.,55.5,1,Perdu,0
-567,2025-06-01,SeLoger,Woippy,120000,Appartement,Yanis B.,0.6,4,Gagné,1
-568,2025-06-13,Référence,Metz,420000,Appartement,Élodie P.,9.8,0,Perdu,0
-569,2025-01-05,LeBonCoin,Thionville,420000,Appartement,Camille D.,0.4,0,Perdu,0
-570,2024-06-03,LeBonCoin,Nancy,260000,Maison,Yanis B.,74.4,2,Gagné,1
-571,2025-07-01,SeLoger,Metz,220000,Maison,Élodie P.,0.4,2,Gagné,1
-572,2024-04-02,LeBonCoin,Woippy,180000,Maison,Sofia R.,2.5,2,Gagné,1
-573,2024-12-19,SeLoger,Woippy,420000,Appartement,Camille D.,53.8,1,Perdu,0
-574,2024-09-22,Vitrine,Montigny,420000,Maison,Élodie P.,24.7,0,Perdu,0
-575,2024-11-01,Site agence,Nancy,150000,Appartement,Yanis B.,7.4,4,Gagné,1
-576,2025-06-15,LeBonCoin,Thionville,150000,Appartement,Sofia R.,17.1,4,Gagné,1
-577,2024-03-24,LeBonCoin,Nancy,260000,Appartement,Camille D.,71.4,2,Nouveau,0
-578,2024-08-17,Vitrine,Metz,180000,Appartement,Camille D.,9.6,3,Gagné,1
-579,2025-03-07,Référence,Montigny,350000,Appartement,Yanis B.,1.3,3,Gagné,1
-580,2024-02-16,LeBonCoin,Montigny,300000,Maison,Élodie P.,44.9,2,Perdu,0
-581,2024-04-26,SeLoger,Woippy,350000,Maison,Sofia R.,0.8,3,Gagné,1
-582,2024-07-06,SeLoger,Nancy,300000,Appartement,Camille D.,7.7,2,Gagné,1
-583,2024-04-14,SeLoger,Thionville,260000,Appartement,Marc L.,0.8,1,Gagné,1
-584,2024-05-25,SeLoger,Nancy,350000,Appartement,Camille D.,9.0,0,Perdu,0
-585,2024-08-09,SeLoger,Metz,350000,Terrain,Marc L.,3.9,2,Gagné,1
-586,2025-03-29,Référence,Thionville,350000,Studio,Élodie P.,23.6,4,Perdu,0
-587,2024-04-12,LeBonCoin,Metz,120000,Appartement,Élodie P.,22.0,0,Perdu,0
-588,2025-06-09,SeLoger,Thionville,300000,Terrain,Élodie P.,0.5,3,Gagné,1
-589,2024-04-06,Référence,Montigny,420000,Appartement,Marc L.,2.3,2,Gagné,1
-590,2024-08-10,Référence,Thionville,120000,Studio,Yanis B.,0.9,2,Gagné,1
-591,2024-12-25,Site agence,Nancy,220000,Maison,Marc L.,2.1,1,Gagné,1
-592,2024-08-03,SeLoger,Metz,260000,Maison,Élodie P.,0.6,2,Gagné,1
-593,2024-10-01,LeBonCoin,Nancy,260000,Studio,Camille D.,47.8,3,Gagné,1
-594,2024-12-29,Référence,Montigny,220000,Appartement,Camille D.,0.5,4,Gagné,1
-595,2024-05-04,Référence,Woippy,300000,Maison,Élodie P.,1.8,4,Gagné,1
-596,2025-01-31,LeBonCoin,Nancy,350000,Maison,Sofia R.,2.5,4,Gagné,1
-597,2024-08-25,SeLoger,Nancy,420000,Appartement,Camille D.,0.5,0,Gagné,1
-598,2024-11-18,SeLoger,Metz,260000,Maison,Élodie P.,0.7,1,Gagné,1
-599,2025-01-02,LeBonCoin,Thionville,300000,Maison,Camille D.,21.3,4,Perdu,0
-600,2024-12-09,Référence,Thionville,220000,Studio,Marc L.,27.9,1,Gagné,1
-601,2024-06-17,Site agence,Montigny,350000,Terrain,Yanis B.,2.4,0,Perdu,0
-602,2024-08-16,Référence,Woippy,180000,Appartement,Marc L.,0.5,0,Gagné,1
-603,2024-05-10,SeLoger,Woippy,180000,Appartement,Marc L.,57.9,3,Perdu,0
-604,2025-03-20,Référence,Montigny,300000,Appartement,Yanis B.,0.4,0,Gagné,1
-605,2025-04-02,SeLoger,Nancy,150000,Appartement,Yanis B.,67.0,0,Visite,0
-606,2024-02-11,Site agence,Nancy,180000,Appartement,Élodie P.,39.4,4,Perdu,0
-607,2024-11-18,LeBonCoin,Montigny,350000,Maison,Yanis B.,3.4,4,Gagné,1
-608,2024-11-09,Site agence,Woippy,180000,Studio,Camille D.,10.3,2,Nouveau,0
-609,2024-09-06,Référence,Woippy,180000,Appartement,Élodie P.,55.2,3,Perdu,0
-610,2025-04-26,LeBonCoin,Woippy,260000,Appartement,Sofia R.,6.9,4,Perdu,0
-611,2024-06-16,SeLoger,Thionville,150000,Terrain,Yanis B.,1.8,3,Qualifié,0
-612,2025-06-17,Site agence,Nancy,180000,Terrain,Camille D.,6.7,3,Gagné,1
-613,2024-10-30,SeLoger,Metz,420000,Appartement,Élodie P.,45.9,1,Nouveau,0
-614,2024-08-07,LeBonCoin,Montigny,120000,Studio,Élodie P.,57.6,3,Gagné,1
-615,2024-07-21,SeLoger,Metz,350000,Terrain,Sofia R.,0.5,4,Gagné,1
-616,2024-09-18,LeBonCoin,Montigny,300000,Studio,Camille D.,2.6,1,Nouveau,0
-617,2024-05-02,SeLoger,Woippy,260000,Maison,Sofia R.,0.4,1,Gagné,1
-618,2024-01-07,LeBonCoin,Nancy,350000,Appartement,Marc L.,0.7,1,Gagné,1
-619,2024-01-28,Site agence,Nancy,420000,Appartement,Marc L.,4.5,1,Gagné,1
-620,2025-03-11,SeLoger,Thionville,350000,Terrain,Camille D.,5.9,3,Perdu,0
-621,2024-10-11,Vitrine,Nancy,420000,Appartement,Camille D.,27.7,2,Visite,0
-622,2024-02-02,SeLoger,Woippy,120000,Terrain,Marc L.,50.0,1,Gagné,1
-623,2024-10-03,Vitrine,Metz,260000,Studio,Élodie P.,17.1,4,Gagné,1
-624,2025-04-21,LeBonCoin,Metz,120000,Appartement,Sofia R.,1.1,2,Perdu,0
-625,2025-06-27,LeBonCoin,Montigny,150000,Appartement,Sofia R.,50.1,0,Gagné,1
-626,2025-03-03,SeLoger,Thionville,120000,Studio,Camille D.,1.1,0,Gagné,1
-627,2025-03-07,SeLoger,Woippy,120000,Maison,Yanis B.,0.8,0,Gagné,1
-628,2024-02-19,SeLoger,Woippy,260000,Appartement,Camille D.,0.5,2,Gagné,1
-629,2024-03-11,LeBonCoin,Metz,220000,Maison,Yanis B.,0.7,3,Visite,0
-630,2024-12-20,Site agence,Woippy,120000,Studio,Yanis B.,1.0,1,Gagné,1
-631,2024-05-29,Vitrine,Nancy,260000,Maison,Élodie P.,53.9,4,Visite,0
-632,2024-05-24,SeLoger,Metz,220000,Appartement,Camille D.,22.4,3,Gagné,1
-633,2025-03-27,SeLoger,Metz,420000,Terrain,Sofia R.,1.3,2,Gagné,1
-634,2024-09-10,LeBonCoin,Thionville,220000,Maison,Yanis B.,0.8,0,Perdu,0
-635,2025-01-19,Site agence,Woippy,300000,Appartement,Camille D.,4.9,1,Perdu,0
-636,2024-05-19,SeLoger,Thionville,300000,Terrain,Yanis B.,2.5,3,Gagné,1
-637,2024-01-23,LeBonCoin,Thionville,120000,Terrain,Camille D.,4.5,4,Gagné,1
-638,2024-08-18,SeLoger,Woippy,260000,Appartement,Marc L.,2.0,1,Gagné,1
-639,2025-04-10,LeBonCoin,Metz,120000,Appartement,Camille D.,0.7,4,Gagné,1
-640,2024-04-25,SeLoger,Nancy,180000,Appartement,Marc L.,0.5,4,Gagné,1
-641,2024-08-04,Site agence,Montigny,420000,Studio,Élodie P.,40.5,2,Qualifié,0
-642,2024-11-08,SeLoger,Thionville,120000,Appartement,Sofia R.,68.5,4,Perdu,0
-643,2024-04-13,Référence,Woippy,300000,Terrain,Marc L.,3.7,0,Gagné,1
-644,2025-01-15,LeBonCoin,Metz,120000,Studio,Yanis B.,1.3,1,Perdu,0
-645,2024-03-02,SeLoger,Metz,220000,Appartement,Yanis B.,25.9,2,Perdu,0
-646,2025-02-23,SeLoger,Woippy,350000,Appartement,Camille D.,1.7,3,Nouveau,0
-647,2025-02-19,SeLoger,Thionville,150000,Maison,Camille D.,1.3,0,Gagné,1
-648,2024-04-01,Site agence,Nancy,220000,Appartement,Marc L.,7.4,1,Gagné,1
-649,2024-10-06,Référence,Nancy,120000,Terrain,Élodie P.,3.0,1,Gagné,1
-650,2024-11-28,Référence,Woippy,220000,Appartement,Sofia R.,0.4,1,Gagné,1
-651,2024-06-14,LeBonCoin,Thionville,260000,Appartement,Élodie P.,30.8,3,Perdu,0
-652,2024-01-17,Vitrine,Nancy,120000,Terrain,Élodie P.,2.0,3,Perdu,0
-653,2025-05-25,Vitrine,Thionville,180000,Terrain,Marc L.,0.5,4,Gagné,1
-654,2024-01-26,SeLoger,Nancy,180000,Maison,Marc L.,0.9,3,Gagné,1
-655,2025-03-29,Référence,Thionville,120000,Maison,Yanis B.,0.9,0,Gagné,1
-656,2025-06-06,LeBonCoin,Nancy,180000,Maison,Marc L.,4.8,3,Gagné,1
-657,2024-08-25,SeLoger,Metz,180000,Appartement,Sofia R.,5.1,2,Gagné,1
-658,2024-01-28,LeBonCoin,Metz,150000,Appartement,Marc L.,91.2,2,Perdu,0
-659,2024-03-17,Vitrine,Metz,120000,Studio,Marc L.,2.6,0,Gagné,1
-660,2024-08-01,Site agence,Montigny,420000,Appartement,Élodie P.,2.5,2,Gagné,1
-661,2024-10-17,SeLoger,Nancy,150000,Appartement,Marc L.,0.6,3,Perdu,0
-662,2024-02-19,Vitrine,Thionville,420000,Appartement,Sofia R.,0.4,0,Gagné,1
-663,2024-09-05,Site agence,Woippy,150000,Appartement,Yanis B.,0.4,1,Gagné,1
-664,2024-04-20,LeBonCoin,Nancy,420000,Maison,Marc L.,0.6,0,Gagné,1
-665,2024-10-19,SeLoger,Woippy,420000,Appartement,Élodie P.,0.8,3,Gagné,1
-666,2024-05-31,Vitrine,Metz,260000,Terrain,Yanis B.,20.1,0,Gagné,1
-667,2025-07-04,Référence,Nancy,220000,Maison,Marc L.,34.6,3,Gagné,1
-668,2025-01-06,Référence,Metz,150000,Appartement,Élodie P.,30.3,1,Perdu,0
-669,2024-11-03,Site agence,Woippy,220000,Appartement,Marc L.,1.1,1,Gagné,1
-670,2025-03-01,Vitrine,Thionville,420000,Terrain,Camille D.,2.3,0,Perdu,0
-671,2024-02-06,SeLoger,Metz,260000,Appartement,Marc L.,6.9,0,Gagné,1
-672,2025-04-12,Vitrine,Metz,120000,Appartement,Yanis B.,0.9,3,Gagné,1
-673,2024-06-13,Site agence,Metz,260000,Appartement,Camille D.,1.3,3,Gagné,1
-674,2024-10-15,SeLoger,Woippy,350000,Appartement,Sofia R.,3.5,2,Qualifié,0
-675,2025-06-08,LeBonCoin,Metz,180000,Maison,Élodie P.,60.3,4,Visite,0
-676,2025-03-09,LeBonCoin,Metz,150000,Maison,Marc L.,46.8,1,Gagné,1
-677,2025-01-24,LeBonCoin,Nancy,220000,Appartement,Sofia R.,0.9,0,Perdu,0
-678,2025-03-11,Site agence,Nancy,220000,Appartement,Sofia R.,0.8,0,Gagné,1
-679,2024-01-30,Site agence,Montigny,150000,Maison,Camille D.,0.4,1,Gagné,1
-680,2024-04-19,Site agence,Nancy,180000,Appartement,Yanis B.,0.5,0,Qualifié,0
-681,2024-11-06,LeBonCoin,Woippy,120000,Studio,Élodie P.,37.7,4,Gagné,1
-682,2025-02-08,Référence,Woippy,350000,Appartement,Camille D.,24.4,2,Gagné,1
-683,2024-03-20,SeLoger,Nancy,420000,Maison,Sofia R.,29.7,0,Perdu,0
-684,2025-01-29,SeLoger,Woippy,120000,Appartement,Élodie P.,0.7,4,Perdu,0
-685,2024-09-11,LeBonCoin,Woippy,350000,Appartement,Élodie P.,1.5,1,Gagné,1
-686,2024-10-20,Site agence,Montigny,220000,Appartement,Sofia R.,25.0,4,Gagné,1
-687,2025-05-31,SeLoger,Thionville,260000,Maison,Marc L.,1.6,2,Gagné,1
-688,2024-01-16,Site agence,Montigny,420000,Appartement,Élodie P.,3.3,2,Gagné,1
-689,2025-04-02,Site agence,Metz,350000,Appartement,Marc L.,19.0,0,Nouveau,0
-690,2024-02-08,LeBonCoin,Montigny,350000,Terrain,Élodie P.,0.4,3,Perdu,0
-691,2025-03-31,LeBonCoin,Nancy,120000,Maison,Sofia R.,1.9,3,Gagné,1
-692,2024-09-12,SeLoger,Woippy,420000,Appartement,Yanis B.,6.1,1,Qualifié,0
-693,2024-06-26,Site agence,Thionville,260000,Studio,Élodie P.,1.9,3,Gagné,1
-694,2024-01-02,LeBonCoin,Woippy,220000,Appartement,Marc L.,8.1,0,Visite,0
-695,2025-02-28,SeLoger,Metz,150000,Appartement,Élodie P.,0.6,0,Perdu,0
-696,2024-02-22,Site agence,Montigny,300000,Appartement,Élodie P.,1.0,0,Gagné,1
-697,2024-12-19,SeLoger,Nancy,150000,Studio,Marc L.,0.8,2,Qualifié,0
-698,2024-12-16,LeBonCoin,Woippy,300000,Appartement,Marc L.,2.1,4,Gagné,1
-699,2024-08-01,Référence,Montigny,350000,Appartement,Camille D.,1.0,1,Gagné,1
-700,2024-11-10,SeLoger,Nancy,120000,Maison,Marc L.,20.8,0,Visite,0
+id_lead,nom,date,source,ville,budget,type_recherche,agent,temps_reponse_h,nb_relances,statut,converti
+1,Camille Robert,2024-09-29,Site agence,Thionville,300000,Appartement,Sofia R.,10.2,4,Gagné,1
+2,Thomas Lefebvre,2025-01-21,SeLoger,Nancy,150000,Appartement,Yanis B.,2.4,0,Nouveau,0
+3,Julie Morel,2025-01-27,Vitrine,Montigny,120000,Terrain,Camille D.,67.0,0,Perdu,0
+4,Nicolas Chevalier,2024-08-11,SeLoger,Woippy,300000,Maison,Élodie P.,4.9,2,Perdu,0
+5,Sophie Henry,2024-03-18,LeBonCoin,Montigny,180000,Terrain,Yanis B.,4.5,4,Gagné,1
+6,Alexandre Dumont,2024-03-03,Référence,Woippy,420000,Studio,Élodie P.,0.5,2,Gagné,1
+7,Marie Durand,2024-01-05,Vitrine,Metz,180000,Appartement,Élodie P.,43.1,4,Gagné,1
+8,Julien Garcia,2025-06-22,Référence,Thionville,260000,Maison,Yanis B.,18.0,3,Gagné,1
+9,Laura Mercier,2024-01-02,SeLoger,Metz,420000,Studio,Marc L.,0.5,0,Perdu,0
+10,Maxime Gauthier,2024-10-30,SeLoger,Metz,180000,Appartement,Sofia R.,0.4,4,Gagné,1
+11,Emma Masson,2024-11-17,LeBonCoin,Nancy,150000,Maison,Yanis B.,51.7,4,Perdu,0
+12,Antoine Martin,2024-05-08,SeLoger,Nancy,180000,Appartement,Sofia R.,90.0,1,Perdu,0
+13,Chloé Moreau,2024-08-09,SeLoger,Thionville,120000,Maison,Marc L.,29.3,2,Gagné,1
+14,Lucas Bertrand,2024-09-01,Site agence,Nancy,260000,Appartement,Camille D.,0.4,0,Perdu,0
+15,Sarah Guérin,2024-09-06,LeBonCoin,Thionville,350000,Appartement,Yanis B.,4.5,1,Perdu,0
+16,Hugo Robin,2024-05-07,LeBonCoin,Thionville,150000,Appartement,Marc L.,22.8,0,Perdu,0
+17,Manon Duval,2025-02-03,Vitrine,Nancy,420000,Appartement,Camille D.,5.2,1,Gagné,1
+18,Théo Dubois,2024-12-20,Référence,Montigny,350000,Studio,Yanis B.,1.3,0,Gagné,1
+19,Léa Laurent,2024-01-25,Site agence,Montigny,260000,Appartement,Yanis B.,56.6,3,Gagné,1
+20,Nathan Fournier,2025-05-15,Référence,Nancy,220000,Studio,Marc L.,21.8,0,Gagné,1
+21,Inès Garnier,2025-04-29,LeBonCoin,Nancy,350000,Appartement,Élodie P.,9.2,2,Gagné,1
+22,Romain Morin,2024-03-06,Vitrine,Montigny,180000,Maison,Yanis B.,0.9,0,Perdu,0
+23,Clara Lemaire,2024-03-28,Référence,Woippy,120000,Maison,Marc L.,1.0,3,Gagné,1
+24,Quentin Petit,2024-03-05,SeLoger,Montigny,350000,Appartement,Élodie P.,0.8,0,Qualifié,0
+25,Pauline Michel,2024-06-12,Référence,Montigny,120000,Maison,Yanis B.,0.4,3,Gagné,1
+26,Florian Girard,2024-03-09,SeLoger,Metz,300000,Appartement,Yanis B.,57.9,4,Gagné,1
+27,Marine Legrand,2024-08-05,SeLoger,Metz,350000,Appartement,Yanis B.,2.2,2,Gagné,1
+28,Adrien Rousseau,2024-07-09,Site agence,Montigny,260000,Appartement,Yanis B.,9.2,2,Gagné,1
+29,Justine Fontaine,2024-12-20,SeLoger,Montigny,260000,Maison,Yanis B.,0.4,0,Nouveau,0
+30,Kevin Leroy,2024-09-04,SeLoger,Nancy,180000,Studio,Yanis B.,62.2,2,Perdu,0
+31,Élodie David,2024-09-05,Site agence,Montigny,150000,Maison,Marc L.,51.0,2,Gagné,1
+32,Guillaume Blanc,2024-06-19,Site agence,Nancy,220000,Maison,Élodie P.,18.5,1,Perdu,0
+33,Céline Perrin,2024-02-06,Site agence,Montigny,220000,Studio,Camille D.,6.2,3,Gagné,1
+34,Damien Marchand,2024-10-27,SeLoger,Woippy,420000,Maison,Yanis B.,58.1,4,Gagné,1
+35,Aurélie Bernard,2024-10-12,Référence,Metz,150000,Appartement,Élodie P.,2.0,1,Gagné,1
+36,Sébastien Simon,2025-05-06,LeBonCoin,Nancy,420000,Appartement,Élodie P.,3.5,0,Visite,0
+37,Mathilde Roux,2024-10-02,LeBonCoin,Nancy,300000,Appartement,Yanis B.,47.8,4,Gagné,1
+38,Vincent Boyer,2025-05-31,LeBonCoin,Thionville,350000,Maison,Élodie P.,54.2,0,Qualifié,0
+39,Audrey Clément,2024-08-23,Référence,Woippy,420000,Terrain,Élodie P.,26.4,4,Gagné,1
+40,Benjamin Denis,2024-02-21,LeBonCoin,Woippy,350000,Maison,Yanis B.,21.1,0,Perdu,0
+41,Camille Robert,2024-06-23,LeBonCoin,Nancy,150000,Terrain,Marc L.,50.7,1,Perdu,0
+42,Thomas Lefebvre,2024-06-16,Référence,Thionville,150000,Appartement,Sofia R.,85.7,0,Nouveau,0
+43,Julie Morel,2024-07-11,Vitrine,Montigny,300000,Maison,Sofia R.,0.6,1,Gagné,1
+44,Nicolas Chevalier,2025-05-20,SeLoger,Nancy,220000,Appartement,Yanis B.,43.7,2,Nouveau,0
+45,Sophie Henry,2024-08-30,Site agence,Montigny,300000,Maison,Sofia R.,7.7,3,Gagné,1
+46,Alexandre Dumont,2024-09-27,LeBonCoin,Woippy,350000,Appartement,Yanis B.,2.0,4,Gagné,1
+47,Marie Durand,2024-06-04,Site agence,Metz,150000,Appartement,Marc L.,0.5,2,Qualifié,0
+48,Julien Garcia,2024-04-17,Référence,Metz,300000,Terrain,Marc L.,0.6,3,Gagné,1
+49,Laura Mercier,2024-09-02,Site agence,Metz,220000,Maison,Marc L.,66.5,3,Perdu,0
+50,Maxime Gauthier,2025-05-09,SeLoger,Nancy,420000,Maison,Yanis B.,6.7,0,Gagné,1
+51,Emma Masson,2024-02-26,SeLoger,Montigny,150000,Appartement,Camille D.,2.8,4,Gagné,1
+52,Antoine Martin,2024-12-07,SeLoger,Woippy,180000,Maison,Camille D.,6.0,0,Perdu,0
+53,Chloé Moreau,2025-07-09,SeLoger,Thionville,420000,Studio,Marc L.,18.9,4,Gagné,1
+54,Lucas Bertrand,2025-07-05,SeLoger,Woippy,220000,Studio,Yanis B.,0.6,0,Perdu,0
+55,Sarah Guérin,2024-07-08,Site agence,Thionville,300000,Appartement,Camille D.,60.1,3,Gagné,1
+56,Hugo Robin,2025-05-19,Vitrine,Thionville,300000,Appartement,Yanis B.,42.7,4,Qualifié,0
+57,Manon Duval,2024-12-28,SeLoger,Woippy,180000,Appartement,Sofia R.,82.0,2,Perdu,0
+58,Théo Dubois,2025-06-17,LeBonCoin,Montigny,300000,Appartement,Sofia R.,1.0,4,Gagné,1
+59,Léa Laurent,2025-03-15,Vitrine,Woippy,300000,Appartement,Yanis B.,2.1,0,Gagné,1
+60,Nathan Fournier,2024-01-26,SeLoger,Montigny,300000,Terrain,Camille D.,0.6,3,Gagné,1
+61,Inès Garnier,2025-04-24,SeLoger,Nancy,220000,Appartement,Yanis B.,72.4,4,Perdu,0
+62,Romain Morin,2024-08-17,SeLoger,Nancy,420000,Appartement,Marc L.,68.4,4,Perdu,0
+63,Clara Lemaire,2025-06-28,LeBonCoin,Nancy,220000,Terrain,Élodie P.,0.7,2,Gagné,1
+64,Quentin Petit,2024-06-03,LeBonCoin,Montigny,220000,Appartement,Sofia R.,1.8,0,Perdu,0
+65,Pauline Michel,2025-06-02,LeBonCoin,Woippy,120000,Maison,Yanis B.,46.5,3,Perdu,0
+66,Florian Girard,2024-10-01,LeBonCoin,Montigny,350000,Studio,Yanis B.,20.8,2,Perdu,0
+67,Marine Legrand,2024-03-17,Vitrine,Metz,260000,Studio,Sofia R.,0.5,1,Gagné,1
+68,Adrien Rousseau,2024-12-21,Vitrine,Montigny,180000,Studio,Sofia R.,1.2,1,Gagné,1
+69,Justine Fontaine,2024-05-24,LeBonCoin,Metz,350000,Terrain,Yanis B.,90.9,0,Qualifié,0
+70,Kevin Leroy,2025-06-18,SeLoger,Montigny,300000,Appartement,Élodie P.,52.4,2,Perdu,0
+71,Élodie David,2024-05-18,Référence,Montigny,420000,Appartement,Marc L.,3.9,2,Gagné,1
+72,Guillaume Blanc,2024-06-01,Site agence,Nancy,120000,Appartement,Sofia R.,82.3,3,Perdu,0
+73,Céline Perrin,2024-11-30,SeLoger,Thionville,220000,Maison,Camille D.,5.1,3,Gagné,1
+74,Damien Marchand,2024-06-08,LeBonCoin,Thionville,300000,Appartement,Camille D.,7.3,1,Gagné,1
+75,Aurélie Bernard,2024-10-24,Référence,Thionville,180000,Appartement,Sofia R.,60.2,1,Qualifié,0
+76,Sébastien Simon,2025-01-28,Vitrine,Woippy,420000,Appartement,Élodie P.,0.7,4,Gagné,1
+77,Mathilde Roux,2025-01-03,SeLoger,Woippy,350000,Appartement,Sofia R.,0.5,0,Perdu,0
+78,Vincent Boyer,2024-08-28,Site agence,Nancy,420000,Appartement,Sofia R.,3.5,2,Gagné,1
+79,Audrey Clément,2024-12-22,LeBonCoin,Metz,150000,Maison,Camille D.,25.9,3,Qualifié,0
+80,Benjamin Denis,2024-02-21,Site agence,Woippy,180000,Appartement,Élodie P.,41.9,0,Gagné,1
+81,Camille Robert,2024-06-12,Site agence,Woippy,180000,Appartement,Élodie P.,57.3,3,Perdu,0
+82,Thomas Lefebvre,2024-11-12,LeBonCoin,Metz,120000,Maison,Yanis B.,39.1,0,Perdu,0
+83,Julie Morel,2024-03-17,LeBonCoin,Thionville,180000,Terrain,Marc L.,8.5,3,Gagné,1
+84,Nicolas Chevalier,2025-03-29,Vitrine,Montigny,260000,Appartement,Sofia R.,1.2,3,Gagné,1
+85,Sophie Henry,2024-09-02,Référence,Montigny,300000,Studio,Camille D.,47.1,2,Gagné,1
+86,Alexandre Dumont,2025-01-30,Vitrine,Thionville,120000,Maison,Camille D.,1.0,4,Gagné,1
+87,Marie Durand,2024-12-17,LeBonCoin,Nancy,420000,Studio,Élodie P.,40.3,0,Qualifié,0
+88,Julien Garcia,2024-06-19,Vitrine,Montigny,350000,Appartement,Marc L.,45.0,3,Gagné,1
+89,Laura Mercier,2024-06-22,SeLoger,Montigny,180000,Maison,Camille D.,1.0,3,Gagné,1
+90,Maxime Gauthier,2025-05-17,SeLoger,Metz,180000,Appartement,Camille D.,19.6,3,Gagné,1
+91,Emma Masson,2025-02-03,Site agence,Nancy,150000,Maison,Yanis B.,2.4,1,Gagné,1
+92,Antoine Martin,2025-04-13,SeLoger,Nancy,300000,Studio,Marc L.,0.6,0,Perdu,0
+93,Chloé Moreau,2025-04-12,SeLoger,Metz,420000,Maison,Élodie P.,10.2,2,Qualifié,0
+94,Lucas Bertrand,2024-02-27,SeLoger,Thionville,180000,Appartement,Camille D.,1.3,4,Gagné,1
+95,Sarah Guérin,2025-01-25,LeBonCoin,Nancy,350000,Appartement,Yanis B.,3.7,3,Gagné,1
+96,Hugo Robin,2024-11-23,Vitrine,Metz,350000,Maison,Marc L.,4.6,2,Gagné,1
+97,Manon Duval,2024-03-22,Vitrine,Metz,150000,Maison,Sofia R.,72.1,0,Perdu,0
+98,Théo Dubois,2025-03-24,Vitrine,Thionville,420000,Appartement,Élodie P.,27.9,2,Nouveau,0
+99,Léa Laurent,2025-06-22,Site agence,Nancy,420000,Terrain,Camille D.,4.8,2,Perdu,0
+100,Nathan Fournier,2024-11-24,Vitrine,Nancy,150000,Studio,Yanis B.,10.2,0,Gagné,1
+101,Inès Garnier,2024-01-15,LeBonCoin,Woippy,120000,Appartement,Sofia R.,1.0,3,Gagné,1
+102,Romain Morin,2024-05-11,SeLoger,Nancy,260000,Maison,Marc L.,23.7,2,Gagné,1
+103,Clara Lemaire,2024-09-21,LeBonCoin,Nancy,350000,Terrain,Sofia R.,9.4,2,Gagné,1
+104,Quentin Petit,2024-05-21,SeLoger,Nancy,350000,Terrain,Marc L.,65.1,2,Perdu,0
+105,Pauline Michel,2024-11-26,SeLoger,Metz,260000,Appartement,Camille D.,49.7,1,Visite,0
+106,Florian Girard,2024-11-01,LeBonCoin,Thionville,300000,Appartement,Marc L.,1.1,0,Qualifié,0
+107,Marine Legrand,2024-06-22,Vitrine,Montigny,260000,Appartement,Yanis B.,1.0,1,Nouveau,0
+108,Adrien Rousseau,2024-05-26,Site agence,Woippy,260000,Appartement,Camille D.,0.5,0,Gagné,1
+109,Justine Fontaine,2025-04-30,Vitrine,Nancy,220000,Appartement,Camille D.,37.9,1,Visite,0
+110,Kevin Leroy,2025-05-05,Référence,Metz,300000,Appartement,Marc L.,0.6,4,Gagné,1
+111,Élodie David,2025-04-14,SeLoger,Montigny,300000,Appartement,Marc L.,1.9,4,Gagné,1
+112,Guillaume Blanc,2024-11-15,LeBonCoin,Metz,420000,Maison,Marc L.,1.6,2,Perdu,0
+113,Céline Perrin,2024-08-14,Site agence,Metz,180000,Maison,Yanis B.,2.0,4,Gagné,1
+114,Damien Marchand,2024-08-12,SeLoger,Nancy,120000,Appartement,Élodie P.,2.4,1,Nouveau,0
+115,Aurélie Bernard,2025-06-02,Site agence,Montigny,350000,Terrain,Élodie P.,4.0,2,Gagné,1
+116,Sébastien Simon,2025-04-23,SeLoger,Nancy,180000,Terrain,Marc L.,92.1,4,Perdu,0
+117,Mathilde Roux,2025-01-04,SeLoger,Metz,420000,Studio,Yanis B.,0.4,4,Gagné,1
+118,Vincent Boyer,2025-04-24,Référence,Woippy,420000,Terrain,Sofia R.,30.0,2,Gagné,1
+119,Audrey Clément,2024-05-24,Site agence,Thionville,350000,Studio,Marc L.,36.9,0,Gagné,1
+120,Benjamin Denis,2024-02-12,Site agence,Metz,420000,Maison,Élodie P.,0.6,4,Gagné,1
+121,Camille Robert,2025-04-12,LeBonCoin,Montigny,220000,Appartement,Sofia R.,0.5,2,Gagné,1
+122,Thomas Lefebvre,2025-05-22,SeLoger,Nancy,350000,Appartement,Marc L.,79.8,3,Gagné,1
+123,Julie Morel,2024-12-02,SeLoger,Montigny,180000,Appartement,Marc L.,10.3,3,Gagné,1
+124,Nicolas Chevalier,2024-03-14,Vitrine,Metz,220000,Appartement,Camille D.,89.2,1,Nouveau,0
+125,Sophie Henry,2024-03-09,Vitrine,Thionville,120000,Appartement,Yanis B.,63.1,2,Perdu,0
+126,Alexandre Dumont,2025-06-18,SeLoger,Thionville,260000,Maison,Élodie P.,6.1,1,Gagné,1
+127,Marie Durand,2024-11-26,LeBonCoin,Metz,420000,Appartement,Sofia R.,3.1,4,Gagné,1
+128,Julien Garcia,2025-01-04,SeLoger,Metz,300000,Appartement,Camille D.,2.0,4,Gagné,1
+129,Laura Mercier,2024-06-01,LeBonCoin,Woippy,220000,Appartement,Sofia R.,8.8,0,Perdu,0
+130,Maxime Gauthier,2024-04-03,Référence,Metz,350000,Appartement,Camille D.,25.1,4,Gagné,1
+131,Emma Masson,2024-05-09,LeBonCoin,Thionville,180000,Appartement,Élodie P.,1.7,1,Gagné,1
+132,Antoine Martin,2024-08-17,SeLoger,Thionville,350000,Maison,Camille D.,1.5,1,Gagné,1
+133,Chloé Moreau,2024-04-22,Référence,Metz,350000,Terrain,Sofia R.,1.5,4,Gagné,1
+134,Lucas Bertrand,2025-04-06,LeBonCoin,Woippy,350000,Maison,Sofia R.,27.7,4,Gagné,1
+135,Sarah Guérin,2024-02-12,SeLoger,Nancy,420000,Appartement,Sofia R.,77.0,1,Nouveau,0
+136,Hugo Robin,2025-02-23,LeBonCoin,Thionville,420000,Appartement,Camille D.,3.4,2,Gagné,1
+137,Manon Duval,2024-07-21,LeBonCoin,Woippy,220000,Appartement,Yanis B.,8.9,1,Visite,0
+138,Théo Dubois,2024-02-06,SeLoger,Thionville,350000,Maison,Camille D.,2.4,0,Gagné,1
+139,Léa Laurent,2024-12-10,SeLoger,Thionville,300000,Appartement,Sofia R.,1.4,4,Gagné,1
+140,Nathan Fournier,2024-03-01,SeLoger,Thionville,420000,Appartement,Yanis B.,20.0,1,Gagné,1
+141,Inès Garnier,2024-11-21,Site agence,Thionville,220000,Appartement,Yanis B.,0.5,0,Gagné,1
+142,Romain Morin,2025-06-20,SeLoger,Metz,120000,Maison,Sofia R.,4.4,2,Perdu,0
+143,Clara Lemaire,2024-11-18,Référence,Montigny,150000,Maison,Sofia R.,0.5,1,Gagné,1
+144,Quentin Petit,2024-11-24,Site agence,Woippy,350000,Maison,Camille D.,56.1,2,Qualifié,0
+145,Pauline Michel,2025-02-20,LeBonCoin,Montigny,350000,Maison,Sofia R.,27.5,3,Gagné,1
+146,Florian Girard,2025-06-27,SeLoger,Thionville,180000,Maison,Sofia R.,28.5,1,Gagné,1
+147,Marine Legrand,2025-05-24,Référence,Montigny,300000,Maison,Élodie P.,28.5,1,Perdu,0
+148,Adrien Rousseau,2024-05-20,Site agence,Nancy,150000,Appartement,Camille D.,9.3,2,Gagné,1
+149,Justine Fontaine,2024-05-03,Site agence,Woippy,300000,Maison,Camille D.,1.2,1,Gagné,1
+150,Kevin Leroy,2024-10-26,Site agence,Montigny,220000,Terrain,Camille D.,27.4,0,Perdu,0
+151,Élodie David,2024-05-26,LeBonCoin,Nancy,120000,Studio,Yanis B.,3.6,0,Perdu,0
+152,Guillaume Blanc,2025-03-29,SeLoger,Thionville,420000,Maison,Élodie P.,2.0,3,Gagné,1
+153,Céline Perrin,2024-02-26,Site agence,Woippy,300000,Studio,Camille D.,18.0,2,Gagné,1
+154,Damien Marchand,2024-10-12,LeBonCoin,Thionville,220000,Maison,Sofia R.,27.2,4,Gagné,1
+155,Aurélie Bernard,2024-06-18,LeBonCoin,Montigny,120000,Maison,Yanis B.,49.1,2,Nouveau,0
+156,Sébastien Simon,2024-04-14,SeLoger,Montigny,420000,Maison,Camille D.,8.4,2,Gagné,1
+157,Mathilde Roux,2025-02-04,Vitrine,Thionville,300000,Maison,Sofia R.,1.3,0,Gagné,1
+158,Vincent Boyer,2024-09-21,Vitrine,Metz,150000,Appartement,Yanis B.,1.8,3,Gagné,1
+159,Audrey Clément,2024-12-28,SeLoger,Thionville,300000,Appartement,Élodie P.,0.4,2,Gagné,1
+160,Benjamin Denis,2025-01-19,Vitrine,Montigny,150000,Terrain,Sofia R.,73.6,2,Perdu,0
+161,Camille Robert,2024-08-20,Référence,Thionville,150000,Appartement,Marc L.,93.2,4,Gagné,1
+162,Thomas Lefebvre,2024-07-30,Référence,Metz,120000,Appartement,Marc L.,1.0,0,Gagné,1
+163,Julie Morel,2024-03-20,SeLoger,Metz,120000,Appartement,Yanis B.,5.2,1,Perdu,0
+164,Nicolas Chevalier,2024-01-16,Site agence,Woippy,300000,Maison,Élodie P.,1.1,2,Visite,0
+165,Sophie Henry,2024-02-05,LeBonCoin,Montigny,420000,Terrain,Sofia R.,0.4,3,Gagné,1
+166,Alexandre Dumont,2025-05-09,LeBonCoin,Woippy,220000,Studio,Camille D.,0.5,0,Gagné,1
+167,Marie Durand,2024-01-13,SeLoger,Thionville,180000,Appartement,Élodie P.,0.6,0,Qualifié,0
+168,Julien Garcia,2025-03-06,Vitrine,Montigny,150000,Maison,Yanis B.,19.1,0,Qualifié,0
+169,Laura Mercier,2024-07-13,SeLoger,Thionville,180000,Appartement,Marc L.,25.8,1,Visite,0
+170,Maxime Gauthier,2024-01-21,SeLoger,Montigny,150000,Maison,Élodie P.,78.2,1,Perdu,0
+171,Emma Masson,2024-02-05,Référence,Metz,120000,Appartement,Marc L.,22.5,3,Nouveau,0
+172,Antoine Martin,2025-05-20,Référence,Thionville,180000,Appartement,Camille D.,0.8,1,Gagné,1
+173,Chloé Moreau,2025-04-27,LeBonCoin,Woippy,150000,Maison,Marc L.,3.4,4,Gagné,1
+174,Lucas Bertrand,2024-03-12,SeLoger,Montigny,420000,Appartement,Élodie P.,8.3,2,Gagné,1
+175,Sarah Guérin,2025-04-30,Référence,Woippy,180000,Appartement,Marc L.,0.4,3,Gagné,1
+176,Hugo Robin,2025-04-10,Site agence,Thionville,350000,Appartement,Élodie P.,2.4,1,Gagné,1
+177,Manon Duval,2024-07-30,Référence,Metz,420000,Appartement,Élodie P.,7.8,1,Gagné,1
+178,Théo Dubois,2024-10-24,SeLoger,Thionville,420000,Maison,Sofia R.,34.4,3,Gagné,1
+179,Léa Laurent,2025-06-29,SeLoger,Thionville,350000,Appartement,Camille D.,90.4,4,Nouveau,0
+180,Nathan Fournier,2024-07-27,LeBonCoin,Thionville,180000,Studio,Élodie P.,82.2,4,Qualifié,0
+181,Inès Garnier,2024-12-25,LeBonCoin,Metz,420000,Maison,Sofia R.,4.5,3,Gagné,1
+182,Romain Morin,2024-01-01,Référence,Montigny,120000,Maison,Yanis B.,7.8,2,Gagné,1
+183,Clara Lemaire,2025-04-19,Vitrine,Woippy,260000,Appartement,Camille D.,3.6,3,Gagné,1
+184,Quentin Petit,2025-02-07,Site agence,Montigny,180000,Maison,Élodie P.,1.0,2,Gagné,1
+185,Pauline Michel,2024-11-17,Site agence,Woippy,180000,Appartement,Élodie P.,66.0,2,Gagné,1
+186,Florian Girard,2025-07-01,Site agence,Thionville,420000,Studio,Élodie P.,67.1,0,Gagné,1
+187,Marine Legrand,2024-10-13,LeBonCoin,Metz,260000,Appartement,Sofia R.,6.3,3,Gagné,1
+188,Adrien Rousseau,2024-02-09,Site agence,Nancy,350000,Appartement,Camille D.,0.8,4,Gagné,1
+189,Justine Fontaine,2025-06-19,SeLoger,Nancy,420000,Maison,Élodie P.,21.0,0,Perdu,0
+190,Kevin Leroy,2025-06-07,SeLoger,Woippy,350000,Studio,Camille D.,63.4,2,Gagné,1
+191,Élodie David,2024-03-15,LeBonCoin,Metz,260000,Appartement,Sofia R.,92.8,4,Perdu,0
+192,Guillaume Blanc,2025-01-05,SeLoger,Woippy,420000,Appartement,Élodie P.,8.4,1,Perdu,0
+193,Céline Perrin,2024-03-08,SeLoger,Nancy,420000,Appartement,Camille D.,0.6,3,Perdu,0
+194,Damien Marchand,2024-12-27,SeLoger,Thionville,350000,Maison,Sofia R.,3.5,3,Perdu,0
+195,Aurélie Bernard,2025-06-14,SeLoger,Montigny,150000,Appartement,Marc L.,55.0,0,Qualifié,0
+196,Sébastien Simon,2024-06-26,SeLoger,Montigny,120000,Appartement,Élodie P.,1.5,1,Gagné,1
+197,Mathilde Roux,2025-05-10,Référence,Metz,120000,Terrain,Marc L.,7.4,3,Gagné,1
+198,Vincent Boyer,2024-03-09,LeBonCoin,Nancy,420000,Studio,Élodie P.,9.2,3,Gagné,1
+199,Audrey Clément,2024-04-25,LeBonCoin,Woippy,220000,Studio,Sofia R.,4.7,0,Gagné,1
+200,Benjamin Denis,2025-06-01,Vitrine,Woippy,350000,Maison,Marc L.,4.4,2,Gagné,1
+201,Camille Robert,2024-08-31,Site agence,Woippy,150000,Appartement,Camille D.,7.2,3,Gagné,1
+202,Thomas Lefebvre,2024-02-08,LeBonCoin,Woippy,350000,Maison,Camille D.,93.2,2,Nouveau,0
+203,Julie Morel,2024-09-03,LeBonCoin,Metz,300000,Appartement,Sofia R.,1.5,4,Gagné,1
+204,Nicolas Chevalier,2024-11-12,LeBonCoin,Woippy,220000,Maison,Sofia R.,74.7,0,Perdu,0
+205,Sophie Henry,2024-07-07,SeLoger,Metz,150000,Studio,Sofia R.,1.4,4,Perdu,0
+206,Alexandre Dumont,2025-06-02,Site agence,Thionville,420000,Maison,Sofia R.,87.0,2,Perdu,0
+207,Marie Durand,2024-04-12,LeBonCoin,Metz,350000,Appartement,Sofia R.,0.5,2,Gagné,1
+208,Julien Garcia,2025-05-09,Référence,Nancy,300000,Appartement,Sofia R.,49.6,0,Perdu,0
+209,Laura Mercier,2025-05-13,LeBonCoin,Thionville,260000,Studio,Élodie P.,0.9,0,Perdu,0
+210,Maxime Gauthier,2024-11-01,LeBonCoin,Thionville,260000,Maison,Élodie P.,9.1,2,Gagné,1
+211,Emma Masson,2024-02-12,SeLoger,Nancy,260000,Maison,Élodie P.,24.2,0,Gagné,1
+212,Antoine Martin,2024-12-01,Site agence,Metz,150000,Appartement,Élodie P.,4.9,3,Gagné,1
+213,Chloé Moreau,2025-02-22,SeLoger,Montigny,350000,Maison,Yanis B.,0.9,3,Gagné,1
+214,Lucas Bertrand,2024-04-19,Site agence,Nancy,150000,Terrain,Marc L.,58.9,1,Qualifié,0
+215,Sarah Guérin,2024-01-31,Référence,Nancy,300000,Appartement,Élodie P.,51.0,3,Qualifié,0
+216,Hugo Robin,2024-03-04,Site agence,Metz,260000,Maison,Camille D.,4.4,1,Gagné,1
+217,Manon Duval,2024-09-08,Site agence,Metz,300000,Studio,Sofia R.,59.1,4,Gagné,1
+218,Théo Dubois,2025-06-01,Référence,Thionville,420000,Appartement,Camille D.,1.9,0,Gagné,1
+219,Léa Laurent,2024-06-19,Vitrine,Thionville,120000,Maison,Yanis B.,10.2,1,Gagné,1
+220,Nathan Fournier,2025-04-25,LeBonCoin,Woippy,180000,Appartement,Élodie P.,2.4,4,Gagné,1
+221,Inès Garnier,2025-02-15,LeBonCoin,Thionville,350000,Studio,Camille D.,7.6,2,Gagné,1
+222,Romain Morin,2024-08-07,LeBonCoin,Woippy,120000,Terrain,Camille D.,0.6,3,Gagné,1
+223,Clara Lemaire,2025-01-01,LeBonCoin,Nancy,300000,Maison,Camille D.,0.6,4,Gagné,1
+224,Quentin Petit,2024-09-16,LeBonCoin,Woippy,260000,Appartement,Sofia R.,54.7,2,Gagné,1
+225,Pauline Michel,2025-04-07,SeLoger,Montigny,350000,Maison,Marc L.,4.4,3,Gagné,1
+226,Florian Girard,2024-04-03,Vitrine,Montigny,260000,Maison,Marc L.,68.0,0,Perdu,0
+227,Marine Legrand,2025-02-21,Site agence,Montigny,120000,Maison,Marc L.,23.8,0,Gagné,1
+228,Adrien Rousseau,2024-06-17,Vitrine,Metz,120000,Studio,Élodie P.,29.2,2,Nouveau,0
+229,Justine Fontaine,2024-10-21,Site agence,Woippy,120000,Studio,Yanis B.,1.1,3,Gagné,1
+230,Kevin Leroy,2024-06-07,Référence,Metz,350000,Studio,Élodie P.,4.0,0,Gagné,1
+231,Élodie David,2025-04-23,SeLoger,Thionville,300000,Appartement,Camille D.,86.3,2,Gagné,1
+232,Guillaume Blanc,2024-07-01,LeBonCoin,Woippy,350000,Studio,Yanis B.,28.9,0,Visite,0
+233,Céline Perrin,2024-04-29,Référence,Woippy,300000,Appartement,Sofia R.,0.6,2,Gagné,1
+234,Damien Marchand,2024-07-04,LeBonCoin,Woippy,260000,Appartement,Yanis B.,5.7,2,Perdu,0
+235,Aurélie Bernard,2025-01-17,Site agence,Nancy,120000,Studio,Marc L.,4.1,1,Nouveau,0
+236,Sébastien Simon,2024-04-29,Vitrine,Nancy,260000,Appartement,Sofia R.,19.5,2,Perdu,0
+237,Mathilde Roux,2025-06-21,Vitrine,Montigny,150000,Maison,Sofia R.,74.7,3,Visite,0
+238,Vincent Boyer,2025-06-12,Vitrine,Montigny,180000,Maison,Élodie P.,4.1,3,Qualifié,0
+239,Audrey Clément,2024-03-24,SeLoger,Thionville,350000,Appartement,Marc L.,0.7,2,Gagné,1
+240,Benjamin Denis,2024-12-08,SeLoger,Nancy,300000,Appartement,Camille D.,3.8,2,Gagné,1
+241,Camille Robert,2024-06-30,Référence,Nancy,180000,Terrain,Camille D.,0.5,0,Gagné,1
+242,Thomas Lefebvre,2025-04-07,Vitrine,Metz,120000,Maison,Marc L.,2.4,0,Gagné,1
+243,Julie Morel,2024-06-30,LeBonCoin,Nancy,300000,Appartement,Camille D.,4.9,4,Gagné,1
+244,Nicolas Chevalier,2024-03-09,SeLoger,Nancy,260000,Appartement,Marc L.,9.0,1,Perdu,0
+245,Sophie Henry,2024-03-14,Référence,Nancy,120000,Maison,Élodie P.,88.3,4,Gagné,1
+246,Alexandre Dumont,2024-09-19,LeBonCoin,Woippy,220000,Studio,Yanis B.,61.7,4,Qualifié,0
+247,Marie Durand,2024-06-19,SeLoger,Metz,120000,Appartement,Camille D.,6.2,2,Nouveau,0
+248,Julien Garcia,2024-09-30,LeBonCoin,Thionville,300000,Appartement,Sofia R.,81.4,1,Gagné,1
+249,Laura Mercier,2024-06-19,SeLoger,Woippy,350000,Appartement,Marc L.,0.9,1,Perdu,0
+250,Maxime Gauthier,2025-05-11,LeBonCoin,Metz,350000,Maison,Camille D.,1.0,1,Gagné,1
+251,Emma Masson,2024-05-26,SeLoger,Thionville,260000,Maison,Marc L.,49.4,4,Visite,0
+252,Antoine Martin,2024-10-13,SeLoger,Nancy,300000,Studio,Camille D.,0.9,3,Gagné,1
+253,Chloé Moreau,2024-12-21,LeBonCoin,Nancy,180000,Appartement,Élodie P.,0.6,4,Gagné,1
+254,Lucas Bertrand,2025-07-13,Référence,Metz,120000,Studio,Marc L.,52.0,0,Gagné,1
+255,Sarah Guérin,2025-06-22,Référence,Thionville,220000,Maison,Sofia R.,0.8,0,Gagné,1
+256,Hugo Robin,2024-08-02,Vitrine,Woippy,350000,Appartement,Camille D.,0.4,4,Gagné,1
+257,Manon Duval,2024-04-08,LeBonCoin,Metz,420000,Maison,Élodie P.,1.8,3,Gagné,1
+258,Théo Dubois,2025-04-20,Site agence,Nancy,260000,Terrain,Sofia R.,93.4,0,Qualifié,0
+259,Léa Laurent,2025-05-22,Référence,Woippy,120000,Maison,Élodie P.,40.8,0,Gagné,1
+260,Nathan Fournier,2024-01-03,Site agence,Thionville,300000,Studio,Yanis B.,44.6,2,Perdu,0
+261,Inès Garnier,2024-04-18,LeBonCoin,Metz,180000,Maison,Camille D.,1.1,4,Gagné,1
+262,Romain Morin,2025-06-18,Vitrine,Thionville,220000,Studio,Élodie P.,1.7,1,Gagné,1
+263,Clara Lemaire,2024-09-08,SeLoger,Thionville,180000,Maison,Yanis B.,0.9,3,Gagné,1
+264,Quentin Petit,2024-07-27,SeLoger,Nancy,180000,Appartement,Marc L.,40.8,0,Visite,0
+265,Pauline Michel,2024-11-23,SeLoger,Metz,260000,Appartement,Marc L.,7.2,2,Gagné,1
+266,Florian Girard,2024-11-19,LeBonCoin,Woippy,220000,Appartement,Sofia R.,0.4,4,Gagné,1
+267,Marine Legrand,2024-09-30,Référence,Montigny,120000,Appartement,Marc L.,0.4,4,Gagné,1
+268,Adrien Rousseau,2024-06-29,SeLoger,Montigny,180000,Appartement,Camille D.,53.6,3,Perdu,0
+269,Justine Fontaine,2025-03-23,SeLoger,Metz,150000,Terrain,Élodie P.,5.7,2,Gagné,1
+270,Kevin Leroy,2025-07-10,Site agence,Metz,180000,Terrain,Camille D.,28.7,3,Gagné,1
+271,Élodie David,2024-06-23,Site agence,Thionville,420000,Maison,Yanis B.,0.7,0,Perdu,0
+272,Guillaume Blanc,2025-03-31,SeLoger,Metz,150000,Terrain,Yanis B.,20.5,0,Gagné,1
+273,Céline Perrin,2024-05-28,SeLoger,Woippy,150000,Appartement,Marc L.,17.4,2,Gagné,1
+274,Damien Marchand,2024-03-18,Référence,Metz,220000,Studio,Yanis B.,26.4,2,Perdu,0
+275,Aurélie Bernard,2025-04-17,SeLoger,Thionville,220000,Appartement,Marc L.,2.0,3,Gagné,1
+276,Sébastien Simon,2024-07-04,SeLoger,Metz,220000,Maison,Élodie P.,1.2,3,Perdu,0
+277,Mathilde Roux,2025-05-22,Référence,Nancy,260000,Studio,Yanis B.,0.6,2,Gagné,1
+278,Vincent Boyer,2024-07-07,Référence,Thionville,350000,Terrain,Marc L.,8.3,3,Gagné,1
+279,Audrey Clément,2025-01-24,Site agence,Metz,300000,Maison,Yanis B.,84.4,0,Gagné,1
+280,Benjamin Denis,2025-01-09,Référence,Thionville,180000,Appartement,Camille D.,4.9,3,Qualifié,0
+281,Camille Robert,2024-01-09,Vitrine,Montigny,180000,Maison,Marc L.,1.7,1,Gagné,1
+282,Thomas Lefebvre,2024-06-03,Site agence,Montigny,260000,Appartement,Élodie P.,0.5,2,Gagné,1
+283,Julie Morel,2024-04-23,SeLoger,Metz,420000,Appartement,Sofia R.,0.8,0,Gagné,1
+284,Nicolas Chevalier,2024-02-14,SeLoger,Woippy,420000,Maison,Camille D.,1.1,4,Gagné,1
+285,Sophie Henry,2024-10-27,SeLoger,Woippy,150000,Appartement,Marc L.,56.0,0,Nouveau,0
+286,Alexandre Dumont,2024-12-29,SeLoger,Montigny,260000,Maison,Sofia R.,8.0,3,Gagné,1
+287,Marie Durand,2025-04-06,SeLoger,Nancy,420000,Maison,Yanis B.,2.3,3,Gagné,1
+288,Julien Garcia,2024-12-29,SeLoger,Thionville,120000,Maison,Élodie P.,35.6,0,Perdu,0
+289,Laura Mercier,2025-03-31,LeBonCoin,Montigny,350000,Appartement,Yanis B.,1.5,0,Perdu,0
+290,Maxime Gauthier,2025-07-11,SeLoger,Metz,420000,Studio,Élodie P.,2.5,4,Gagné,1
+291,Emma Masson,2025-03-15,SeLoger,Woippy,420000,Appartement,Élodie P.,20.2,0,Nouveau,0
+292,Antoine Martin,2025-05-01,Site agence,Metz,350000,Appartement,Élodie P.,28.5,1,Gagné,1
+293,Chloé Moreau,2024-02-24,Référence,Nancy,300000,Appartement,Sofia R.,3.6,2,Gagné,1
+294,Lucas Bertrand,2024-11-09,Vitrine,Montigny,120000,Appartement,Marc L.,10.4,3,Perdu,0
+295,Sarah Guérin,2024-11-07,LeBonCoin,Woippy,150000,Appartement,Camille D.,0.5,4,Gagné,1
+296,Hugo Robin,2025-01-03,SeLoger,Woippy,180000,Maison,Élodie P.,59.9,1,Perdu,0
+297,Manon Duval,2025-04-28,Site agence,Woippy,220000,Appartement,Sofia R.,2.3,4,Gagné,1
+298,Théo Dubois,2024-07-25,LeBonCoin,Metz,180000,Terrain,Camille D.,0.4,1,Perdu,0
+299,Léa Laurent,2024-05-11,Site agence,Thionville,150000,Terrain,Élodie P.,2.3,0,Qualifié,0
+300,Nathan Fournier,2024-05-12,LeBonCoin,Metz,300000,Appartement,Camille D.,1.0,4,Gagné,1
+301,Inès Garnier,2025-07-09,SeLoger,Woippy,300000,Appartement,Élodie P.,68.1,1,Gagné,1
+302,Romain Morin,2025-03-26,LeBonCoin,Woippy,420000,Studio,Marc L.,0.6,4,Gagné,1
+303,Clara Lemaire,2024-11-08,Site agence,Metz,220000,Maison,Marc L.,21.5,4,Gagné,1
+304,Quentin Petit,2024-03-05,Site agence,Montigny,220000,Terrain,Marc L.,44.8,2,Gagné,1
+305,Pauline Michel,2024-11-10,SeLoger,Woippy,150000,Appartement,Marc L.,72.9,2,Perdu,0
+306,Florian Girard,2025-03-16,Référence,Woippy,120000,Studio,Camille D.,80.3,1,Qualifié,0
+307,Marine Legrand,2024-10-03,SeLoger,Metz,350000,Maison,Yanis B.,26.7,3,Gagné,1
+308,Adrien Rousseau,2025-07-13,Référence,Nancy,260000,Appartement,Camille D.,1.0,4,Gagné,1
+309,Justine Fontaine,2025-03-23,Site agence,Montigny,420000,Appartement,Marc L.,2.1,2,Gagné,1
+310,Kevin Leroy,2025-07-13,SeLoger,Thionville,120000,Maison,Camille D.,4.5,0,Gagné,1
+311,Élodie David,2024-06-23,LeBonCoin,Metz,350000,Terrain,Marc L.,3.9,3,Gagné,1
+312,Guillaume Blanc,2025-05-16,SeLoger,Nancy,150000,Maison,Yanis B.,1.8,0,Perdu,0
+313,Céline Perrin,2025-05-13,Vitrine,Montigny,120000,Studio,Camille D.,52.6,1,Perdu,0
+314,Damien Marchand,2024-04-06,Vitrine,Woippy,420000,Appartement,Marc L.,42.3,3,Gagné,1
+315,Aurélie Bernard,2024-12-05,LeBonCoin,Metz,180000,Maison,Camille D.,52.7,4,Nouveau,0
+316,Sébastien Simon,2024-08-31,Référence,Nancy,180000,Studio,Marc L.,21.3,1,Gagné,1
+317,Mathilde Roux,2024-09-19,Site agence,Woippy,420000,Maison,Sofia R.,6.9,0,Gagné,1
+318,Vincent Boyer,2024-01-28,SeLoger,Montigny,350000,Maison,Sofia R.,0.5,2,Gagné,1
+319,Audrey Clément,2024-08-11,SeLoger,Metz,120000,Appartement,Yanis B.,8.3,2,Gagné,1
+320,Benjamin Denis,2024-07-17,Site agence,Metz,120000,Studio,Yanis B.,1.0,3,Gagné,1
+321,Camille Robert,2024-06-21,SeLoger,Nancy,120000,Appartement,Élodie P.,0.9,3,Gagné,1
+322,Thomas Lefebvre,2025-03-01,LeBonCoin,Montigny,220000,Appartement,Camille D.,4.1,0,Qualifié,0
+323,Julie Morel,2024-02-28,Site agence,Montigny,420000,Maison,Marc L.,51.7,4,Visite,0
+324,Nicolas Chevalier,2025-03-17,SeLoger,Woippy,120000,Appartement,Camille D.,0.8,2,Gagné,1
+325,Sophie Henry,2024-01-27,Site agence,Nancy,300000,Appartement,Élodie P.,7.0,4,Gagné,1
+326,Alexandre Dumont,2024-01-31,SeLoger,Montigny,180000,Studio,Camille D.,57.3,4,Qualifié,0
+327,Marie Durand,2024-06-10,SeLoger,Metz,220000,Studio,Yanis B.,2.4,0,Perdu,0
+328,Julien Garcia,2024-06-26,Site agence,Woippy,350000,Studio,Yanis B.,22.7,0,Gagné,1
+329,Laura Mercier,2025-03-12,SeLoger,Montigny,220000,Appartement,Marc L.,7.6,0,Visite,0
+330,Maxime Gauthier,2025-06-29,SeLoger,Montigny,150000,Appartement,Élodie P.,0.7,0,Nouveau,0
+331,Emma Masson,2024-11-28,SeLoger,Thionville,220000,Appartement,Sofia R.,4.3,3,Gagné,1
+332,Antoine Martin,2025-04-23,Référence,Nancy,180000,Appartement,Camille D.,2.1,4,Gagné,1
+333,Chloé Moreau,2024-03-14,LeBonCoin,Metz,220000,Appartement,Élodie P.,93.0,2,Perdu,0
+334,Lucas Bertrand,2025-05-21,Vitrine,Woippy,150000,Maison,Élodie P.,0.6,0,Perdu,0
+335,Sarah Guérin,2025-05-23,Référence,Nancy,120000,Appartement,Sofia R.,2.6,2,Gagné,1
+336,Hugo Robin,2025-01-29,SeLoger,Thionville,300000,Maison,Camille D.,80.2,4,Perdu,0
+337,Manon Duval,2024-12-24,SeLoger,Metz,260000,Appartement,Marc L.,0.9,2,Gagné,1
+338,Théo Dubois,2025-02-09,LeBonCoin,Thionville,420000,Maison,Camille D.,49.7,2,Gagné,1
+339,Léa Laurent,2025-01-16,Site agence,Woippy,120000,Appartement,Marc L.,6.3,3,Gagné,1
+340,Nathan Fournier,2025-05-05,Référence,Nancy,120000,Appartement,Camille D.,3.9,2,Gagné,1
+341,Inès Garnier,2024-07-27,LeBonCoin,Montigny,300000,Terrain,Yanis B.,9.1,0,Gagné,1
+342,Romain Morin,2024-07-28,LeBonCoin,Nancy,300000,Appartement,Sofia R.,33.8,2,Perdu,0
+343,Clara Lemaire,2024-04-09,Vitrine,Thionville,220000,Appartement,Yanis B.,6.5,0,Gagné,1
+344,Quentin Petit,2024-05-02,SeLoger,Thionville,260000,Terrain,Marc L.,1.0,4,Gagné,1
+345,Pauline Michel,2024-03-31,SeLoger,Metz,420000,Appartement,Sofia R.,9.6,2,Gagné,1
+346,Florian Girard,2025-05-04,SeLoger,Metz,350000,Appartement,Yanis B.,54.7,1,Perdu,0
+347,Marine Legrand,2024-08-17,LeBonCoin,Montigny,420000,Maison,Yanis B.,0.5,2,Perdu,0
+348,Adrien Rousseau,2024-02-24,LeBonCoin,Montigny,260000,Maison,Élodie P.,8.5,4,Gagné,1
+349,Justine Fontaine,2024-06-28,SeLoger,Woippy,220000,Studio,Sofia R.,0.4,4,Gagné,1
+350,Kevin Leroy,2025-07-03,SeLoger,Montigny,120000,Appartement,Camille D.,5.1,3,Gagné,1
+351,Élodie David,2024-02-08,SeLoger,Montigny,260000,Terrain,Marc L.,8.8,2,Nouveau,0
+352,Guillaume Blanc,2025-06-26,Référence,Nancy,300000,Appartement,Élodie P.,46.3,4,Gagné,1
+353,Céline Perrin,2024-08-21,SeLoger,Thionville,260000,Appartement,Camille D.,1.4,4,Gagné,1
+354,Damien Marchand,2024-08-03,LeBonCoin,Woippy,120000,Appartement,Marc L.,2.1,2,Perdu,0
+355,Aurélie Bernard,2024-01-24,SeLoger,Woippy,150000,Appartement,Sofia R.,26.6,4,Gagné,1
+356,Sébastien Simon,2025-04-17,Vitrine,Montigny,120000,Maison,Élodie P.,0.6,3,Gagné,1
+357,Mathilde Roux,2025-07-06,Site agence,Nancy,180000,Maison,Marc L.,1.3,3,Gagné,1
+358,Vincent Boyer,2024-10-23,Vitrine,Thionville,350000,Appartement,Marc L.,84.2,4,Perdu,0
+359,Audrey Clément,2024-09-02,SeLoger,Metz,300000,Studio,Camille D.,7.3,2,Qualifié,0
+360,Benjamin Denis,2025-07-06,Vitrine,Thionville,350000,Appartement,Marc L.,1.1,2,Gagné,1
+361,Camille Robert,2025-04-27,Référence,Nancy,180000,Appartement,Marc L.,1.2,2,Gagné,1
+362,Thomas Lefebvre,2025-06-21,SeLoger,Metz,180000,Maison,Camille D.,3.7,1,Perdu,0
+363,Julie Morel,2024-04-28,SeLoger,Montigny,260000,Studio,Élodie P.,7.3,1,Qualifié,0
+364,Nicolas Chevalier,2024-05-03,Site agence,Montigny,180000,Appartement,Marc L.,51.7,4,Nouveau,0
+365,Sophie Henry,2024-01-02,SeLoger,Montigny,420000,Appartement,Yanis B.,3.3,3,Gagné,1
+366,Alexandre Dumont,2025-07-09,LeBonCoin,Metz,260000,Appartement,Yanis B.,0.9,4,Gagné,1
+367,Marie Durand,2025-01-18,Référence,Woippy,120000,Studio,Marc L.,6.5,3,Gagné,1
+368,Julien Garcia,2024-01-11,Site agence,Metz,300000,Appartement,Sofia R.,7.7,1,Qualifié,0
+369,Laura Mercier,2024-08-03,Vitrine,Nancy,150000,Maison,Marc L.,47.1,4,Gagné,1
+370,Maxime Gauthier,2024-10-07,Site agence,Nancy,300000,Appartement,Yanis B.,23.6,2,Qualifié,0
+371,Emma Masson,2024-10-05,Référence,Woippy,150000,Appartement,Sofia R.,49.4,0,Gagné,1
+372,Antoine Martin,2024-01-04,Référence,Nancy,300000,Appartement,Élodie P.,9.9,0,Gagné,1
+373,Chloé Moreau,2025-02-19,Référence,Thionville,260000,Appartement,Marc L.,1.1,1,Gagné,1
+374,Lucas Bertrand,2025-07-02,SeLoger,Metz,300000,Appartement,Sofia R.,17.3,0,Gagné,1
+375,Sarah Guérin,2024-06-12,Site agence,Nancy,420000,Appartement,Élodie P.,40.5,1,Gagné,1
+376,Hugo Robin,2025-06-19,Site agence,Woippy,260000,Maison,Yanis B.,3.1,4,Gagné,1
+377,Manon Duval,2024-12-25,LeBonCoin,Metz,220000,Appartement,Sofia R.,72.2,2,Qualifié,0
+378,Théo Dubois,2024-08-08,Vitrine,Nancy,420000,Studio,Marc L.,62.9,0,Perdu,0
+379,Léa Laurent,2025-02-24,LeBonCoin,Metz,150000,Appartement,Élodie P.,4.3,2,Qualifié,0
+380,Nathan Fournier,2024-05-31,Référence,Nancy,420000,Appartement,Camille D.,4.8,1,Gagné,1
+381,Inès Garnier,2024-05-26,Référence,Metz,300000,Maison,Élodie P.,1.8,1,Gagné,1
+382,Romain Morin,2024-07-24,SeLoger,Metz,180000,Studio,Marc L.,0.6,0,Gagné,1
+383,Clara Lemaire,2024-01-18,SeLoger,Thionville,120000,Studio,Yanis B.,9.7,4,Gagné,1
+384,Quentin Petit,2024-01-18,Référence,Nancy,180000,Appartement,Sofia R.,0.6,2,Gagné,1
+385,Pauline Michel,2024-07-04,Référence,Nancy,180000,Maison,Camille D.,0.4,2,Gagné,1
+386,Florian Girard,2024-12-29,Vitrine,Thionville,350000,Maison,Élodie P.,45.4,4,Gagné,1
+387,Marine Legrand,2024-11-07,Référence,Montigny,420000,Studio,Yanis B.,1.1,2,Gagné,1
+388,Adrien Rousseau,2024-07-17,Vitrine,Woippy,220000,Maison,Sofia R.,20.6,2,Perdu,0
+389,Justine Fontaine,2024-08-05,LeBonCoin,Woippy,300000,Maison,Sofia R.,18.9,1,Perdu,0
+390,Kevin Leroy,2024-07-30,SeLoger,Nancy,220000,Studio,Sofia R.,8.4,1,Perdu,0
+391,Élodie David,2024-06-08,LeBonCoin,Nancy,300000,Maison,Yanis B.,63.2,0,Perdu,0
+392,Guillaume Blanc,2025-01-13,LeBonCoin,Metz,300000,Maison,Marc L.,24.9,2,Gagné,1
+393,Céline Perrin,2025-02-02,LeBonCoin,Thionville,120000,Appartement,Yanis B.,7.3,4,Gagné,1
+394,Damien Marchand,2024-11-05,Vitrine,Metz,120000,Appartement,Sofia R.,70.7,1,Gagné,1
+395,Aurélie Bernard,2024-11-21,SeLoger,Metz,350000,Appartement,Élodie P.,0.7,2,Gagné,1
+396,Sébastien Simon,2024-12-07,Site agence,Woippy,420000,Maison,Marc L.,2.9,0,Gagné,1
+397,Mathilde Roux,2024-10-30,LeBonCoin,Woippy,300000,Appartement,Élodie P.,2.0,3,Perdu,0
+398,Vincent Boyer,2024-07-06,Site agence,Montigny,220000,Studio,Yanis B.,1.1,1,Gagné,1
+399,Audrey Clément,2025-06-01,LeBonCoin,Metz,350000,Terrain,Élodie P.,6.8,4,Nouveau,0
+400,Benjamin Denis,2024-05-22,Vitrine,Woippy,180000,Maison,Yanis B.,5.8,4,Qualifié,0
+401,Camille Robert,2024-07-19,Référence,Montigny,120000,Studio,Yanis B.,0.6,3,Gagné,1
+402,Thomas Lefebvre,2024-12-24,Référence,Thionville,180000,Appartement,Yanis B.,87.6,4,Gagné,1
+403,Julie Morel,2024-07-30,SeLoger,Metz,180000,Studio,Marc L.,21.8,3,Gagné,1
+404,Nicolas Chevalier,2024-07-27,SeLoger,Thionville,350000,Maison,Marc L.,1.0,1,Gagné,1
+405,Sophie Henry,2025-06-18,Site agence,Metz,180000,Studio,Yanis B.,0.6,0,Gagné,1
+406,Alexandre Dumont,2025-03-11,Vitrine,Thionville,420000,Studio,Yanis B.,91.1,4,Qualifié,0
+407,Marie Durand,2025-06-07,Vitrine,Metz,350000,Appartement,Camille D.,0.8,1,Nouveau,0
+408,Julien Garcia,2024-08-21,Vitrine,Metz,350000,Terrain,Sofia R.,7.7,4,Gagné,1
+409,Laura Mercier,2024-06-29,LeBonCoin,Nancy,120000,Studio,Élodie P.,1.6,4,Visite,0
+410,Maxime Gauthier,2024-10-23,LeBonCoin,Thionville,150000,Studio,Camille D.,38.5,0,Perdu,0
+411,Emma Masson,2025-01-17,SeLoger,Nancy,220000,Appartement,Camille D.,64.8,3,Nouveau,0
+412,Antoine Martin,2025-03-18,Site agence,Nancy,120000,Terrain,Marc L.,0.6,4,Gagné,1
+413,Chloé Moreau,2024-07-31,SeLoger,Nancy,220000,Terrain,Camille D.,0.8,0,Gagné,1
+414,Lucas Bertrand,2024-08-17,Vitrine,Metz,150000,Terrain,Marc L.,1.2,1,Gagné,1
+415,Sarah Guérin,2024-01-02,Site agence,Woippy,260000,Maison,Yanis B.,3.4,1,Gagné,1
+416,Hugo Robin,2024-01-08,SeLoger,Metz,350000,Appartement,Sofia R.,86.0,4,Visite,0
+417,Manon Duval,2024-10-07,LeBonCoin,Metz,120000,Appartement,Élodie P.,47.6,2,Gagné,1
+418,Théo Dubois,2024-06-13,Site agence,Thionville,120000,Maison,Élodie P.,2.4,4,Gagné,1
+419,Léa Laurent,2024-03-30,LeBonCoin,Montigny,300000,Appartement,Camille D.,44.1,2,Qualifié,0
+420,Nathan Fournier,2024-12-14,LeBonCoin,Thionville,220000,Maison,Yanis B.,1.2,4,Perdu,0
+421,Inès Garnier,2024-01-22,SeLoger,Woippy,180000,Terrain,Camille D.,2.0,1,Gagné,1
+422,Romain Morin,2024-11-26,SeLoger,Woippy,350000,Appartement,Élodie P.,2.5,0,Gagné,1
+423,Clara Lemaire,2025-03-08,Site agence,Thionville,260000,Appartement,Élodie P.,4.9,3,Gagné,1
+424,Quentin Petit,2025-07-04,Site agence,Woippy,420000,Maison,Camille D.,0.5,4,Gagné,1
+425,Pauline Michel,2024-03-17,SeLoger,Thionville,350000,Maison,Élodie P.,3.2,0,Nouveau,0
+426,Florian Girard,2025-04-05,Vitrine,Thionville,120000,Appartement,Élodie P.,0.6,0,Gagné,1
+427,Marine Legrand,2024-09-08,SeLoger,Woippy,220000,Studio,Élodie P.,4.7,4,Gagné,1
+428,Adrien Rousseau,2024-03-25,Site agence,Woippy,420000,Maison,Camille D.,19.8,1,Gagné,1
+429,Justine Fontaine,2025-01-25,Référence,Thionville,220000,Maison,Sofia R.,52.9,1,Perdu,0
+430,Kevin Leroy,2025-02-18,Site agence,Thionville,150000,Maison,Sofia R.,0.4,0,Gagné,1
+431,Élodie David,2024-06-19,LeBonCoin,Montigny,120000,Studio,Élodie P.,18.7,3,Nouveau,0
+432,Guillaume Blanc,2024-04-02,Site agence,Woippy,120000,Terrain,Yanis B.,51.7,4,Perdu,0
+433,Céline Perrin,2025-06-16,SeLoger,Montigny,220000,Appartement,Yanis B.,3.9,0,Gagné,1
+434,Damien Marchand,2024-12-23,Vitrine,Thionville,150000,Terrain,Marc L.,72.6,0,Qualifié,0
+435,Aurélie Bernard,2024-11-19,Site agence,Woippy,150000,Appartement,Camille D.,0.6,4,Gagné,1
+436,Sébastien Simon,2025-01-06,Site agence,Metz,180000,Maison,Marc L.,4.7,2,Gagné,1
+437,Mathilde Roux,2024-09-23,Vitrine,Thionville,420000,Appartement,Marc L.,55.0,4,Perdu,0
+438,Vincent Boyer,2024-02-28,Référence,Nancy,180000,Appartement,Élodie P.,65.4,2,Perdu,0
+439,Audrey Clément,2024-07-07,LeBonCoin,Nancy,350000,Studio,Sofia R.,0.6,3,Gagné,1
+440,Benjamin Denis,2025-02-01,Site agence,Nancy,150000,Appartement,Yanis B.,76.4,1,Perdu,0
+441,Camille Robert,2025-04-18,LeBonCoin,Metz,220000,Appartement,Sofia R.,3.8,1,Visite,0
+442,Thomas Lefebvre,2025-04-06,SeLoger,Montigny,150000,Maison,Camille D.,19.9,2,Gagné,1
+443,Julie Morel,2025-02-08,Référence,Thionville,120000,Appartement,Camille D.,69.1,2,Gagné,1
+444,Nicolas Chevalier,2025-03-09,Vitrine,Montigny,300000,Appartement,Camille D.,4.1,3,Gagné,1
+445,Sophie Henry,2024-05-30,Site agence,Montigny,180000,Studio,Sofia R.,1.1,4,Gagné,1
+446,Alexandre Dumont,2024-05-05,LeBonCoin,Montigny,150000,Appartement,Sofia R.,80.7,0,Qualifié,0
+447,Marie Durand,2024-05-03,LeBonCoin,Woippy,150000,Appartement,Camille D.,0.9,3,Gagné,1
+448,Julien Garcia,2025-04-14,SeLoger,Montigny,350000,Appartement,Yanis B.,42.6,4,Gagné,1
+449,Laura Mercier,2024-04-03,LeBonCoin,Montigny,300000,Appartement,Sofia R.,55.4,2,Perdu,0
+450,Maxime Gauthier,2024-12-24,Site agence,Woippy,220000,Studio,Élodie P.,1.0,2,Gagné,1
+451,Emma Masson,2024-05-30,Référence,Woippy,300000,Terrain,Marc L.,0.5,2,Gagné,1
+452,Antoine Martin,2025-06-28,Vitrine,Woippy,180000,Maison,Camille D.,0.5,2,Qualifié,0
+453,Chloé Moreau,2024-09-07,Référence,Woippy,420000,Appartement,Yanis B.,21.5,2,Nouveau,0
+454,Lucas Bertrand,2024-10-14,SeLoger,Metz,150000,Maison,Sofia R.,9.5,3,Gagné,1
+455,Sarah Guérin,2024-09-11,SeLoger,Woippy,180000,Studio,Yanis B.,0.4,3,Perdu,0
+456,Hugo Robin,2024-07-24,LeBonCoin,Woippy,180000,Appartement,Élodie P.,10.0,1,Nouveau,0
+457,Manon Duval,2025-04-11,Site agence,Woippy,300000,Appartement,Yanis B.,4.0,1,Gagné,1
+458,Théo Dubois,2024-05-01,LeBonCoin,Montigny,300000,Appartement,Yanis B.,0.9,1,Gagné,1
+459,Léa Laurent,2025-06-07,Vitrine,Montigny,300000,Maison,Yanis B.,50.8,0,Perdu,0
+460,Nathan Fournier,2024-04-27,Référence,Metz,150000,Maison,Yanis B.,48.7,1,Qualifié,0
+461,Inès Garnier,2024-05-15,LeBonCoin,Metz,300000,Appartement,Yanis B.,64.1,0,Perdu,0
+462,Romain Morin,2024-05-09,Vitrine,Montigny,350000,Appartement,Marc L.,60.5,3,Gagné,1
+463,Clara Lemaire,2024-09-09,SeLoger,Metz,260000,Studio,Marc L.,8.3,0,Gagné,1
+464,Quentin Petit,2024-12-20,SeLoger,Nancy,350000,Appartement,Marc L.,3.7,4,Gagné,1
+465,Pauline Michel,2024-11-02,LeBonCoin,Montigny,220000,Maison,Sofia R.,24.3,4,Gagné,1
+466,Florian Girard,2025-06-09,SeLoger,Thionville,300000,Appartement,Marc L.,61.7,1,Gagné,1
+467,Marine Legrand,2025-07-14,LeBonCoin,Thionville,420000,Studio,Camille D.,3.6,3,Gagné,1
+468,Adrien Rousseau,2024-08-17,SeLoger,Metz,220000,Studio,Marc L.,58.6,2,Nouveau,0
+469,Justine Fontaine,2024-01-13,LeBonCoin,Montigny,220000,Terrain,Élodie P.,1.9,4,Gagné,1
+470,Kevin Leroy,2024-05-29,SeLoger,Metz,180000,Appartement,Sofia R.,81.6,3,Nouveau,0
+471,Élodie David,2025-01-23,Site agence,Nancy,220000,Studio,Sofia R.,81.5,1,Perdu,0
+472,Guillaume Blanc,2024-09-12,SeLoger,Thionville,260000,Studio,Camille D.,3.6,4,Gagné,1
+473,Céline Perrin,2025-06-01,Référence,Metz,150000,Appartement,Marc L.,6.8,0,Nouveau,0
+474,Damien Marchand,2024-02-13,Référence,Nancy,420000,Maison,Camille D.,1.9,3,Gagné,1
+475,Aurélie Bernard,2024-03-15,SeLoger,Woippy,260000,Appartement,Camille D.,36.7,1,Perdu,0
+476,Sébastien Simon,2024-01-30,SeLoger,Thionville,220000,Appartement,Élodie P.,2.3,1,Perdu,0
+477,Mathilde Roux,2024-09-13,Référence,Thionville,300000,Maison,Marc L.,87.0,4,Gagné,1
+478,Vincent Boyer,2024-06-24,LeBonCoin,Thionville,180000,Appartement,Camille D.,30.7,1,Qualifié,0
+479,Audrey Clément,2024-07-25,LeBonCoin,Montigny,150000,Appartement,Marc L.,3.1,3,Gagné,1
+480,Benjamin Denis,2024-07-14,SeLoger,Nancy,350000,Studio,Élodie P.,71.2,4,Qualifié,0
+481,Camille Robert,2024-02-02,LeBonCoin,Montigny,220000,Maison,Marc L.,8.4,1,Gagné,1
+482,Thomas Lefebvre,2025-06-09,SeLoger,Woippy,150000,Maison,Élodie P.,4.3,2,Gagné,1
+483,Julie Morel,2024-03-30,Site agence,Woippy,260000,Maison,Sofia R.,0.4,2,Gagné,1
+484,Nicolas Chevalier,2024-07-29,SeLoger,Woippy,120000,Terrain,Élodie P.,0.8,4,Gagné,1
+485,Sophie Henry,2025-03-28,Référence,Montigny,220000,Studio,Camille D.,44.0,0,Nouveau,0
+486,Alexandre Dumont,2025-04-21,SeLoger,Thionville,260000,Appartement,Sofia R.,8.4,0,Gagné,1
+487,Marie Durand,2025-02-04,LeBonCoin,Thionville,180000,Studio,Marc L.,58.5,4,Perdu,0
+488,Julien Garcia,2024-10-13,Référence,Metz,120000,Appartement,Élodie P.,4.0,1,Gagné,1
+489,Laura Mercier,2024-04-23,Site agence,Nancy,120000,Studio,Yanis B.,1.1,1,Gagné,1
+490,Maxime Gauthier,2024-11-02,SeLoger,Montigny,120000,Appartement,Marc L.,23.9,2,Perdu,0
+491,Emma Masson,2024-11-07,SeLoger,Thionville,350000,Studio,Camille D.,2.0,4,Gagné,1
+492,Antoine Martin,2025-04-07,LeBonCoin,Montigny,260000,Studio,Camille D.,0.4,4,Qualifié,0
+493,Chloé Moreau,2024-10-24,Vitrine,Thionville,260000,Studio,Camille D.,1.9,1,Gagné,1
+494,Lucas Bertrand,2025-02-25,LeBonCoin,Woippy,220000,Appartement,Camille D.,5.0,2,Perdu,0
+495,Sarah Guérin,2025-01-16,Site agence,Montigny,220000,Studio,Sofia R.,2.1,2,Visite,0
+496,Hugo Robin,2024-10-29,SeLoger,Woippy,260000,Maison,Sofia R.,62.0,3,Visite,0
+497,Manon Duval,2024-07-02,SeLoger,Montigny,350000,Maison,Marc L.,0.5,4,Gagné,1
+498,Théo Dubois,2024-08-27,Référence,Woippy,150000,Appartement,Yanis B.,1.2,0,Gagné,1
+499,Léa Laurent,2024-01-15,LeBonCoin,Woippy,180000,Terrain,Élodie P.,6.4,0,Perdu,0
+500,Nathan Fournier,2024-07-06,SeLoger,Woippy,120000,Studio,Marc L.,1.0,2,Visite,0
+501,Inès Garnier,2025-02-12,LeBonCoin,Thionville,300000,Studio,Sofia R.,2.5,1,Perdu,0
+502,Romain Morin,2024-07-08,LeBonCoin,Metz,350000,Maison,Élodie P.,68.7,0,Gagné,1
+503,Clara Lemaire,2024-11-11,SeLoger,Metz,420000,Studio,Sofia R.,1.9,0,Gagné,1
+504,Quentin Petit,2024-08-24,LeBonCoin,Nancy,300000,Maison,Sofia R.,61.8,2,Perdu,0
+505,Pauline Michel,2024-11-30,Site agence,Woippy,300000,Maison,Camille D.,2.5,0,Gagné,1
+506,Florian Girard,2024-11-03,SeLoger,Nancy,420000,Studio,Yanis B.,0.8,4,Gagné,1
+507,Marine Legrand,2024-02-09,Référence,Nancy,150000,Studio,Yanis B.,2.9,0,Perdu,0
+508,Adrien Rousseau,2024-06-19,LeBonCoin,Metz,300000,Studio,Élodie P.,1.5,2,Gagné,1
+509,Justine Fontaine,2024-06-02,LeBonCoin,Nancy,180000,Terrain,Sofia R.,53.5,0,Perdu,0
+510,Kevin Leroy,2024-07-28,SeLoger,Thionville,220000,Maison,Marc L.,0.4,1,Gagné,1
+511,Élodie David,2024-07-19,SeLoger,Metz,420000,Maison,Marc L.,20.3,2,Gagné,1
+512,Guillaume Blanc,2024-06-22,LeBonCoin,Nancy,260000,Appartement,Camille D.,8.0,4,Perdu,0
+513,Céline Perrin,2025-03-06,LeBonCoin,Thionville,260000,Appartement,Camille D.,0.6,2,Gagné,1
+514,Damien Marchand,2024-08-11,Site agence,Thionville,420000,Terrain,Yanis B.,0.4,0,Perdu,0
+515,Aurélie Bernard,2025-07-11,LeBonCoin,Thionville,150000,Appartement,Sofia R.,4.4,0,Gagné,1
+516,Sébastien Simon,2024-11-09,Référence,Montigny,180000,Studio,Marc L.,0.4,3,Gagné,1
+517,Mathilde Roux,2025-02-17,SeLoger,Montigny,350000,Maison,Marc L.,0.6,3,Gagné,1
+518,Vincent Boyer,2024-01-08,LeBonCoin,Woippy,120000,Appartement,Élodie P.,1.1,4,Gagné,1
+519,Audrey Clément,2024-02-04,LeBonCoin,Montigny,260000,Appartement,Marc L.,4.3,1,Perdu,0
+520,Benjamin Denis,2025-04-15,Site agence,Thionville,420000,Appartement,Élodie P.,1.7,3,Gagné,1
+521,Camille Robert,2024-10-15,SeLoger,Thionville,120000,Terrain,Sofia R.,1.1,0,Gagné,1
+522,Thomas Lefebvre,2024-01-14,Référence,Woippy,150000,Appartement,Sofia R.,6.4,0,Qualifié,0
+523,Julie Morel,2024-12-09,LeBonCoin,Woippy,420000,Appartement,Camille D.,1.0,1,Gagné,1
+524,Nicolas Chevalier,2025-01-28,SeLoger,Woippy,120000,Maison,Marc L.,0.9,2,Gagné,1
+525,Sophie Henry,2024-03-21,LeBonCoin,Montigny,350000,Maison,Sofia R.,3.0,2,Gagné,1
+526,Alexandre Dumont,2024-11-15,Référence,Nancy,220000,Maison,Sofia R.,2.3,0,Perdu,0
+527,Marie Durand,2024-12-30,LeBonCoin,Thionville,120000,Appartement,Élodie P.,55.9,4,Gagné,1
+528,Julien Garcia,2024-10-18,SeLoger,Metz,350000,Studio,Camille D.,0.8,4,Gagné,1
+529,Laura Mercier,2024-12-15,SeLoger,Thionville,180000,Appartement,Yanis B.,84.8,1,Nouveau,0
+530,Maxime Gauthier,2025-06-06,Vitrine,Woippy,220000,Appartement,Élodie P.,40.3,3,Perdu,0
+531,Emma Masson,2025-06-25,LeBonCoin,Nancy,120000,Maison,Camille D.,54.0,4,Gagné,1
+532,Antoine Martin,2024-12-12,LeBonCoin,Nancy,260000,Maison,Yanis B.,1.2,2,Gagné,1
+533,Chloé Moreau,2025-07-11,LeBonCoin,Woippy,420000,Terrain,Marc L.,1.2,0,Perdu,0
+534,Lucas Bertrand,2025-03-08,SeLoger,Metz,120000,Appartement,Yanis B.,0.4,4,Gagné,1
+535,Sarah Guérin,2024-05-02,SeLoger,Metz,220000,Appartement,Camille D.,54.7,1,Gagné,1
+536,Hugo Robin,2024-07-30,Référence,Metz,260000,Maison,Élodie P.,22.6,2,Gagné,1
+537,Manon Duval,2024-10-20,Site agence,Nancy,300000,Terrain,Marc L.,0.7,4,Gagné,1
+538,Théo Dubois,2024-07-12,Site agence,Nancy,220000,Appartement,Élodie P.,86.6,3,Gagné,1
+539,Léa Laurent,2024-08-07,Référence,Metz,420000,Studio,Sofia R.,23.8,1,Gagné,1
+540,Nathan Fournier,2024-05-06,SeLoger,Woippy,120000,Maison,Marc L.,54.9,3,Visite,0
+541,Inès Garnier,2024-08-10,Site agence,Woippy,150000,Appartement,Sofia R.,6.8,2,Perdu,0
+542,Romain Morin,2025-05-28,Vitrine,Metz,350000,Appartement,Sofia R.,24.0,4,Gagné,1
+543,Clara Lemaire,2024-05-04,Site agence,Metz,150000,Appartement,Sofia R.,33.9,3,Gagné,1
+544,Quentin Petit,2024-02-11,Vitrine,Montigny,150000,Terrain,Sofia R.,64.4,0,Qualifié,0
+545,Pauline Michel,2024-01-05,SeLoger,Thionville,260000,Appartement,Yanis B.,1.1,0,Nouveau,0
+546,Florian Girard,2024-08-29,Référence,Woippy,350000,Appartement,Yanis B.,82.5,2,Gagné,1
+547,Marine Legrand,2025-01-23,LeBonCoin,Montigny,300000,Maison,Marc L.,22.9,0,Nouveau,0
+548,Adrien Rousseau,2025-06-09,Site agence,Nancy,350000,Studio,Camille D.,27.3,3,Gagné,1
+549,Justine Fontaine,2025-06-30,SeLoger,Thionville,120000,Appartement,Camille D.,1.2,4,Gagné,1
+550,Kevin Leroy,2025-03-21,LeBonCoin,Montigny,220000,Appartement,Camille D.,3.9,1,Gagné,1
+551,Élodie David,2024-07-28,SeLoger,Thionville,150000,Terrain,Élodie P.,0.4,3,Nouveau,0
+552,Guillaume Blanc,2025-01-16,LeBonCoin,Woippy,180000,Studio,Élodie P.,43.9,4,Visite,0
+553,Céline Perrin,2025-05-11,LeBonCoin,Thionville,120000,Maison,Sofia R.,1.1,0,Perdu,0
+554,Damien Marchand,2024-06-17,LeBonCoin,Metz,150000,Maison,Yanis B.,37.3,1,Perdu,0
+555,Aurélie Bernard,2024-07-24,SeLoger,Nancy,220000,Appartement,Élodie P.,0.6,3,Gagné,1
+556,Sébastien Simon,2024-03-16,LeBonCoin,Metz,150000,Studio,Yanis B.,2.5,4,Perdu,0
+557,Mathilde Roux,2024-11-22,Site agence,Woippy,420000,Appartement,Marc L.,24.3,3,Gagné,1
+558,Vincent Boyer,2024-08-13,SeLoger,Nancy,420000,Appartement,Yanis B.,9.1,2,Gagné,1
+559,Audrey Clément,2024-03-06,LeBonCoin,Thionville,180000,Maison,Camille D.,49.3,0,Perdu,0
+560,Benjamin Denis,2024-03-02,LeBonCoin,Montigny,180000,Appartement,Élodie P.,9.5,1,Perdu,0
+561,Camille Robert,2024-08-05,Site agence,Nancy,150000,Appartement,Élodie P.,41.8,2,Gagné,1
+562,Thomas Lefebvre,2024-09-14,Site agence,Nancy,120000,Appartement,Camille D.,9.5,0,Gagné,1
+563,Julie Morel,2025-01-07,SeLoger,Woippy,220000,Maison,Marc L.,21.3,2,Gagné,1
+564,Nicolas Chevalier,2024-08-04,SeLoger,Nancy,150000,Appartement,Marc L.,0.5,0,Gagné,1
+565,Sophie Henry,2024-01-06,Site agence,Woippy,300000,Appartement,Yanis B.,20.4,0,Gagné,1
+566,Alexandre Dumont,2024-07-18,SeLoger,Nancy,350000,Appartement,Yanis B.,55.5,1,Perdu,0
+567,Marie Durand,2025-06-01,SeLoger,Woippy,120000,Appartement,Yanis B.,0.6,4,Gagné,1
+568,Julien Garcia,2025-06-13,Référence,Metz,420000,Appartement,Élodie P.,9.8,0,Perdu,0
+569,Laura Mercier,2025-01-05,LeBonCoin,Thionville,420000,Appartement,Camille D.,0.4,0,Perdu,0
+570,Maxime Gauthier,2024-06-03,LeBonCoin,Nancy,260000,Maison,Yanis B.,74.4,2,Gagné,1
+571,Emma Masson,2025-07-01,SeLoger,Metz,220000,Maison,Élodie P.,0.4,2,Gagné,1
+572,Antoine Martin,2024-04-02,LeBonCoin,Woippy,180000,Maison,Sofia R.,2.5,2,Gagné,1
+573,Chloé Moreau,2024-12-19,SeLoger,Woippy,420000,Appartement,Camille D.,53.8,1,Perdu,0
+574,Lucas Bertrand,2024-09-22,Vitrine,Montigny,420000,Maison,Élodie P.,24.7,0,Perdu,0
+575,Sarah Guérin,2024-11-01,Site agence,Nancy,150000,Appartement,Yanis B.,7.4,4,Gagné,1
+576,Hugo Robin,2025-06-15,LeBonCoin,Thionville,150000,Appartement,Sofia R.,17.1,4,Gagné,1
+577,Manon Duval,2024-03-24,LeBonCoin,Nancy,260000,Appartement,Camille D.,71.4,2,Nouveau,0
+578,Théo Dubois,2024-08-17,Vitrine,Metz,180000,Appartement,Camille D.,9.6,3,Gagné,1
+579,Léa Laurent,2025-03-07,Référence,Montigny,350000,Appartement,Yanis B.,1.3,3,Gagné,1
+580,Nathan Fournier,2024-02-16,LeBonCoin,Montigny,300000,Maison,Élodie P.,44.9,2,Perdu,0
+581,Inès Garnier,2024-04-26,SeLoger,Woippy,350000,Maison,Sofia R.,0.8,3,Gagné,1
+582,Romain Morin,2024-07-06,SeLoger,Nancy,300000,Appartement,Camille D.,7.7,2,Gagné,1
+583,Clara Lemaire,2024-04-14,SeLoger,Thionville,260000,Appartement,Marc L.,0.8,1,Gagné,1
+584,Quentin Petit,2024-05-25,SeLoger,Nancy,350000,Appartement,Camille D.,9.0,0,Perdu,0
+585,Pauline Michel,2024-08-09,SeLoger,Metz,350000,Terrain,Marc L.,3.9,2,Gagné,1
+586,Florian Girard,2025-03-29,Référence,Thionville,350000,Studio,Élodie P.,23.6,4,Perdu,0
+587,Marine Legrand,2024-04-12,LeBonCoin,Metz,120000,Appartement,Élodie P.,22.0,0,Perdu,0
+588,Adrien Rousseau,2025-06-09,SeLoger,Thionville,300000,Terrain,Élodie P.,0.5,3,Gagné,1
+589,Justine Fontaine,2024-04-06,Référence,Montigny,420000,Appartement,Marc L.,2.3,2,Gagné,1
+590,Kevin Leroy,2024-08-10,Référence,Thionville,120000,Studio,Yanis B.,0.9,2,Gagné,1
+591,Élodie David,2024-12-25,Site agence,Nancy,220000,Maison,Marc L.,2.1,1,Gagné,1
+592,Guillaume Blanc,2024-08-03,SeLoger,Metz,260000,Maison,Élodie P.,0.6,2,Gagné,1
+593,Céline Perrin,2024-10-01,LeBonCoin,Nancy,260000,Studio,Camille D.,47.8,3,Gagné,1
+594,Damien Marchand,2024-12-29,Référence,Montigny,220000,Appartement,Camille D.,0.5,4,Gagné,1
+595,Aurélie Bernard,2024-05-04,Référence,Woippy,300000,Maison,Élodie P.,1.8,4,Gagné,1
+596,Sébastien Simon,2025-01-31,LeBonCoin,Nancy,350000,Maison,Sofia R.,2.5,4,Gagné,1
+597,Mathilde Roux,2024-08-25,SeLoger,Nancy,420000,Appartement,Camille D.,0.5,0,Gagné,1
+598,Vincent Boyer,2024-11-18,SeLoger,Metz,260000,Maison,Élodie P.,0.7,1,Gagné,1
+599,Audrey Clément,2025-01-02,LeBonCoin,Thionville,300000,Maison,Camille D.,21.3,4,Perdu,0
+600,Benjamin Denis,2024-12-09,Référence,Thionville,220000,Studio,Marc L.,27.9,1,Gagné,1
+601,Camille Robert,2024-06-17,Site agence,Montigny,350000,Terrain,Yanis B.,2.4,0,Perdu,0
+602,Thomas Lefebvre,2024-08-16,Référence,Woippy,180000,Appartement,Marc L.,0.5,0,Gagné,1
+603,Julie Morel,2024-05-10,SeLoger,Woippy,180000,Appartement,Marc L.,57.9,3,Perdu,0
+604,Nicolas Chevalier,2025-03-20,Référence,Montigny,300000,Appartement,Yanis B.,0.4,0,Gagné,1
+605,Sophie Henry,2025-04-02,SeLoger,Nancy,150000,Appartement,Yanis B.,67.0,0,Visite,0
+606,Alexandre Dumont,2024-02-11,Site agence,Nancy,180000,Appartement,Élodie P.,39.4,4,Perdu,0
+607,Marie Durand,2024-11-18,LeBonCoin,Montigny,350000,Maison,Yanis B.,3.4,4,Gagné,1
+608,Julien Garcia,2024-11-09,Site agence,Woippy,180000,Studio,Camille D.,10.3,2,Nouveau,0
+609,Laura Mercier,2024-09-06,Référence,Woippy,180000,Appartement,Élodie P.,55.2,3,Perdu,0
+610,Maxime Gauthier,2025-04-26,LeBonCoin,Woippy,260000,Appartement,Sofia R.,6.9,4,Perdu,0
+611,Emma Masson,2024-06-16,SeLoger,Thionville,150000,Terrain,Yanis B.,1.8,3,Qualifié,0
+612,Antoine Martin,2025-06-17,Site agence,Nancy,180000,Terrain,Camille D.,6.7,3,Gagné,1
+613,Chloé Moreau,2024-10-30,SeLoger,Metz,420000,Appartement,Élodie P.,45.9,1,Nouveau,0
+614,Lucas Bertrand,2024-08-07,LeBonCoin,Montigny,120000,Studio,Élodie P.,57.6,3,Gagné,1
+615,Sarah Guérin,2024-07-21,SeLoger,Metz,350000,Terrain,Sofia R.,0.5,4,Gagné,1
+616,Hugo Robin,2024-09-18,LeBonCoin,Montigny,300000,Studio,Camille D.,2.6,1,Nouveau,0
+617,Manon Duval,2024-05-02,SeLoger,Woippy,260000,Maison,Sofia R.,0.4,1,Gagné,1
+618,Théo Dubois,2024-01-07,LeBonCoin,Nancy,350000,Appartement,Marc L.,0.7,1,Gagné,1
+619,Léa Laurent,2024-01-28,Site agence,Nancy,420000,Appartement,Marc L.,4.5,1,Gagné,1
+620,Nathan Fournier,2025-03-11,SeLoger,Thionville,350000,Terrain,Camille D.,5.9,3,Perdu,0
+621,Inès Garnier,2024-10-11,Vitrine,Nancy,420000,Appartement,Camille D.,27.7,2,Visite,0
+622,Romain Morin,2024-02-02,SeLoger,Woippy,120000,Terrain,Marc L.,50.0,1,Gagné,1
+623,Clara Lemaire,2024-10-03,Vitrine,Metz,260000,Studio,Élodie P.,17.1,4,Gagné,1
+624,Quentin Petit,2025-04-21,LeBonCoin,Metz,120000,Appartement,Sofia R.,1.1,2,Perdu,0
+625,Pauline Michel,2025-06-27,LeBonCoin,Montigny,150000,Appartement,Sofia R.,50.1,0,Gagné,1
+626,Florian Girard,2025-03-03,SeLoger,Thionville,120000,Studio,Camille D.,1.1,0,Gagné,1
+627,Marine Legrand,2025-03-07,SeLoger,Woippy,120000,Maison,Yanis B.,0.8,0,Gagné,1
+628,Adrien Rousseau,2024-02-19,SeLoger,Woippy,260000,Appartement,Camille D.,0.5,2,Gagné,1
+629,Justine Fontaine,2024-03-11,LeBonCoin,Metz,220000,Maison,Yanis B.,0.7,3,Visite,0
+630,Kevin Leroy,2024-12-20,Site agence,Woippy,120000,Studio,Yanis B.,1.0,1,Gagné,1
+631,Élodie David,2024-05-29,Vitrine,Nancy,260000,Maison,Élodie P.,53.9,4,Visite,0
+632,Guillaume Blanc,2024-05-24,SeLoger,Metz,220000,Appartement,Camille D.,22.4,3,Gagné,1
+633,Céline Perrin,2025-03-27,SeLoger,Metz,420000,Terrain,Sofia R.,1.3,2,Gagné,1
+634,Damien Marchand,2024-09-10,LeBonCoin,Thionville,220000,Maison,Yanis B.,0.8,0,Perdu,0
+635,Aurélie Bernard,2025-01-19,Site agence,Woippy,300000,Appartement,Camille D.,4.9,1,Perdu,0
+636,Sébastien Simon,2024-05-19,SeLoger,Thionville,300000,Terrain,Yanis B.,2.5,3,Gagné,1
+637,Mathilde Roux,2024-01-23,LeBonCoin,Thionville,120000,Terrain,Camille D.,4.5,4,Gagné,1
+638,Vincent Boyer,2024-08-18,SeLoger,Woippy,260000,Appartement,Marc L.,2.0,1,Gagné,1
+639,Audrey Clément,2025-04-10,LeBonCoin,Metz,120000,Appartement,Camille D.,0.7,4,Gagné,1
+640,Benjamin Denis,2024-04-25,SeLoger,Nancy,180000,Appartement,Marc L.,0.5,4,Gagné,1
+641,Camille Robert,2024-08-04,Site agence,Montigny,420000,Studio,Élodie P.,40.5,2,Qualifié,0
+642,Thomas Lefebvre,2024-11-08,SeLoger,Thionville,120000,Appartement,Sofia R.,68.5,4,Perdu,0
+643,Julie Morel,2024-04-13,Référence,Woippy,300000,Terrain,Marc L.,3.7,0,Gagné,1
+644,Nicolas Chevalier,2025-01-15,LeBonCoin,Metz,120000,Studio,Yanis B.,1.3,1,Perdu,0
+645,Sophie Henry,2024-03-02,SeLoger,Metz,220000,Appartement,Yanis B.,25.9,2,Perdu,0
+646,Alexandre Dumont,2025-02-23,SeLoger,Woippy,350000,Appartement,Camille D.,1.7,3,Nouveau,0
+647,Marie Durand,2025-02-19,SeLoger,Thionville,150000,Maison,Camille D.,1.3,0,Gagné,1
+648,Julien Garcia,2024-04-01,Site agence,Nancy,220000,Appartement,Marc L.,7.4,1,Gagné,1
+649,Laura Mercier,2024-10-06,Référence,Nancy,120000,Terrain,Élodie P.,3.0,1,Gagné,1
+650,Maxime Gauthier,2024-11-28,Référence,Woippy,220000,Appartement,Sofia R.,0.4,1,Gagné,1
+651,Emma Masson,2024-06-14,LeBonCoin,Thionville,260000,Appartement,Élodie P.,30.8,3,Perdu,0
+652,Antoine Martin,2024-01-17,Vitrine,Nancy,120000,Terrain,Élodie P.,2.0,3,Perdu,0
+653,Chloé Moreau,2025-05-25,Vitrine,Thionville,180000,Terrain,Marc L.,0.5,4,Gagné,1
+654,Lucas Bertrand,2024-01-26,SeLoger,Nancy,180000,Maison,Marc L.,0.9,3,Gagné,1
+655,Sarah Guérin,2025-03-29,Référence,Thionville,120000,Maison,Yanis B.,0.9,0,Gagné,1
+656,Hugo Robin,2025-06-06,LeBonCoin,Nancy,180000,Maison,Marc L.,4.8,3,Gagné,1
+657,Manon Duval,2024-08-25,SeLoger,Metz,180000,Appartement,Sofia R.,5.1,2,Gagné,1
+658,Théo Dubois,2024-01-28,LeBonCoin,Metz,150000,Appartement,Marc L.,91.2,2,Perdu,0
+659,Léa Laurent,2024-03-17,Vitrine,Metz,120000,Studio,Marc L.,2.6,0,Gagné,1
+660,Nathan Fournier,2024-08-01,Site agence,Montigny,420000,Appartement,Élodie P.,2.5,2,Gagné,1
+661,Inès Garnier,2024-10-17,SeLoger,Nancy,150000,Appartement,Marc L.,0.6,3,Perdu,0
+662,Romain Morin,2024-02-19,Vitrine,Thionville,420000,Appartement,Sofia R.,0.4,0,Gagné,1
+663,Clara Lemaire,2024-09-05,Site agence,Woippy,150000,Appartement,Yanis B.,0.4,1,Gagné,1
+664,Quentin Petit,2024-04-20,LeBonCoin,Nancy,420000,Maison,Marc L.,0.6,0,Gagné,1
+665,Pauline Michel,2024-10-19,SeLoger,Woippy,420000,Appartement,Élodie P.,0.8,3,Gagné,1
+666,Florian Girard,2024-05-31,Vitrine,Metz,260000,Terrain,Yanis B.,20.1,0,Gagné,1
+667,Marine Legrand,2025-07-04,Référence,Nancy,220000,Maison,Marc L.,34.6,3,Gagné,1
+668,Adrien Rousseau,2025-01-06,Référence,Metz,150000,Appartement,Élodie P.,30.3,1,Perdu,0
+669,Justine Fontaine,2024-11-03,Site agence,Woippy,220000,Appartement,Marc L.,1.1,1,Gagné,1
+670,Kevin Leroy,2025-03-01,Vitrine,Thionville,420000,Terrain,Camille D.,2.3,0,Perdu,0
+671,Élodie David,2024-02-06,SeLoger,Metz,260000,Appartement,Marc L.,6.9,0,Gagné,1
+672,Guillaume Blanc,2025-04-12,Vitrine,Metz,120000,Appartement,Yanis B.,0.9,3,Gagné,1
+673,Céline Perrin,2024-06-13,Site agence,Metz,260000,Appartement,Camille D.,1.3,3,Gagné,1
+674,Damien Marchand,2024-10-15,SeLoger,Woippy,350000,Appartement,Sofia R.,3.5,2,Qualifié,0
+675,Aurélie Bernard,2025-06-08,LeBonCoin,Metz,180000,Maison,Élodie P.,60.3,4,Visite,0
+676,Sébastien Simon,2025-03-09,LeBonCoin,Metz,150000,Maison,Marc L.,46.8,1,Gagné,1
+677,Mathilde Roux,2025-01-24,LeBonCoin,Nancy,220000,Appartement,Sofia R.,0.9,0,Perdu,0
+678,Vincent Boyer,2025-03-11,Site agence,Nancy,220000,Appartement,Sofia R.,0.8,0,Gagné,1
+679,Audrey Clément,2024-01-30,Site agence,Montigny,150000,Maison,Camille D.,0.4,1,Gagné,1
+680,Benjamin Denis,2024-04-19,Site agence,Nancy,180000,Appartement,Yanis B.,0.5,0,Qualifié,0
+681,Camille Robert,2024-11-06,LeBonCoin,Woippy,120000,Studio,Élodie P.,37.7,4,Gagné,1
+682,Thomas Lefebvre,2025-02-08,Référence,Woippy,350000,Appartement,Camille D.,24.4,2,Gagné,1
+683,Julie Morel,2024-03-20,SeLoger,Nancy,420000,Maison,Sofia R.,29.7,0,Perdu,0
+684,Nicolas Chevalier,2025-01-29,SeLoger,Woippy,120000,Appartement,Élodie P.,0.7,4,Perdu,0
+685,Sophie Henry,2024-09-11,LeBonCoin,Woippy,350000,Appartement,Élodie P.,1.5,1,Gagné,1
+686,Alexandre Dumont,2024-10-20,Site agence,Montigny,220000,Appartement,Sofia R.,25.0,4,Gagné,1
+687,Marie Durand,2025-05-31,SeLoger,Thionville,260000,Maison,Marc L.,1.6,2,Gagné,1
+688,Julien Garcia,2024-01-16,Site agence,Montigny,420000,Appartement,Élodie P.,3.3,2,Gagné,1
+689,Laura Mercier,2025-04-02,Site agence,Metz,350000,Appartement,Marc L.,19.0,0,Nouveau,0
+690,Maxime Gauthier,2024-02-08,LeBonCoin,Montigny,350000,Terrain,Élodie P.,0.4,3,Perdu,0
+691,Emma Masson,2025-03-31,LeBonCoin,Nancy,120000,Maison,Sofia R.,1.9,3,Gagné,1
+692,Antoine Martin,2024-09-12,SeLoger,Woippy,420000,Appartement,Yanis B.,6.1,1,Qualifié,0
+693,Chloé Moreau,2024-06-26,Site agence,Thionville,260000,Studio,Élodie P.,1.9,3,Gagné,1
+694,Lucas Bertrand,2024-01-02,LeBonCoin,Woippy,220000,Appartement,Marc L.,8.1,0,Visite,0
+695,Sarah Guérin,2025-02-28,SeLoger,Metz,150000,Appartement,Élodie P.,0.6,0,Perdu,0
+696,Hugo Robin,2024-02-22,Site agence,Montigny,300000,Appartement,Élodie P.,1.0,0,Gagné,1
+697,Manon Duval,2024-12-19,SeLoger,Nancy,150000,Studio,Marc L.,0.8,2,Qualifié,0
+698,Théo Dubois,2024-12-16,LeBonCoin,Woippy,300000,Appartement,Marc L.,2.1,4,Gagné,1
+699,Léa Laurent,2024-08-01,Référence,Montigny,350000,Appartement,Camille D.,1.0,1,Gagné,1
+700,Nathan Fournier,2024-11-10,SeLoger,Nancy,120000,Maison,Marc L.,20.8,0,Visite,0
