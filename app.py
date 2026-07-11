@@ -76,8 +76,10 @@ def train_delai_model(biens):
     s["prix_m2"] = s["prix"] / s["surface_m2"]
     ref = s.groupby("ville")["prix_m2"].median()                 # prix médian au m² par ville
     s["sur_eval"] = s["prix_m2"] / s["ville"].map(ref)           # >1 = surévalué / <1 = sous-évalué
-    feats = ["sur_eval", "surface_m2", "type", "ville"]
-    X = pd.get_dummies(s[feats], columns=["type", "ville"], drop_first=True)
+    # NB : on n'utilise PAS 'type' — il est confondu avec la surface (maison=grand, appart=moyen,
+    # studio=petit), donc à surface fixe il ne fait qu'extrapoler des combinaisons inexistantes.
+    feats = ["sur_eval", "surface_m2", "ville"]
+    X = pd.get_dummies(s[feats], columns=["ville"], drop_first=True)
     y = s["delai_vente_jours"]
     Xtr, Xte, ytr, yte = train_test_split(X, y, test_size=0.25, random_state=42)
     m = LinearRegression().fit(Xtr, ytr)
@@ -92,10 +94,10 @@ def score_lead(source, budget, temps, relances):
     row = pd.get_dummies(row, columns=["source"]).reindex(columns=lead_cols, fill_value=0)
     return float(lead_model.predict_proba(row)[0, 1])
 
-def predict_delai(prix, surface, typ, ville):
+def predict_delai(prix, surface, ville):
     se = (prix / max(1, surface)) / delai_ref.get(ville, delai_ref.median())
-    row = pd.DataFrame([{"sur_eval": se, "surface_m2": surface, "type": typ, "ville": ville}])
-    row = pd.get_dummies(row, columns=["type", "ville"]).reindex(columns=delai_cols, fill_value=0)
+    row = pd.DataFrame([{"sur_eval": se, "surface_m2": surface, "ville": ville}])
+    row = pd.get_dummies(row, columns=["ville"]).reindex(columns=delai_cols, fill_value=0)
     return max(1, int(delai_model.predict(row)[0]))
 
 def forecast_ca(y):
@@ -259,12 +261,13 @@ with tab2:
         opts = ["🔥 Chaud", "🟠 Tiède", "❄️ Froid"]
         choix = st.multiselect("Filtrer par température", opts, default=opts,
                                help="🔥 Chaud = à rappeler en priorité · 🟠 Tiède = à travailler · ❄️ Froid = peu probable")
-        tbl = open_leads[open_leads["temp"].isin(choix)].sort_values("score", ascending=False).head(15)
-        show = tbl[["temp", "source", "ville", "budget", "temps_reponse_h", "nb_relances", "score"]]
+        tbl = open_leads[open_leads["temp"].isin(choix)].sort_values("score", ascending=False)
+        show = tbl[["temp", "nom", "source", "ville", "budget", "temps_reponse_h", "nb_relances", "score"]]
         st.dataframe(
-            show, use_container_width=True, hide_index=True,
+            show, use_container_width=True, hide_index=True, height=430,
             column_config={
                 "temp": st.column_config.TextColumn("Priorité", help="🔥 Chaud (≥60%) à rappeler d'abord · 🟠 Tiède (40-59%) · ❄️ Froid (<40%)", width="small"),
+                "nom": st.column_config.TextColumn("Prospect", help="Nom du prospect"),
                 "source": st.column_config.TextColumn("Canal d'arrivée", help="Par où le prospect est venu"),
                 "ville": st.column_config.TextColumn("Ville"),
                 "budget": st.column_config.NumberColumn("Budget", help="Budget d'achat du prospect", format="%d €"),
@@ -272,7 +275,7 @@ with tab2:
                 "nb_relances": st.column_config.NumberColumn("Relances", help="Nombre de fois recontacté"),
                 "score": st.column_config.ProgressColumn("Probabilité de conversion", help="Chances estimées de devenir client (modèle IA)", format="%d%%", min_value=0, max_value=100),
             })
-        st.caption(f"**{(open_leads['score'] >= 60).sum()} prospects chauds** à rappeler en priorité · trie par la barre bleue, filtre par température ci-dessus.")
+        st.caption(f"**{len(tbl)} prospects affichés** ({(open_leads['score'] >= 60).sum()} 🔥 chauds à rappeler en priorité) · triés du plus chaud au plus froid · filtre par température au-dessus.")
 
     st.markdown("**Teste un prospect en direct :**")
     f1, f2, f3, f4 = st.columns(4)
@@ -288,14 +291,13 @@ with tab2:
     st.divider()
     st.subheader("⏱️ Délai de vente estimé — pour fixer le prix")
     st.caption(f"Fiabilité : erreur moyenne **± {delai_mae:.0f} jours** sur données de test (R² {delai_r2:.2f}). *(Régression linéaire sur la sur-évaluation vs le prix médian de la ville.)*")
-    d1, d2, d3, d4 = st.columns(4)
+    d1, d2, d3 = st.columns(3)
     dp = d1.number_input("Prix affiché (€)", 50000, 900000, 200000, 10000)
     ds = d2.number_input("Surface (m²)", 15, 400, 70, 5)
-    dt = d3.selectbox("Type", sorted(biens["type"].unique()))
-    dv = d4.selectbox("Ville", sorted(biens["ville"].unique()))
-    est = predict_delai(dp, ds, dt, dv)
+    dv = d3.selectbox("Ville", sorted(biens["ville"].unique()))
+    est = predict_delai(dp, ds, dv)
     st.metric("Délai estimé", f"≈ {est} jours", help=f"± {delai_mae:.0f} jours")
-    st.info("Un délai long = **souvent** un prix trop haut — mais **pas seulement** : photos, description, état du bien, saison, marché jouent aussi. Le modèle ne voit **que** le prix, la surface, le type et la ville → c'est une **aide à la décision**, pas une vérité absolue.")
+    st.info("Un délai long = **souvent** un prix trop haut — mais **pas seulement** : photos, description, état du bien, saison, marché jouent aussi. Le modèle ne voit **que** le prix, la surface et la ville → c'est une **aide à la décision**, pas une vérité absolue. *(Le type de bien n'est pas utilisé : dans les données il est confondu avec la surface — une maison est toujours grande, un studio toujours petit — donc il fausserait l'estimation à surface fixe.)*")
 
 st.divider()
 st.caption("Conçu par **Floryne Pierson** · Python · scikit-learn · Streamlit — données fictives, modèles évalués sur jeu de test.")
