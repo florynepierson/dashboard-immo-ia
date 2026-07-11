@@ -92,8 +92,22 @@ def train_delai_model(biens):
     pred = m.predict(Xte)
     return m, list(X.columns), mean_absolute_error(yte, pred), r2_score(yte, pred), ref
 
+@st.cache_resource
+def train_prix_model(biens):
+    # AVM (estimation par comparaison, automatisée) : prix ~ surface + ville, sur le BÂTI
+    # (on écarte les terrains : leur m² n'a rien à voir avec celui d'un logement).
+    s = biens[biens["type"] != "Terrain"].dropna(subset=["prix", "surface_m2"]).copy()
+    feats = ["surface_m2", "ville"]
+    X = pd.get_dummies(s[feats], columns=["ville"], drop_first=True)
+    y = s["prix"]
+    Xtr, Xte, ytr, yte = train_test_split(X, y, test_size=0.25, random_state=42)
+    m = LinearRegression().fit(Xtr, ytr)
+    pred = m.predict(Xte)
+    return m, list(X.columns), mean_absolute_error(yte, pred), r2_score(yte, pred)
+
 lead_model, lead_cols, lead_acc, lead_auc = train_lead_model(leads)
 delai_model, delai_cols, delai_mae, delai_r2, delai_ref = train_delai_model(biens)
+prix_model, prix_cols, prix_mae, prix_r2 = train_prix_model(biens)
 
 def score_lead(source, budget, temps, relances):
     row = pd.DataFrame([{"temps_reponse_h": temps, "nb_relances": relances, "budget": budget, "source": source}])
@@ -105,6 +119,11 @@ def predict_delai(prix, surface, ville):
     row = pd.DataFrame([{"sur_eval": se, "surface_m2": surface, "ville": ville}])
     row = pd.get_dummies(row, columns=["ville"]).reindex(columns=delai_cols, fill_value=0)
     return max(1, int(delai_model.predict(row)[0]))
+
+def predict_prix(surface, ville):
+    row = pd.DataFrame([{"surface_m2": surface, "ville": ville}])
+    row = pd.get_dummies(row, columns=["ville"]).reindex(columns=prix_cols, fill_value=0)
+    return max(0.0, float(prix_model.predict(row)[0]))
 
 def forecast_ca(y):
     y = np.asarray(y, dtype=float)
@@ -309,6 +328,17 @@ with tab2:
     st.metric("Probabilité de devenir client", f"{p*100:.0f} %")
     (st.success if p > .5 else st.warning)(f"**{p*100:.0f}%** — " + ("prospect chaud, à rappeler vite." if p > .5 else "à travailler (répondre plus vite / relancer ferait monter ce score)."))
     st.caption("Le % reflète la vraie incertitude (même un bon lead n'est jamais sûr) — l'important est le **classement**.")
+
+    st.divider()
+    st.subheader("💶 Estimation de prix — à combien mettre le bien en vente ?")
+    st.caption(f"Fiabilité : erreur moyenne **± {prix_mae:,.0f} €** sur données de test (R² {prix_r2:.2f}). *(Régression sur la surface et la ville — une estimation par comparaison, automatisée.)*".replace(",", " "))
+    e1, e2 = st.columns(2)
+    es = e1.number_input("Surface (m²)", 15, 400, 70, 5, key="prix_surf")
+    ev = e2.selectbox("Ville", sorted(biens["ville"].unique()), key="prix_ville")
+    pest = predict_prix(es, ev)
+    st.metric("Prix estimé", f"{pest:,.0f} €".replace(",", " "), help=f"± {prix_mae:,.0f} €".replace(",", " "))
+    st.caption(f"Fourchette réaliste : **{pest - prix_mae:,.0f} € – {pest + prix_mae:,.0f} €** · soit environ **{pest / max(1, es):,.0f} €/m²**.".replace(",", " "))
+    st.info("Estimation pour un bien **bâti** (appartement / maison), basée sur la **surface** et la **ville** — les deux facteurs qui pèsent le plus. À affiner avec l'état, l'étage, l'exposition, les travaux, la vue. C'est une **aide à l'estimation**, pas une expertise.")
 
     st.divider()
     st.subheader("⏱️ Délai de vente estimé — pour fixer le prix")
