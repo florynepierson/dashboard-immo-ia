@@ -159,6 +159,22 @@ st.markdown("""<div class="banner">
   <p>Mis à jour automatiquement · aide à décider où mettre le budget, qui rappeler, à quel prix vendre · démo par Floryne Pierson</p>
 </div>""", unsafe_allow_html=True)
 
+# --- Périmètre actif : rend explicite DE QUI / DE QUOI parlent les chiffres affichés ---
+_na, _nv = biens["agent"].nunique(), biens["ville"].nunique()
+if len(agents) == 1:
+    _who = f"👤 Résultats de <b style='color:#98723f'>{agents[0]}</b>"
+elif len(agents) >= _na:
+    _who = "👥 Tous les agents"
+else:
+    _who = f"👥 {len(agents)} agents sélectionnés"
+if len(villes) == 1:
+    _where = f"<b style='color:#98723f'>{villes[0]}</b>"
+elif len(villes) >= _nv:
+    _where = "toutes les villes"
+else:
+    _where = f"{len(villes)} villes"
+st.markdown(f"<div style='margin:6px 0 14px;font-size:.95rem;color:#6b6357'>{_who} &nbsp;·&nbsp; 📍 {_where}</div>", unsafe_allow_html=True)
+
 vendus = fb[fb["statut"] == "Vendu"]
 # Repères "marché local" — indicatifs (démo). Pour un vrai client : brancher les stats réelles du secteur.
 MKT_CONV, MKT_DELAI, MKT_REP = 18.0, 85.0, 6.0
