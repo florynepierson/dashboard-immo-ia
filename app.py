@@ -22,21 +22,24 @@ st.set_page_config(page_title="Agence Immo — Dashboard IA", page_icon="🏡", 
 
 st.markdown("""
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-  html, body, [class*="css"], .stMarkdown, button, input, select { font-family:'Inter',-apple-system,sans-serif; }
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap');
+  html, body, [class*="css"], .stMarkdown, button, input, select, textarea { font-family:'Inter',-apple-system,sans-serif; }
+  .stApp { background:#f4f1ea; }
   .block-container{padding-top:1.8rem;max-width:1280px;}
-  /* Bandeau premium */
-  .banner{background:linear-gradient(120deg,#0f3b7a 0%,#1b4f9c 58%,#2a67c0 100%);border-radius:20px;padding:26px 30px;color:#fff;margin-bottom:8px;box-shadow:0 12px 34px rgba(15,59,122,.28);position:relative;overflow:hidden;}
-  .banner:before{content:"";position:absolute;top:0;right:0;bottom:0;width:190px;background:linear-gradient(90deg,transparent,rgba(200,153,42,.25));}
-  .banner .ey{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:#e6c987;font-weight:600;margin-bottom:7px;position:relative;}
-  .banner h1{font-size:1.7rem;font-weight:800;margin:0;color:#fff;letter-spacing:-.01em;position:relative;}
-  .banner p{margin:7px 0 0;opacity:.92;font-size:.95rem;font-weight:400;position:relative;}
-  /* Cartes KPI (liseré or premium) */
-  [data-testid="stMetric"]{background:#fff;border:1px solid #e7ecf5;border-top:3px solid #c8992a;border-radius:16px;padding:18px 20px;box-shadow:0 6px 18px rgba(20,40,90,.05);}
-  [data-testid="stMetricLabel"] p{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:#7a86a8;font-weight:600;}
-  [data-testid="stMetricValue"]{font-size:1.8rem;font-weight:800;color:#1b4f9c;}
-  h2,h3{color:#14243f;font-weight:700;}
-  button[data-baseweb="tab"]{font-weight:600;font-size:1rem;}
+  h1,h2,h3,h4 { font-family:'Fraunces',Georgia,serif; color:#161a1d; font-weight:600; letter-spacing:-.01em; }
+  /* Bandeau — carte ivoire, liseré or (comme le site) */
+  .banner{background:linear-gradient(120deg,#fffdf9 0%,#f7f1e6 100%);border:1px solid #e7e0d4;border-left:4px solid #b0895a;border-radius:20px;padding:26px 30px;color:#161a1d;margin-bottom:8px;box-shadow:0 14px 40px rgba(60,45,25,.06);position:relative;overflow:hidden;}
+  .banner .ey{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:#98723f;font-weight:600;margin-bottom:7px;}
+  .banner h1{font-family:'Fraunces',serif;font-size:1.9rem;font-weight:500;margin:0;color:#161a1d;letter-spacing:-.01em;}
+  .banner h1 em{font-style:italic;color:#98723f;}
+  .banner p{margin:8px 0 0;color:#6b6357;font-size:.96rem;font-weight:400;}
+  /* Cartes KPI — ivoire, liseré or */
+  [data-testid="stMetric"]{background:#fffdf9;border:1px solid #e7e0d4;border-top:3px solid #b0895a;border-radius:16px;padding:18px 20px;box-shadow:0 6px 18px rgba(60,45,25,.05);}
+  [data-testid="stMetricLabel"] p{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:#8a8072;font-weight:600;}
+  [data-testid="stMetricValue"]{font-family:'Fraunces',serif;font-size:1.85rem;font-weight:600;color:#98723f;}
+  button[data-baseweb="tab"]{font-weight:600;font-size:1rem;color:#6b6357;}
+  button[data-baseweb="tab"][aria-selected="true"]{color:#98723f;}
+  hr{border-color:#e7e0d4;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -181,11 +184,11 @@ with tab1:
         v["mois"] = v["date_vente"].dt.to_period("M").dt.to_timestamp()
         monthly = v.groupby("mois")["commission"].sum().reset_index().sort_values("mois")
         fig = go.Figure()
-        fig.add_trace(go.Scatter(x=monthly["mois"], y=monthly["commission"], mode="lines+markers", name="Réel", line=dict(color="#1b4f9c", width=3)))
+        fig.add_trace(go.Scatter(x=monthly["mois"], y=monthly["commission"], mode="lines+markers", name="Réel", line=dict(color="#98723f", width=3)))
         if len(monthly) >= 4:
             fc, method = forecast_ca(monthly["commission"])
             fm = pd.date_range(monthly["mois"].max(), periods=4, freq="MS")[1:]
-            fig.add_trace(go.Scatter(x=fm, y=fc, mode="lines+markers", name="Prévu (3 mois)", line=dict(color="#1a9e6b", width=3, dash="dot")))
+            fig.add_trace(go.Scatter(x=fm, y=fc, mode="lines+markers", name="Prévu (3 mois)", line=dict(color="#6f8f5f", width=3, dash="dot")))
             st.caption("Méthode : " + method + ". *(Avec 2+ ans d'historique, on ajouterait la saisonnalité.)*")
         fig.update_layout(height=320, margin=dict(t=10, b=0, l=0, r=0), legend=dict(orientation="h"))
         st.plotly_chart(fig, use_container_width=True)
@@ -196,7 +199,7 @@ with tab1:
         g["taux"] = (g["gagnes"] / g["recus"] * 100).round(1)
         gs = g.sort_values("recus"); gs["label"] = gs["taux"].astype(str) + " %"
         fig2 = px.bar(gs, x="recus", y="source", orientation="h", text="label", color="taux",
-                      color_continuous_scale="Tealgrn", labels={"recus": "Leads reçus", "source": ""})
+                      color_continuous_scale="YlOrBr", labels={"recus": "Leads reçus", "source": ""})
         fig2.update_layout(height=286, margin=dict(t=10, b=0, l=0, r=0), coloraxis_showscale=False)
         st.plotly_chart(fig2, use_container_width=True)
     a, b = st.columns(2)
@@ -206,7 +209,7 @@ with tab1:
         order = ["Nouveau", "Qualifié", "Visite", "Gagné"]
         fn = fl[fl["statut"].isin(order)].groupby("statut").size().reindex(order).fillna(0)
         figf = go.Figure(go.Funnel(y=order, x=fn.values, textinfo="value+percent initial",
-                                   marker=dict(color=["#5a8ac0", "#3a6bab", "#1b4f9c", "#1a9e6b"])))
+                                   marker=dict(color=["#d8ccb8", "#c9b48f", "#b0895a", "#98723f"])))
         figf.update_layout(height=280, margin=dict(t=10, b=0, l=0, r=0))
         st.plotly_chart(figf, use_container_width=True)
     with b:
@@ -214,19 +217,19 @@ with tab1:
         st.caption("Comparé au repère marché — au-dessus = biens qui traînent (souvent surévalués).")
         dvv = vendus.groupby("ville")["delai_vente_jours"].mean().reset_index().sort_values("delai_vente_jours")
         figd = px.bar(dvv, x="delai_vente_jours", y="ville", orientation="h",
-                      color_discrete_sequence=["#c8992a"], labels={"delai_vente_jours": "jours", "ville": ""})
-        figd.add_vline(x=MKT_DELAI, line_dash="dash", line_color="#9aa6bf", annotation_text="marché ~85 j", annotation_position="top")
+                      color_discrete_sequence=["#b0895a"], labels={"delai_vente_jours": "jours", "ville": ""})
+        figd.add_vline(x=MKT_DELAI, line_dash="dash", line_color="#b6ac9c", annotation_text="marché ~85 j", annotation_position="top")
         figd.update_layout(height=280, margin=dict(t=10, b=0, l=0, r=0))
         st.plotly_chart(figd, use_container_width=True)
     a2, b2 = st.columns(2)
     with a2:
         st.subheader("Commissions par agent")
         ag = vendus.groupby("agent")["commission"].sum().reset_index().sort_values("commission")
-        st.plotly_chart(px.bar(ag, x="commission", y="agent", orientation="h", color_discrete_sequence=["#1b4f9c"]).update_layout(height=260, margin=dict(t=10, b=0, l=0, r=0)), use_container_width=True)
+        st.plotly_chart(px.bar(ag, x="commission", y="agent", orientation="h", color_discrete_sequence=["#98723f"]).update_layout(height=260, margin=dict(t=10, b=0, l=0, r=0)), use_container_width=True)
     with b2:
         st.subheader("Portefeuille par statut")
         stt = fb.groupby("statut").size().reset_index(name="n")
-        st.plotly_chart(px.pie(stt, names="statut", values="n", hole=.55, color_discrete_sequence=["#1b4f9c", "#c8992a", "#1a9e6b", "#5a8ac0", "#9aa6bf"]).update_layout(height=260, margin=dict(t=10, b=0, l=0, r=0)), use_container_width=True)
+        st.plotly_chart(px.pie(stt, names="statut", values="n", hole=.55, color_discrete_sequence=["#98723f", "#b0895a", "#c9b48f", "#6f8f5f", "#b6ac9c"]).update_layout(height=260, margin=dict(t=10, b=0, l=0, r=0)), use_container_width=True)
 
     st.divider()
     st.subheader("💡 Recommandations automatiques")
